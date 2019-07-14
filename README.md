@@ -1,0 +1,2 @@
+# Learning_in_Bayesian_and_Markov_networks
+Learning parameters in probabilistic graphical models for future predictions
