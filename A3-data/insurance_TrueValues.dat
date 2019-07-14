@@ -1,0 +1,11 @@
+Mileage Age SocioEcon RiskAversion OtherCar HomeBase GoodStudent AntiTheft MakeModel SeniorTrain VehicleYear DrivingSkill DrivQuality CarValue RuggedAuto Antilock Airbag Accident DrivHist ThisCarDam Cushioning OtherCarCost Theft ThisCarCost ILiCost PropCost MedCost
+FiftyThou Adult Prole Normal False City False False Economy False Older SubStandard Poor FiveThou EggShell False False Mild Many Mild Fair Thousand False Thousand Thousand Thousand Thousand
+TwentyThou Adolescent Prole Adventurous True City False False FamilySedan False Older Normal Normal TenThou Football False False None Many None Fair Thousand False Thousand Thousand Thousand Thousand
+TwentyThou Adult Prole Adventurous False City False False Economy False Older SubStandard Poor FiveThou EggShell False False Moderate Many Moderate Poor HundredThou False TenThou Thousand HundredThou Thousand
+FiveThou Adult UpperMiddle Normal True Secure False True SportsCar False Current Normal Normal TwentyThou EggShell True True None Zero None Poor Thousand False Thousand Thousand TenThou Thousand
+Domino Adult Middle Cautious True Secure False True FamilySedan False Older SubStandard Poor FiveThou Football False False Severe Many Severe Fair HundredThou False TenThou TenThou Million Thousand
+Domino Adult Prole Normal False City False False Economy False Current Normal Normal FiveThou EggShell False True None Zero None Poor Thousand False Thousand Thousand Thousand Thousand
+FiftyThou Senior Prole Normal False City False False FamilySedan False Older Normal Normal FiveThou Football False True None Zero None Good Thousand False Thousand Thousand Thousand Thousand
+TwentyThou Adolescent Prole Normal False Rural False False FamilySedan False Older Normal Normal FiveThou Football False False None Zero None Fair Thousand False Thousand Thousand TenThou Thousand
+FiftyThou Adolescent Prole Cautious False Rural False True Economy False Older Normal Normal FiveThou EggShell False False None Zero None Poor Thousand False Thousand Thousand TenThou Thousand
+FiftyThou Senior UpperMiddle Normal True Secure False True Luxury False Current Normal Normal FiftyThou Football True True None Zero None Good Thousand False Thousand Thousand Thousand Thousand

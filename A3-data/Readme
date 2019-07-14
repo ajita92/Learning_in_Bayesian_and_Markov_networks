@@ -1,0 +1,4 @@
+*.dat file contains 1000000 samples for the respective network
+
+First line contains space separated variables of the network.
+Remaining lines contain the sample values of the corresponding variable.

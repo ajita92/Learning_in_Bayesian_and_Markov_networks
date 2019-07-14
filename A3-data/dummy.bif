@@ -1,0 +1,28 @@
+network unknown{}
+
+variable A {
+  type discrete [ 2 ] { false, true };
+}
+
+variable B {
+  type discrete [ 2 ] { false, true };
+}
+
+variable C {
+  type discrete [ 2 ] { false, true };
+}
+
+probability ( A ) {
+  table ?, ?;
+}
+
+probability ( B ) {
+  table ?, ?;
+}
+
+probability ( C | A, B ) {
+  (false, false) ?, ?;
+  (true, false) ?, ?;
+  (false, true) ?, ?;
+  (true, true) ?, ?;
+}

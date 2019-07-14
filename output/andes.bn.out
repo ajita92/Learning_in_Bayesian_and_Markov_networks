@@ -1,0 +1,1106 @@
+GOAL68 true:0.8586 false:0.1414 
+RESOLVE37 true:0.5152 false:0.4848 
+RESOLVE38 true:0.5656 false:0.4344 
+GOAL66 true:0.4028 false:0.5972 
+VECTOR69 true:0.2714 false:0.7286 
+FIND49 true:0.6263 false:0.3737 
+IDENTIFY10 true:0.5152 false:0.4848 
+VAR20 true:0.6667 false:0.3333 
+IDENTIFY9 true:0.4932 false:0.5068 
+COMPO16 true:1 
+VELOCITY7 true:0.4363 false:0.5637 
+SLIDING4 true:0.9697 false:0.0303 
+DISPLACEM0 true:0.4524 false:0.5476 
+EQUATION28 true:0.5836 false:0.4164 
+SNode_19 true:0.9798 false:0.0202 
+SNode_18 true:0.9798 false:0.0202 
+VECTOR73 true:0.4647 false:0.5353 
+SNode_17 true:1 
+SYSTEM18 true:0.4949 false:0.5051 
+IDENTIFY39 true:0.5656 false:0.4344 
+FORCE60 true:0.7778 false:0.2222 
+CHOOSE62 true:0.4748 false:0.5252 
+RApp2 true:1 
+DEFINE23 true:0.4747 false:0.5253 
+MAXIMIZE34 true:0.4781 false:0.5219 
+IDENTIFY43 true:0.4378 false:0.5622 
+TRY12 false:1 
+SNode_9 true:1 
+SNode_6 true:0.9798 false:0.0202 
+NORMAL52 true:1 
+APPLY32 true:0.4647 false:0.5353 
+WRITE64 true:0.5293 false:0.4707 
+WRITE63 true:0.511 false:0.489 
+SUM75 true:0.505 false:0.495 
+NEWTONS45 true:0.4243 false:0.5757 
+CONSTANT5 true:0.9798 false:0.0202 
+WEIGHT57 true:0.7778 false:0.2222 
+CHOOSE35 true:0.4996 false:0.5004 
+GRAV2 true:0.53 false:0.47 
+SNode_20 true:0.1718 false:0.8282 
+SNode_21 true:0.2575 false:0.7425 
+SNode_24 true:0.0606 false:0.9394 
+EQUAL71 true:0.6718 false:0.3282 
+HORIZ53 true:1 
+INCLINE51 true:1 
+SNode_92 true:0.1717 false:0.8283 
+GOAL_48 true:1 
+RApp1 false:1 
+TRY15 true:0.1212 false:0.8788 
+TRY14 true:0.0808 false:0.9192 
+TRY13 true:0.2525 false:0.7475 
+TRY24 true:1 
+GOAL_50 true:0.1515 false:0.8485 
+GOAL_53 true:0.0404 false:0.9596 
+SNode_44 true:0.168 false:0.832 
+SNode_54 true:0.1515 false:0.8485 
+SNode_59 true:0.202 false:0.798 
+SNode_28 true:0.2929 false:0.7071 
+SNode_29 true:0.4108 false:0.5892 
+GOAL_69 false:1 
+GOAL_72 true:0.2424 false:0.7576 
+SNode_73 true:0.4242 false:0.5758 
+SNode_65 true:0.0909 false:0.9091 
+SNode_75 true:0.2194 false:0.7806 
+RApp6 true:1 
+GOAL_81 true:1 
+GOAL_83 true:1 
+GOAL_87 false:1 
+GOAL_98 true:0.2525 false:0.7475 
+GOAL_99 true:0.1392 false:0.8608 
+SNode_37 true:0.4242 false:0.5758 
+SNode_38 true:0.4545 false:0.5455 
+SNode_93 true:0.2343 false:0.7657 
+SNode_100 true:0.2406 false:0.7594 
+SNode_95 true:0.8081 false:0.1919 
+GOAL_103 true:0.0909 false:0.9091 
+SNode_152 true:0.1818 false:0.8182 
+GOAL_107 true:0.0909 false:0.9091 
+GOAL_108 true:0.0707 false:0.9293 
+GOAL_153 true:0.2323 false:0.7677 
+RApp9 false:1 
+GOAL_126 true:0.0101 false:0.9899 
+GOAL_111 false:1 
+GOAL_114 true:0.9394 false:0.0606 
+RApp10 false:1 
+SNode_128 true:0.202 false:0.798 
+SNode_154 true:0.2116 false:0.7884 
+RApp8 false:1 
+GOAL_129 true:0.232 false:0.768 
+GOAL_113 true:0.9192 false:0.0808 
+SNode_137 true:0.1212 false:0.8788 
+SNode_155 true:0.0505 false:0.9495 
+SNode_125 true:0.0606 false:0.9394 
+SNode_133 true:0.3839 false:0.6161 
+RApp11 false:1 
+SNode_134 true:0.1111 false:0.8889 
+SNode_132 true:0.1414 false:0.8586 
+RApp12 false:1 
+RApp13 false:1 
+GOAL_147 true:0.1919 false:0.8081 
+SNode_151 true:0.0909 false:0.9091 
+
+RESOLVE37 true:0.5105 false:0.4895 
+FIND58 true:0.3108 false:0.6892 
+WRITE31 true:0.4662 false:0.5338 
+VALUE3 true:0.2888 false:0.7112 
+NEED36 true:1 
+VECTOR69 true:0.2331 false:0.7669 
+FIND49 true:0.4995 false:0.5005 
+SYSTEM46 true:0.8779 false:0.1221 
+GOAL65 true:0.667 false:0.333 
+RESOLVE40 true:0.4551 false:0.5449 
+RESOLVE42 true:0.6559 false:0.3441 
+VAR20 true:0.5772 false:0.4228 
+IDENTIFY9 true:0.4551 false:0.5449 
+VELOCITY7 true:0.7338 false:0.2662 
+SLIDING4 true:0.9889 false:0.0111 
+VECTOR27 true:0.2886 false:0.7114 
+APPLY77 true:0.5545 false:0.4455 
+KINE29 true:0.5116 false:0.4884 
+IDENTIFY22 true:0.5012 false:0.4988 
+SNode_11 true:0.7762 false:0.2238 
+SNode_13 true:0.9889 false:0.0111 
+SNode_12 true:0.9889 false:0.0111 
+SNode_15 true:1 
+SNode_14 true:0.9667 false:0.0333 
+SNode_16 true:0.9778 false:0.0222 
+VECTOR70 true:0.9112 false:0.0888 
+IDENTIFY39 true:0.4354 false:0.5646 
+FORCE60 true:0.8446 false:0.1554 
+KNOWN8 true:0.147 false:0.853 
+CHOOSE62 true:0.5199 false:0.4801 
+RApp2 true:1 
+DEFINE23 true:0.444 false:0.556 
+MAXIMIZE34 true:0.8446 false:0.1554 
+NEED1 true:0.0111 false:0.9889 
+SNode_9 true:1 
+SNode_5 true:0.9778 false:0.0222 
+CHOOSE19 true:0.5994 false:0.4006 
+SNode_6 true:0.9667 false:0.0333 
+SNode_47 true:0.814 false:0.186 
+NORMAL52 false:1 
+NORMAL50 true:0.556 false:0.444 
+WRITE64 true:0.4329 false:0.5671 
+SUM75 false:1 
+WEIGHT57 true:0.6105 false:0.3895 
+GRAV78 true:0.5782 false:0.4218 
+SNode_4 true:0.9889 false:0.0111 
+CHOOSE35 true:0.4294 false:0.5706 
+TRY25 true:1 
+NEED67 true:1 
+SNode_21 true:0.1183 false:0.8817 
+SNode_26 true:0.7953 false:0.2047 
+VECTOR44 true:0.9374 false:0.0626 
+HORIZ53 true:0.1443 false:0.8557 
+GOAL_48 true:1 
+RApp1 false:1 
+RApp3 false:1 
+TRY14 true:0.1554 false:0.8446 
+TRY13 true:0.2331 false:0.7669 
+SNode_8 true:1 
+SNode_41 true:1 
+SNode_27 true:0.1283 false:0.8717 
+GOAL_49 true:0.1776 false:0.8224 
+GOAL_50 true:0.3835 false:0.6165 
+SNode_51 true:0.4724 false:0.5276 
+SNode_52 true:0.6004 false:0.3996 
+GOAL_56 true:0.2109 false:0.7891 
+GOAL_57 true:0.0555 false:0.9445 
+GOAL_53 true:0.5727 false:0.4273 
+SNode_29 true:0.1776 false:0.8224 
+SNode_60 true:0.2664 false:0.7336 
+GOAL_61 true:0.2886 false:0.7114 
+GOAL_62 true:0.3178 false:0.6822 
+SNode_46 true:0.116 false:0.884 
+SNode_73 true:1 
+SNode_70 true:0.1516 false:0.8484 
+GOAL_63 true:0.5005 false:0.4995 
+SNode_74 true:0.0787 false:0.9213 
+RApp6 false:1 
+GOAL_79 true:0.0999 false:0.9001 
+RApp5 false:1 
+GOAL_83 true:0.1443 false:0.8557 
+SNode_156 true:0.2594 false:0.7406 
+GOAL_87 false:1 
+GOAL_99 true:0.1998 false:0.8002 
+SNode_37 true:0.1998 false:0.8002 
+SNode_38 true:0.2331 false:0.7669 
+SNode_88 true:0.0999 false:0.9001 
+SNode_152 true:1 
+GOAL_109 true:1 
+GOAL_153 true:0.2331 false:0.7669 
+RApp9 false:1 
+GOAL_127 false:1 
+GOAL_126 false:1 
+GOAL_110 true:0.778 false:0.222 
+GOAL_111 true:1 
+SNode_123 true:0.1026 false:0.8974 
+SNode_154 true:1 
+RApp8 true:1 
+GOAL_113 true:0.8002 false:0.1998 
+SNode_117 true:0.8446 false:0.1554 
+SNode_116 true:0.0555 false:0.9445 
+SNode_137 true:0.1332 false:0.8668 
+SNode_112 true:1 
+GOAL_142 true:0.111 false:0.889 
+SNode_118 true:0.222 false:0.778 
+SNode_134 true:0.111 false:0.889 
+GOAL_146 true:0.1548 false:0.8452 
+GOAL_143 true:1 
+RApp12 true:1 
+GOAL_147 true:1 
+SNode_151 true:0.0666 false:0.9334 
+
+RESOLVE37 true:0.8434 false:0.1566 
+FIND58 true:0.2332 false:0.7668 
+NULL48 true:0.894 false:0.106 
+GOAL66 true:0.4107 false:0.5893 
+WRITE31 true:0.4982 false:0.5018 
+IDENTIFY59 true:0.477 false:0.523 
+VECTOR69 true:0.368 false:0.632 
+RESOLVE42 true:0.8198 false:0.1802 
+IDENTIFY9 true:0.735 false:0.265 
+COMPO16 false:1 
+VELOCITY7 true:0.8658 false:0.1342 
+VECTOR27 true:0.5406 false:0.4594 
+APPLY77 true:0.4628 false:0.5372 
+EQUATION28 true:0.4313 false:0.5687 
+SNode_18 true:0.9682 false:0.0318 
+VECTOR73 true:0.4346 false:0.5654 
+SNode_11 true:1 
+SNode_17 true:0.9788 false:0.0212 
+SNode_16 true:0.947 false:0.053 
+GIVEN_1 true:1 
+VECTOR70 true:0.8834 false:0.1166 
+IDENTIFY39 true:0.4533 false:0.5467 
+KNOWN6 true:1 
+CHOOSE62 true:0.5171 false:0.4829 
+RApp4 false:1 
+CHOOSE47 true:0.3816 false:0.6184 
+MAXIMIZE34 true:0.3074 false:0.6926 
+IDENTIFY43 true:0.5654 false:0.4346 
+NEED1 true:0.4912 false:0.5088 
+SNode_5 true:0.9894 false:0.0106 
+SNode_7 true:1 
+SNode_6 true:0.9894 false:0.0106 
+NORMAL52 true:1 
+IDENTIFY55 true:0.5031 false:0.4969 
+WRITE64 true:0.497 false:0.503 
+SUM75 true:0.5395 false:0.4605 
+NEWTONS45 true:0.4972 false:0.5028 
+BUGGY54 false:1 
+GRAV78 true:0.4664 false:0.5336 
+SNode_4 true:1 
+TRY25 true:1 
+TRY26 true:1 
+TRY76 true:0.3432 false:0.6568 
+SNode_20 true:0.576 false:0.424 
+SNode_24 true:0.106 false:0.894 
+SNode_26 true:1 
+NEWTONS74 true:0.47 false:0.53 
+HORIZ53 true:1 
+SNode_33 true:1 
+SNode_34 true:1 
+SNode_92 true:0.1728 false:0.8272 
+TRY15 true:0.0636 false:0.9364 
+TRY14 true:0.1166 false:0.8834 
+SNode_41 true:1 
+GOAL_49 false:1 
+SNode_42 true:1 
+GOAL_56 true:0.2014 false:0.7986 
+GOAL_53 true:0.6279 false:0.3721 
+SNode_43 true:0.3922 false:0.6078 
+SNode_44 true:0.4687 false:0.5313 
+SNode_54 true:0.1816 false:0.8184 
+SNode_59 false:1 
+SNode_28 true:0.8516 false:0.1484 
+SNode_29 true:0.9258 false:0.0742 
+GOAL_69 false:1 
+GOAL_63 true:0.9682 false:0.0318 
+SNode_71 true:0.1166 false:0.8834 
+GOAL_81 true:0.4806 false:0.5194 
+GOAL_84 true:0.5124 false:0.4876 
+GOAL_98 true:0.0861 false:0.9139 
+SNode_37 false:1 
+SNode_88 true:0.053 false:0.947 
+SNode_93 true:0.1378 false:0.8622 
+SNode_97 true:0.2023 false:0.7977 
+SNode_102 true:0.2332 false:0.7668 
+SNode_95 true:0.1484 false:0.8516 
+GOAL_103 true:0.4164 false:0.5836 
+GOAL_104 true:0.3317 false:0.6683 
+SNode_106 false:1 
+GOAL_107 true:0.106 false:0.894 
+GOAL_108 false:1 
+GOAL_127 true:1 
+GOAL_126 false:1 
+GOAL_121 true:0.8199 false:0.1801 
+GOAL_110 true:0.7986 false:0.2014 
+GOAL_111 true:1 
+GOAL_114 true:0.9258 false:0.0742 
+RApp10 true:1 
+SNode_123 true:0.1272 false:0.8728 
+SNode_128 true:1 
+SNode_154 true:0.8842 false:0.1158 
+RApp8 true:1 
+SNode_116 true:0.0848 false:0.9152 
+SNode_112 true:1 
+SNode_120 true:0.079 false:0.921 
+SNode_124 true:0.1109 false:0.8891 
+SNode_125 true:0.1166 false:0.8834 
+SNode_118 true:0.1696 false:0.8304 
+SNode_135 true:0.1166 false:0.8834 
+SNode_134 true:0.106 false:0.894 
+SNode_132 true:0.0848 false:0.9152 
+SNode_119 true:0.0742 false:0.9258 
+GOAL_143 true:0.1908 false:0.8092 
+RApp12 false:1 
+GOAL_149 true:0.5596 false:0.4404 
+GOAL_150 true:0.1166 false:0.8834 
+
+RESOLVE37 true:0.3796 false:0.6204 
+FIND58 true:0.3696 false:0.6304 
+NULL48 true:0.4785 false:0.5215 
+RESOLVE38 false:1 
+WRITE31 true:0.5858 false:0.4142 
+WRITE30 true:0.8365 false:0.1635 
+IDENTIFY59 true:0.5559 false:0.4441 
+RESOLVE42 true:0.478 false:0.522 
+IDENTIFY10 true:0.4343 false:0.5657 
+VAR20 true:0.9237 false:0.0763 
+VELOCITY7 true:0.7829 false:0.2171 
+VECTOR27 true:0.434 false:0.566 
+APPLY77 true:0.436 false:0.564 
+KINE29 true:0.4665 false:0.5335 
+SNode_19 true:0.9891 false:0.0109 
+VECTOR73 true:0.5753 false:0.4247 
+SNode_14 true:0.9891 false:0.0109 
+GIVEN_1 true:1 
+GOAL72 true:0.5558 false:0.4442 
+GIVEN21 true:0.9891 false:0.0109 
+KNOWN6 true:1 
+CHOOSE62 true:0.5232 false:0.4768 
+RApp2 true:1 
+MAXIMIZE34 true:0.3819 false:0.6181 
+IDENTIFY43 true:0.3564 false:0.6436 
+IDENTIFY41 true:0.5456 false:0.4544 
+TRY12 true:1 
+CHOOSE19 true:0.891 false:0.109 
+SNode_47 true:1 
+NORMAL52 false:1 
+IDENTIFY55 true:0.1744 false:0.8256 
+APPLY32 true:0.3896 false:0.6104 
+SUM75 true:0.5531 false:0.4469 
+GOAL_2 true:1 
+NEWTONS45 true:0.5247 false:0.4753 
+CONSTANT5 true:1 
+WEIGHT57 false:1 
+GRAV2 true:0.5777 false:0.4223 
+TRY26 true:1 
+AXIS33 true:0.8801 false:0.1199 
+NEED67 true:0.4659 false:0.5341 
+SNode_21 true:0.2021 false:0.7979 
+VECTOR44 true:0.5559 false:0.4441 
+HORIZ53 true:0.2289 false:0.7711 
+SNode_34 true:1 
+SNode_92 true:0.2588 false:0.7412 
+GOAL_48 true:1 
+RApp3 true:1 
+TRY14 true:1 
+SNode_41 true:1 
+GOAL_49 true:1 
+SNode_51 true:0.1199 false:0.8801 
+SNode_52 true:0.1853 false:0.8147 
+GOAL_53 true:0.6839 false:0.3161 
+SNode_54 true:0.494 false:0.506 
+SNode_55 true:0.3424 false:0.6576 
+SNode_28 true:0.1853 false:0.8147 
+SNode_29 true:0.3597 false:0.6403 
+SNode_31 true:0.0953 false:0.9047 
+SNode_60 true:0.1893 false:0.8107 
+GOAL_69 true:0.56 false:0.44 
+GOAL_72 true:0.3636 false:0.6364 
+SNode_73 true:0.2071 false:0.7929 
+SNode_70 true:0.0545 false:0.9455 
+SNode_67 true:0.2071 false:0.7929 
+SNode_68 true:0.0654 false:0.9346 
+SNode_64 true:0.218 false:0.782 
+SNode_65 true:0.1232 false:0.8768 
+SNode_75 true:0.1013 false:0.8987 
+GOAL_80 true:1 
+RApp6 true:1 
+GOAL_79 true:0.109 false:0.891 
+GOAL_81 true:1 
+SNode_86 true:0.0218 false:0.9782 
+SNode_156 false:1 
+GOAL_87 true:0.6621 false:0.3379 
+SNode_38 true:0.2616 false:0.7384 
+SNode_91 true:0.1767 false:0.8233 
+SNode_93 true:0.2071 false:0.7929 
+SNode_40 true:0.0654 false:0.9346 
+SNode_102 true:0.109 false:0.891 
+GOAL_104 true:0.1526 false:0.8474 
+SNode_152 true:0.2261 false:0.7739 
+GOAL_108 true:0.1417 false:0.8583 
+GOAL_153 true:0.2681 false:0.7319 
+RApp7 false:1 
+GOAL_127 true:0.1635 false:0.8365 
+GOAL_110 true:0.1975 false:0.8025 
+SNode_122 true:0.214 false:0.786 
+SNode_128 true:0.1744 false:0.8256 
+SNode_154 true:0.1962 false:0.8038 
+GOAL_130 true:0.2071 false:0.7929 
+RApp8 false:1 
+GOAL_129 true:0.1417 false:0.8583 
+GOAL_113 true:0.1532 false:0.8468 
+SNode_116 true:0.0872 false:0.9128 
+SNode_137 true:0.1276 false:0.8724 
+SNode_112 true:0.1747 false:0.8253 
+SNode_124 true:0.1417 false:0.8583 
+SNode_118 true:0.1309 false:0.8691 
+SNode_135 true:0.0654 false:0.9346 
+SNode_132 true:0.1307 false:0.8693 
+GOAL_146 true:0.1417 false:0.8583 
+SNode_119 true:0.1308 false:0.8692 
+GOAL_143 false:1 
+GOAL_147 true:0.272 false:0.728 
+GOAL_149 true:0.3052 false:0.6948 
+GOAL_150 true:0.218 false:0.782 
+SNode_151 true:0.1199 false:0.8801 
+
+RESOLVE37 true:0.418 false:0.582 
+FIND58 true:0.253 false:0.747 
+NULL48 true:0.406 false:0.594 
+VALUE3 true:0.066 false:0.934 
+VECTOR69 true:0.275 false:0.725 
+FIND49 true:0.7915 false:0.2085 
+SYSTEM46 true:0.736 false:0.264 
+RESOLVE42 true:0.494 false:0.506 
+IDENTIFY10 true:0.571 false:0.429 
+VAR20 true:0.7031 false:0.2969 
+COMPO16 true:0.253 false:0.747 
+SLIDING4 true:0.8801 false:0.1199 
+VECTOR27 true:1 
+DISPLACEM0 false:1 
+KINE29 true:0.4404 false:0.5596 
+VECTOR73 true:0.5265 false:0.4735 
+SNode_11 true:1 
+SNode_10 true:1 
+SNode_13 true:1 
+SNode_12 true:0.956 false:0.044 
+GOAL72 true:0.538 false:0.462 
+SYSTEM18 true:0.373 false:0.627 
+DEFINE23 false:1 
+MAXIMIZE34 true:0.758 false:0.242 
+IDENTIFY43 true:0.319 false:0.681 
+NEED1 true:0.5955 false:0.4045 
+SNode_9 true:1 
+SNode_5 true:0.989 false:0.011 
+CHOOSE19 true:0.44 false:0.56 
+SNode_7 true:0.989 false:0.011 
+SNode_6 true:0.989 false:0.011 
+IDENTIFY55 true:0.8659 false:0.1341 
+APPLY32 true:0.484 false:0.516 
+WRITE64 true:0.407 false:0.593 
+WRITE63 true:0.484 false:0.516 
+NEWTONS45 true:0.78 false:0.22 
+STRAT_90 SNode_91_2:0.505 SNode_92_1:0.495 
+SNode_4 true:1 
+CHOOSE35 true:0.572 false:0.428 
+TRY26 true:1 
+AXIS33 false:1 
+TRY76 true:0.4359 false:0.5641 
+SNode_20 true:0.6852 false:0.3148 
+SNode_21 true:0.7183 false:0.2817 
+SNode_25 true:0.8944 false:0.1056 
+SNode_26 true:1 
+SNode_33 true:1 
+SNode_34 true:1 
+INCLINE51 false:1 
+SNode_92 true:0.1689 false:0.8311 
+GOAL_48 true:0.356 false:0.644 
+RApp3 false:1 
+TRY13 true:0.2698 false:0.7302 
+SNode_8 true:1 
+SNode_41 true:1 
+TRY24 true:1 
+GOAL_49 true:0.1476 false:0.8524 
+GOAL_56 true:0.319 false:0.681 
+GOAL_57 true:0.527 false:0.473 
+SNode_43 true:0.033 false:0.967 
+SNode_55 true:0.198 false:0.802 
+SNode_29 true:0.208 false:0.792 
+GOAL_61 true:0.132 false:0.868 
+GOAL_62 true:0.187 false:0.813 
+GOAL_66 true:0.0274 false:0.9726 
+SNode_46 true:0.11 false:0.89 
+SNode_70 true:0.209 false:0.791 
+SNode_67 true:0.153 false:0.847 
+GOAL_63 true:0.242 false:0.758 
+SNode_68 true:0.0829 false:0.9171 
+SNode_64 true:0.407 false:0.593 
+SNode_65 true:0.077 false:0.923 
+SNode_71 true:0.088 false:0.912 
+GOAL_80 true:0.143 false:0.857 
+GOAL_81 true:0.527 false:0.473 
+SNode_86 true:0.791 false:0.209 
+GOAL_99 true:0.253 false:0.747 
+SNode_88 true:0.077 false:0.923 
+SNode_93 true:0.2378 false:0.7622 
+SNode_94 true:1 
+SNode_40 true:0.069 false:0.931 
+SNode_102 true:0.198 false:0.802 
+SNode_100 true:0.1678 false:0.8322 
+GOAL_103 true:0.197 false:0.803 
+GOAL_104 true:0.2604 false:0.7396 
+SNode_106 true:0.3595 false:0.6405 
+GOAL_107 true:0.1454 false:0.8546 
+RApp7 false:1 
+RApp9 false:1 
+GOAL_121 false:1 
+GOAL_110 true:0.53 false:0.47 
+GOAL_114 true:0.6179 false:0.3821 
+SNode_154 true:0.1558 false:0.8442 
+RApp8 false:1 
+GOAL_129 false:1 
+SNode_115 true:0.7495 false:0.2505 
+GOAL_113 true:0.5954 false:0.4046 
+SNode_117 true:0.6833 false:0.3167 
+SNode_137 true:0.1518 false:0.8482 
+SNode_131 true:0.2211 false:0.7789 
+SNode_155 true:0.164 false:0.836 
+SNode_120 true:0.088 false:0.912 
+GOAL_142 true:1 
+SNode_118 true:0.6167 false:0.3833 
+RApp11 true:1 
+SNode_119 true:0.11 false:0.89 
+RApp13 true:1 
+GOAL_147 true:1 
+GOAL_149 true:0.5612 false:0.4388 
+GOAL_150 true:0.231 false:0.769 
+
+FIND58 true:0.195 false:0.805 
+NULL48 true:0.4391 false:0.5609 
+RESOLVE38 true:0.5162 false:0.4838 
+WRITE30 true:0.4667 false:0.5333 
+VALUE3 true:1 
+NEED36 true:1 
+VECTOR69 true:0.295 false:0.705 
+SYSTEM46 true:0.5093 false:0.4907 
+IDENTIFY10 true:0.236 false:0.764 
+VAR20 true:0.8095 false:0.1905 
+IDENTIFY9 true:0.4484 false:0.5516 
+COMPO16 true:1 
+VECTOR27 true:1 
+IDENTIFY22 true:0.7404 false:0.2596 
+EQUATION28 true:0.367 false:0.633 
+SNode_19 true:1 
+SNode_10 true:1 
+SNode_13 true:0.9764 false:0.0236 
+SNode_15 true:0.9882 false:0.0118 
+SNode_14 true:0.9882 false:0.0118 
+SNode_17 true:0.9764 false:0.0236 
+GIVEN_1 true:1 
+GOAL72 true:0.4248 false:0.5752 
+SYSTEM18 true:0.6578 false:0.3422 
+GIVEN21 true:0.7168 false:0.2832 
+KNOWN6 true:1 
+KNOWN8 true:1 
+CHOOSE62 true:0.3983 false:0.6017 
+RApp2 true:1 
+RApp4 true:1 
+MAXIMIZE34 true:0.4716 false:0.5284 
+IDENTIFY43 true:0.4223 false:0.5777 
+IDENTIFY41 true:0.5658 false:0.4342 
+NEED1 true:0.823 false:0.177 
+TRY12 true:1 
+SNode_9 true:0.9882 false:0.0118 
+CHOOSE19 true:0.3864 false:0.6136 
+SNode_7 true:0.9764 false:0.0236 
+SNode_3 true:1 
+SNode_47 true:1 
+NORMAL52 false:1 
+NORMAL50 true:0.7994 false:0.2006 
+IDENTIFY55 true:0.1046 false:0.8954 
+APPLY32 true:0.3894 false:0.6106 
+WRITE63 true:0.5652 false:0.4348 
+BUGGY54 true:0.9528 false:0.0472 
+WEIGHT57 true:0.7994 false:0.2006 
+APPLY61 true:0.3283 false:0.6717 
+SNode_4 true:0.9646 false:0.0354 
+CHOOSE35 true:0.4461 false:0.5539 
+AXIS33 true:0.8584 false:0.1416 
+SNode_21 true:1 
+SNode_24 true:1 
+NEWTONS74 true:0.6015 false:0.3985 
+HORIZ53 true:0.1414 false:0.8586 
+SNode_33 true:0.7404 false:0.2596 
+SNode_34 true:1 
+GOAL_48 true:1 
+RApp3 true:1 
+TRY15 true:1 
+TRY14 true:1 
+TRY11 true:1 
+TRY13 true:1 
+SNode_41 true:1 
+GOAL_49 true:1 
+GOAL_50 true:0.469 false:0.531 
+SNode_51 true:0.4454 false:0.5546 
+SNode_52 true:0.5044 false:0.4956 
+GOAL_56 true:0.2726 false:0.7274 
+GOAL_57 true:0.1547 false:0.8453 
+SNode_43 true:0.1784 false:0.8216 
+SNode_44 true:0.3156 false:0.6844 
+SNode_54 true:0.1534 false:0.8466 
+SNode_28 true:0.1062 false:0.8938 
+SNode_29 true:0.177 false:0.823 
+SNode_31 true:0.3068 false:0.6932 
+SNode_60 true:0.2074 false:0.7926 
+GOAL_61 true:0.1129 false:0.8871 
+SNode_46 true:0.3746 false:0.6254 
+SNode_68 true:0.1062 false:0.8938 
+SNode_65 true:0.1298 false:0.8702 
+SNode_71 true:0.1062 false:0.8938 
+GOAL_84 true:1 
+SNode_86 true:0.5371 false:0.4629 
+GOAL_87 true:0.8288 false:0.1712 
+GOAL_99 true:0.3392 false:0.6608 
+SNode_37 true:0.882 false:0.118 
+SNode_94 true:0.6993 false:0.3007 
+SNode_40 true:1 
+SNode_102 true:0.6877 false:0.3123 
+SNode_100 true:0.1888 false:0.8112 
+SNode_95 true:0.646 false:0.354 
+GOAL_103 true:0.253 false:0.747 
+GOAL_107 false:1 
+GOAL_108 false:1 
+GOAL_153 true:0.1888 false:0.8112 
+RApp9 false:1 
+GOAL_127 false:1 
+GOAL_126 false:1 
+GOAL_111 true:1 
+GOAL_114 true:0.1224 false:0.8776 
+SNode_154 true:0.2242 false:0.7758 
+RApp8 true:1 
+GOAL_129 true:0.1935 false:0.8065 
+SNode_115 true:0.2762 false:0.7238 
+GOAL_113 false:1 
+SNode_117 true:0.2124 false:0.7876 
+SNode_136 true:0.0826 false:0.9174 
+SNode_131 true:0.2124 false:0.7876 
+SNode_112 true:1 
+SNode_133 true:0.3358 false:0.6642 
+RApp11 false:1 
+SNode_135 true:0.0826 false:0.9174 
+SNode_134 true:0.1298 false:0.8702 
+GOAL_143 true:1 
+RApp12 true:1 
+RApp13 false:1 
+GOAL_150 true:0.2478 false:0.7522 
+
+GOAL68 true:0.396 false:0.604 
+RESOLVE37 true:0.494 false:0.506 
+RESOLVE38 true:0.4282 false:0.5718 
+GOAL66 true:0.4393 false:0.5607 
+WRITE30 true:0.505 false:0.495 
+VALUE3 true:0.1315 false:0.8685 
+GOAL65 true:0.4284 false:0.5716 
+RESOLVE40 true:0.506 false:0.494 
+IDENTIFY10 true:0.67 false:0.33 
+VAR20 true:0.3621 false:0.6379 
+VELOCITY7 true:0.769 false:0.231 
+SLIDING4 true:0.5159 false:0.4841 
+DISPLACEM0 true:1 
+EQUATION28 true:0.385 false:0.615 
+SNode_18 true:0.956 false:0.044 
+SNode_11 true:1 
+SNode_10 true:1 
+SNode_13 true:0.989 false:0.011 
+SNode_12 true:0.989 false:0.011 
+SNode_14 true:0.978 false:0.022 
+SNode_16 true:0.978 false:0.022 
+GIVEN_1 true:1 
+GOAL72 true:0.4158 false:0.5842 
+VECTOR70 true:0.89 false:0.11 
+SYSTEM18 true:0.4376 false:0.5624 
+GIVEN21 true:0.989 false:0.011 
+IDENTIFY39 true:0.385 false:0.615 
+KNOWN6 true:1 
+KNOWN8 true:1 
+KINEMATI17 true:0.615 false:0.385 
+NEED1 true:0.516 false:0.484 
+WEIGHT56 true:0.605 false:0.395 
+TRY12 true:1 
+NORMAL52 true:1 
+NORMAL50 true:0.582 false:0.418 
+APPLY32 true:0.3375 false:0.6625 
+GOAL_2 true:1 
+WEIGHT57 true:0.615 false:0.385 
+APPLY61 true:0.45 false:0.55 
+SNode_4 true:0.9819 false:0.0181 
+CHOOSE35 true:0.388 false:0.612 
+GRAV2 true:0.7329 false:0.2671 
+TRY25 true:1 
+TRY26 true:1 
+AXIS33 true:0.703 false:0.297 
+TRY76 true:0.3885 false:0.6115 
+SNode_20 true:0.637 false:0.363 
+SNode_24 true:0.2457 false:0.7543 
+SNode_25 true:0.5232 false:0.4768 
+SNode_26 true:1 
+HORIZ53 true:1 
+SNode_34 true:0.11 false:0.89 
+SNode_92 true:0.1048 false:0.8952 
+RApp1 true:1 
+RApp3 true:1 
+TRY15 true:1 
+SNode_8 true:1 
+SNode_27 true:1 
+GOAL_49 true:1 
+SNode_42 true:0.1699 false:0.8301 
+SNode_51 true:0.511 false:0.489 
+SNode_52 true:0.6209 false:0.3791 
+GOAL_56 true:0.2578 false:0.7422 
+GOAL_57 false:1 
+SNode_44 true:0.231 false:0.769 
+SNode_54 true:0.176 false:0.824 
+SNode_55 true:0.274 false:0.726 
+SNode_29 true:0.4663 false:0.5337 
+SNode_31 true:0.099 false:0.901 
+SNode_60 true:0.165 false:0.835 
+GOAL_62 true:0.055 false:0.945 
+GOAL_72 false:1 
+SNode_68 true:0.0698 false:0.9302 
+SNode_64 true:0.209 false:0.791 
+SNode_75 true:0.033 false:0.967 
+SNode_71 true:0.165 false:0.835 
+SNode_74 true:0.099 false:0.901 
+RApp6 false:1 
+GOAL_81 true:0.703 false:0.297 
+GOAL_84 true:0.231 false:0.769 
+SNode_86 false:1 
+GOAL_87 true:0.2271 false:0.7729 
+SNode_37 true:1 
+SNode_38 true:0.4647 false:0.5353 
+SNode_88 true:0.154 false:0.846 
+SNode_91 true:0.231 false:0.769 
+SNode_94 true:0.099 false:0.901 
+SNode_97 true:0.22 false:0.78 
+SNode_152 true:0.747 false:0.253 
+GOAL_109 true:0.1949 false:0.8051 
+GOAL_108 true:0.011 false:0.989 
+RApp7 false:1 
+RApp9 false:1 
+GOAL_126 true:0.077 false:0.923 
+GOAL_121 false:1 
+GOAL_114 true:0.176 false:0.824 
+SNode_123 true:0.143 false:0.857 
+SNode_128 true:0.176 false:0.824 
+GOAL_129 true:0.473 false:0.527 
+SNode_115 true:0.374 false:0.626 
+SNode_117 true:0.154 false:0.846 
+SNode_137 true:0.187 false:0.813 
+SNode_136 true:0.099 false:0.901 
+SNode_120 true:0.1083 false:0.8917 
+SNode_125 true:0.088 false:0.912 
+GOAL_142 true:1 
+GOAL_146 true:1 
+GOAL_143 true:1 
+RApp13 true:1 
+GOAL_149 true:0.5379 false:0.4621 
+
+RESOLVE37 true:0.3896 false:0.6104 
+GOAL66 true:0.7225 false:0.2775 
+WRITE31 true:0.4449 false:0.5551 
+WRITE30 true:0.4783 false:0.5217 
+VALUE3 false:1 
+VECTOR69 true:0.3556 false:0.6444 
+GOAL65 false:1 
+RESOLVE42 true:0.4666 false:0.5334 
+VAR20 false:1 
+COMPO16 true:0.5772 false:0.4228 
+SLIDING4 true:0.6994 false:0.3006 
+IDENTIFY22 true:0.3996 false:0.6004 
+SNode_19 true:0.9889 false:0.0111 
+SNode_18 true:0.9778 false:0.0222 
+SNode_14 true:0.9667 false:0.0333 
+SNode_16 true:1 
+GIVEN_1 true:1 
+VECTOR70 true:0.9001 false:0.0999 
+SYSTEM18 true:0.4551 false:0.5449 
+GIVEN21 true:0.9649 false:0.0351 
+KNOWN8 false:1 
+CHOOSE62 true:0.4793 false:0.5207 
+IDENTIFY43 true:0.3441 false:0.6559 
+IDENTIFY41 true:0.5128 false:0.4872 
+NEED1 true:0.667 false:0.333 
+SNode_9 true:0.8002 false:0.1998 
+SNode_5 true:0.9667 false:0.0333 
+SNode_6 true:0.9889 false:0.0111 
+SNode_3 true:0.9778 false:0.0222 
+SNode_47 false:1 
+NORMAL52 true:1 
+APPLY32 true:0.4692 false:0.5308 
+WRITE64 true:0.3916 false:0.6084 
+WRITE63 true:0.4973 false:0.5027 
+SUM75 true:0.5361 false:0.4639 
+NEWTONS45 true:0.4662 false:0.5338 
+CONSTANT5 true:0.6892 false:0.3108 
+APPLY61 true:0.4143 false:0.5857 
+CHOOSE35 true:0.4033 false:0.5967 
+TRY25 true:1 
+TRY26 true:1 
+NEED67 false:1 
+TRY76 true:0.555 false:0.445 
+SNode_20 true:0.778 false:0.222 
+SNode_21 true:0.8557 false:0.1443 
+SNode_24 true:0.1221 false:0.8779 
+SNode_25 true:0.718 false:0.282 
+SNode_33 true:0.9732 false:0.0268 
+SNode_34 true:0.7558 false:0.2442 
+INCLINE51 true:1 
+SNode_92 true:0.1848 false:0.8152 
+GOAL_48 true:0.6953 false:0.3047 
+RApp1 false:1 
+TRY14 true:1 
+TRY11 true:1 
+TRY13 true:1 
+SNode_8 true:1 
+SNode_41 true:0.5671 false:0.4329 
+TRY24 true:1 
+SNode_27 true:0.2442 false:0.7558 
+GOAL_49 true:0.761 false:0.239 
+GOAL_50 true:0.1221 false:0.8779 
+SNode_42 true:0.6892 false:0.3108 
+SNode_51 true:0.0999 false:0.9001 
+SNode_52 true:0.195 false:0.805 
+GOAL_56 true:0.1665 false:0.8335 
+GOAL_53 true:0.0999 false:0.9001 
+SNode_43 true:0.2275 false:0.7725 
+SNode_44 true:0.1941 false:0.8059 
+SNode_59 true:0.2553 false:0.7447 
+SNode_60 true:0.3996 false:0.6004 
+GOAL_69 true:0.1665 false:0.8335 
+SNode_70 true:0.2069 false:0.7931 
+SNode_67 true:0.223 false:0.777 
+GOAL_63 true:0.2268 false:0.7732 
+SNode_68 true:0.0518 false:0.9482 
+SNode_64 true:0.1665 false:0.8335 
+SNode_65 true:0.0444 false:0.9556 
+SNode_75 true:0.1554 false:0.8446 
+SNode_74 true:0.0999 false:0.9001 
+GOAL_79 false:1 
+GOAL_81 true:0.5005 false:0.4995 
+SNode_37 true:0.2775 false:0.7225 
+SNode_102 true:0.0483 false:0.9517 
+SNode_95 true:0.1887 false:0.8113 
+SNode_106 true:0.1887 false:0.8113 
+SNode_152 true:0.4303 false:0.5697 
+GOAL_107 true:0.1332 false:0.8668 
+GOAL_108 false:1 
+RApp9 false:1 
+GOAL_127 true:0.2363 false:0.7637 
+GOAL_126 false:1 
+GOAL_121 true:1 
+RApp10 false:1 
+SNode_128 true:0.1582 false:0.8418 
+RApp8 false:1 
+SNode_115 true:0.1247 false:0.8753 
+SNode_137 true:0.0999 false:0.9001 
+SNode_136 true:0.111 false:0.889 
+SNode_131 true:0.191 false:0.809 
+SNode_155 true:0.0777 false:0.9223 
+SNode_125 true:0.1221 false:0.8779 
+GOAL_142 true:1 
+RApp11 true:1 
+SNode_135 true:0.0684 false:0.9316 
+SNode_134 true:0.0881 false:0.9119 
+SNode_119 true:0.1104 false:0.8896 
+RApp12 false:1 
+RApp13 false:1 
+GOAL_149 true:0.6549 false:0.3451 
+GOAL_150 false:1 
+
+GOAL68 true:0.4388 false:0.5612 
+FIND58 true:0.29 false:0.71 
+GOAL66 true:0.7656 false:0.2344 
+WRITE31 true:0.5545 false:0.4455 
+NEED36 true:1 
+RESOLVE42 true:0.7979 false:0.2021 
+VAR20 true:0.9188 false:0.0812 
+COMPO16 true:0.0348 false:0.9652 
+VELOCITY7 false:1 
+DISPLACEM0 false:1 
+KINE29 true:0.4694 false:0.5306 
+EQUATION28 true:0.4231 false:0.5769 
+SNode_19 true:0.9884 false:0.0116 
+SNode_18 true:0.9536 false:0.0464 
+VECTOR73 true:0.4582 false:0.5418 
+SNode_11 true:1 
+SNode_10 true:1 
+SNode_13 true:0.9512 false:0.0488 
+SNode_15 true:1 
+SNode_17 true:0.9884 false:0.0116 
+SYSTEM18 true:0.3892 false:0.6108 
+GIVEN21 true:1 
+IDENTIFY39 true:0.8658 false:0.1342 
+CHOOSE47 true:0.5519 false:0.4481 
+MAXIMIZE34 true:0.5984 false:0.4016 
+IDENTIFY41 true:0.1461 false:0.8539 
+NEED1 false:1 
+SNode_9 true:1 
+SNode_7 true:0.9768 false:0.0232 
+SNode_47 false:1 
+NORMAL52 false:1 
+WRITE64 true:0.4019 false:0.5981 
+WRITE63 true:0.4664 false:0.5336 
+SUM75 true:0.9652 false:0.0348 
+GOAL_2 true:0.9342 false:0.0658 
+BUGGY54 true:0.7912 false:0.2088 
+CONSTANT5 true:1 
+WEIGHT57 true:0.6868 false:0.3132 
+GRAV78 true:0.4176 false:0.5824 
+APPLY61 true:0.5535 false:0.4465 
+CHOOSE35 true:0.6056 false:0.3944 
+TRY25 true:1 
+TRY26 true:1 
+AXIS33 true:0.5708 false:0.4292 
+NEED67 true:1 
+TRY76 true:0.5244 false:0.4756 
+SNode_20 false:1 
+SNode_24 true:0.058 false:0.942 
+EQUAL71 true:0.5848 false:0.4152 
+VECTOR44 false:1 
+SNode_33 true:1 
+INCLINE51 false:1 
+TRY11 true:1 
+TRY13 true:1 
+SNode_41 true:1 
+TRY24 true:1 
+SNode_27 true:1 
+GOAL_50 true:0.116 false:0.884 
+SNode_42 true:1 
+SNode_52 true:0.1624 false:0.8376 
+GOAL_56 true:0.4328 false:0.5672 
+GOAL_57 true:0.5835 false:0.4165 
+SNode_43 true:0.9894 false:0.0106 
+SNode_54 true:0.1615 false:0.8385 
+SNode_28 false:1 
+SNode_29 true:0.2204 false:0.7796 
+SNode_31 true:0.116 false:0.884 
+SNode_60 true:0.652 false:0.348 
+GOAL_61 true:0.548 false:0.452 
+GOAL_62 true:0.8147 false:0.1853 
+GOAL_69 true:0.0928 false:0.9072 
+SNode_70 true:0.2668 false:0.7332 
+SNode_67 true:1 
+SNode_68 true:0.058 false:0.942 
+SNode_65 true:0.0812 false:0.9188 
+SNode_71 true:0.0928 false:0.9072 
+GOAL_80 true:0.1972 false:0.8028 
+RApp6 false:1 
+GOAL_79 false:1 
+RApp5 false:1 
+GOAL_83 true:0.0928 false:0.9072 
+SNode_86 true:0.1624 false:0.8376 
+SNode_156 true:0.1972 false:0.8028 
+GOAL_87 true:0.2331 false:0.7669 
+GOAL_98 true:0.1764 false:0.8236 
+GOAL_99 true:0.1856 false:0.8144 
+SNode_38 true:0.174 false:0.826 
+SNode_88 true:0.3031 false:0.6969 
+SNode_97 true:0.1756 false:0.8244 
+SNode_40 true:0.1525 false:0.8475 
+SNode_100 true:0.0812 false:0.9188 
+SNode_95 true:0.1392 false:0.8608 
+GOAL_103 false:1 
+SNode_152 true:0.6636 false:0.3364 
+GOAL_107 true:0.1972 false:0.8028 
+GOAL_109 true:1 
+GOAL_108 false:1 
+RApp7 true:1 
+GOAL_121 true:1 
+GOAL_110 true:0.0955 false:0.9045 
+RApp10 false:1 
+SNode_123 true:0.1155 false:0.8845 
+SNode_154 true:1 
+RApp8 true:1 
+SNode_115 true:0.1972 false:0.8028 
+SNode_117 true:0.1392 false:0.8608 
+SNode_137 true:0.1508 false:0.8492 
+SNode_112 true:1 
+SNode_118 true:0.188 false:0.812 
+SNode_132 true:0.1276 false:0.8724 
+GOAL_146 true:1 
+SNode_119 true:0.1276 false:0.8724 
+GOAL_147 true:1 
+GOAL_149 true:0.6752 false:0.3248 
+GOAL_150 true:0.116 false:0.884 
+SNode_151 true:0.0696 false:0.9304 
+
+RESOLVE37 true:0.476 false:0.524 
+RESOLVE38 true:0.4384 false:0.5616 
+GOAL66 true:0.3952 false:0.6048 
+VECTOR69 true:0.2616 false:0.7384 
+RESOLVE40 true:0.4828 false:0.5172 
+RESOLVE42 true:0.4933 false:0.5067 
+IDENTIFY10 true:0.428 false:0.572 
+COMPO16 true:0.5512 false:0.4488 
+SLIDING4 true:0.9792 false:0.0208 
+VECTOR27 false:1 
+APPLY77 true:0.5562 false:0.4438 
+DISPLACEM0 true:1 
+IDENTIFY22 true:0.4956 false:0.5044 
+EQUATION28 true:0.4109 false:0.5891 
+SNode_18 true:0.9792 false:0.0208 
+VECTOR73 true:0.532 false:0.468 
+SNode_11 true:1 
+SNode_13 true:0.9896 false:0.0104 
+SNode_12 true:0.9584 false:0.0416 
+SNode_14 true:0.9896 false:0.0104 
+GIVEN_1 true:1 
+GOAL72 true:0.5259 false:0.4741 
+VECTOR70 true:0.9168 false:0.0832 
+SYSTEM18 true:0.4321 false:0.5679 
+FORCE60 true:0.7608 false:0.2392 
+CHOOSE62 true:0.52 false:0.48 
+RApp4 false:1 
+IDENTIFY43 true:0.26 false:0.74 
+IDENTIFY41 true:0.5528 false:0.4472 
+SNode_9 true:0.9168 false:0.0832 
+SNode_5 true:0.9688 false:0.0312 
+SNode_6 true:0.9792 false:0.0208 
+SNode_47 true:0.1664 false:0.8336 
+IDENTIFY55 true:0.5512 false:0.4488 
+APPLY32 true:0.4784 false:0.5216 
+WRITE63 true:0.4368 false:0.5632 
+SUM75 true:0.5944 false:0.4056 
+GOAL_2 true:0.9792 false:0.0208 
+SNode_4 true:1 
+CHOOSE35 true:0.4201 false:0.5799 
+AXIS33 true:0.7296 false:0.2704 
+TRY76 true:0.4576 false:0.5424 
+SNode_20 false:1 
+SNode_24 true:0.1227 false:0.8773 
+SNode_25 true:0.9896 false:0.0104 
+NEWTONS74 true:0.4869 false:0.5131 
+SNode_33 true:1 
+SNode_34 true:1 
+INCLINE51 false:1 
+GOAL_48 true:0.6344 false:0.3656 
+RApp1 true:1 
+RApp3 false:1 
+TRY11 true:0.052 false:0.948 
+SNode_41 true:0.9272 false:0.0728 
+GOAL_50 true:0.26 false:0.74 
+SNode_42 true:0.2288 false:0.7712 
+SNode_51 true:0.1768 false:0.8232 
+GOAL_56 false:1 
+GOAL_57 true:0.1872 false:0.8128 
+GOAL_53 true:0.1581 false:0.8419 
+SNode_44 true:0.1788 false:0.8212 
+SNode_54 true:0.3763 false:0.6237 
+SNode_28 true:0.1872 false:0.8128 
+SNode_29 true:0.2184 false:0.7816 
+SNode_31 true:0.0832 false:0.9168 
+GOAL_69 false:1 
+SNode_46 true:0.0624 false:0.9376 
+SNode_67 true:0.1976 false:0.8024 
+GOAL_63 true:0.49 false:0.51 
+SNode_65 true:0.1976 false:0.8024 
+SNode_71 true:0.104 false:0.896 
+GOAL_80 true:0.0832 false:0.9168 
+SNode_74 true:0.1456 false:0.8544 
+GOAL_83 true:0.1976 false:0.8024 
+GOAL_84 true:0.2298 false:0.7702 
+SNode_86 false:1 
+GOAL_99 true:0.198 false:0.802 
+SNode_37 true:0.1872 false:0.8128 
+SNode_38 true:0.1872 false:0.8128 
+SNode_88 true:0.1352 false:0.8648 
+SNode_93 true:0.1472 false:0.8528 
+SNode_94 true:0.104 false:0.896 
+SNode_97 true:0.2182 false:0.7818 
+SNode_40 true:0.0728 false:0.9272 
+SNode_102 true:0.0728 false:0.9272 
+SNode_100 true:0.2288 false:0.7712 
+SNode_106 true:0.0416 false:0.9584 
+GOAL_107 true:0.1664 false:0.8336 
+GOAL_121 false:1 
+GOAL_114 true:0.0936 false:0.9064 
+RApp10 false:1 
+GOAL_130 false:1 
+RApp8 false:1 
+SNode_115 true:0.2496 false:0.7504 
+SNode_117 true:0.1768 false:0.8232 
+SNode_116 true:0.1233 false:0.8767 
+SNode_137 true:0.1248 false:0.8752 
+SNode_136 true:0.0104 false:0.9896 
+SNode_155 true:0.104 false:0.896 
+SNode_112 true:0.1664 false:0.8336 
+SNode_125 true:0.156 false:0.844 
+GOAL_143 true:0.1144 false:0.8856 
+GOAL_149 true:0.2786 false:0.7214 
+GOAL_150 true:0.1976 false:0.8024 
+

@@ -1,0 +1,152 @@
+Age Senior:0.1344 Adult:0.528 Adolescent:0.3376 
+RiskAversion Cautious:0.048 Normal:0.456 Adventurous:0.4704 Psychopath:0.0256 
+HomeBase Rural:0.1264 Suburb:0.0512 City:0.8224 
+GoodStudent False:0.9536 True:0.0464 
+AntiTheft False:0.91 True:0.09 
+MakeModel FamilySedan:0.2013 Economy:0.6723 SportsCar:0.1264 
+DrivingSkill Expert:0.0016 Normal:0.0384 SubStandard:0.96 
+CarValue Million:0.0016 TwentyThou:0.0384 TenThou:0.104 FiveThou:0.856 
+RuggedAuto Football:0.312 EggShell:0.688 
+Antilock False:0.9824 True:0.0176 
+Airbag False:0.952 True:0.048 
+Accident Moderate:0.016 Mild:0.984 
+OtherCarCost TenThou:0.0064 Thousand:0.9936 
+Theft False:0.9952 True:0.0048 
+ThisCarCost TenThou:0.0416 Thousand:0.9584 
+PropCost TenThou:0.3472 Thousand:0.6528 
+
+Mileage Domino:0.0042 FiftyThou:0.1218 TwentyThou:0.531 FiveThou:0.343 
+HomeBase Rural:0.1498 Suburb:0.0378 City:0.8124 
+GoodStudent False:0.8894 True:0.1106 
+AntiTheft False:1 
+MakeModel FamilySedan:0.1638 Economy:0.6822 SportsCar:0.154 
+DrivingSkill Expert:0.0741 Normal:0.5166 SubStandard:0.4093 
+DrivQuality Excellent:0.2618 Normal:0.2562 Poor:0.482 
+RuggedAuto Football:0.3042 EggShell:0.6958 
+DrivHist Many:0.5068 One:0.2116 Zero:0.2816 
+ThisCarDam None:1 
+OtherCarCost Thousand:1 
+ThisCarCost Thousand:1 
+ILiCost Thousand:1 
+PropCost TenThou:0.3094 Thousand:0.6906 
+
+HomeBase Rural:0.149 Suburb:0.055 City:0.796 
+GoodStudent False:1 
+MakeModel FamilySedan:0.013 Economy:0.961 SportsCar:0.026 
+DrivQuality Poor:1 
+Accident Severe:0.7286 Moderate:0.2514 Mild:0.02 
+ThisCarDam Severe:0.7995 Moderate:0.1835 Mild:0.017 
+OtherCarCost HundredThou:0.6736 TenThou:0.2934 Thousand:0.033 
+Theft False:1 
+ThisCarCost TenThou:0.9042 Thousand:0.0958 
+MedCost Million:0.165 HundredThou:0.196 TenThou:0.2729 Thousand:0.3661 
+
+Mileage Domino:0.0882 FiftyThou:0.4028 TwentyThou:0.4068 FiveThou:0.1022 
+SocioEcon Wealthy:0.0406 UpperMiddle:0.5058 Middle:0.4032 Prole:0.0504 
+OtherCar False:0.1582 True:0.8418 
+HomeBase Rural:0.1064 Suburb:0.4617 City:0.0336 Secure:0.3983 
+AntiTheft False:0.3878 True:0.6122 
+CarValue Million:0.0084 FiftyThou:0.1007 TwentyThou:0.7859 TenThou:0.105 
+Antilock False:0.084 True:0.916 
+DrivHist Many:0.0392 One:0.0745 Zero:0.8863 
+ThisCarDam None:1 
+Cushioning Good:0.1807 Fair:0.3304 Poor:0.4889 
+OtherCarCost Thousand:1 
+Theft False:1 
+ThisCarCost Thousand:1 
+MedCost Thousand:1 
+
+RiskAversion Cautious:0.3382 Normal:0.6618 
+OtherCar False:0.2041 True:0.7959 
+HomeBase Rural:0.0728 Suburb:0.4111 Secure:0.5161 
+MakeModel FamilySedan:0.9324 Economy:0.0442 SportsCar:0.0234 
+SeniorTrain False:1 
+DrivingSkill SubStandard:1 
+CarValue TenThou:0.0104 FiveThou:0.9896 
+Airbag False:0.8393 True:0.1607 
+ThisCarDam Severe:0.9922 Moderate:0.0078 
+Cushioning Excellent:0.0442 Good:0.3312 Fair:0.5583 Poor:0.0663 
+Theft False:1 
+PropCost Million:0.211 HundredThou:0.789 
+MedCost Million:0.0663 HundredThou:0.143 TenThou:0.1654 Thousand:0.6253 
+
+Age Senior:0.1575 Adult:0.7255 Adolescent:0.117 
+OtherCar False:0.5025 True:0.4975 
+HomeBase Rural:0.1575 Suburb:0.0435 City:0.799 
+SeniorTrain False:0.9535 True:0.0465 
+VehicleYear Older:0.919 Current:0.081 
+DrivingSkill Normal:1 
+CarValue TwentyThou:0.009 TenThou:0.063 FiveThou:0.928 
+RuggedAuto Football:0.0165 EggShell:0.9835 
+Antilock False:1 
+Airbag False:0.892 True:0.108 
+DrivHist Many:0.0285 One:0.0705 Zero:0.901 
+ThisCarDam None:1 
+OtherCarCost Thousand:1 
+ILiCost Thousand:1 
+MedCost Thousand:1 
+
+RiskAversion Cautious:0.0925 Normal:0.8425 Adventurous:0.0624 Psychopath:0.0026 
+AntiTheft False:0.827 True:0.173 
+MakeModel FamilySedan:0.5135 Economy:0.4787 SportsCar:0.0078 
+VehicleYear Older:0.9701 Current:0.0299 
+DrivingSkill Expert:0.0013 Normal:0.9987 
+Airbag False:0.8609 True:0.1391 
+Accident Mild:0.0013 None:0.9987 
+Cushioning Excellent:0.039 Good:0.3406 Fair:0.5294 Poor:0.091 
+OtherCarCost Thousand:1 
+ThisCarCost Thousand:1 
+ILiCost Thousand:1 
+PropCost TenThou:0.2903 Thousand:0.7097 
+MedCost Thousand:1 
+
+Mileage Domino:0.0835 FiftyThou:0.38 TwentyThou:0.4187 FiveThou:0.1178 
+SocioEcon UpperMiddle:0.0171 Middle:0.4503 Prole:0.5326 
+RiskAversion Cautious:0.1159 Normal:0.3977 Adventurous:0.4712 Psychopath:0.0152 
+OtherCar False:0.3525 True:0.6475 
+HomeBase Rural:0.1349 Suburb:0.2926 City:0.4737 Secure:0.0988 
+GoodStudent False:0.8632 True:0.1368 
+AntiTheft False:0.8157 True:0.1843 
+MakeModel Luxury:0.0019 FamilySedan:0.4077 Economy:0.4878 SportsCar:0.1026 
+DrivingSkill Expert:0.057 Normal:0.5672 SubStandard:0.3758 
+DrivQuality Excellent:0.1558 Normal:0.398 Poor:0.4462 
+CarValue Million:0.0019 TwentyThou:0.1102 TenThou:0.1976 FiveThou:0.6903 
+RuggedAuto Tank:0.1463 Football:0.3028 EggShell:0.5509 
+Airbag False:0.8708 True:0.1292 
+Accident Severe:0.0494 Moderate:0.0684 Mild:0.1559 None:0.7263 
+DrivHist Many:0.3973 One:0.1387 Zero:0.464 
+ThisCarDam Severe:0.0304 Moderate:0.0551 Mild:0.1694 None:0.7451 
+Cushioning Excellent:0.0817 Good:0.19 Fair:0.3325 Poor:0.3958 
+OtherCarCost TenThou:0.0969 Thousand:0.9031 
+ILiCost Million:0.0095 HundredThou:0.0076 TenThou:0.0114 Thousand:0.9715 
+
+Mileage Domino:0.0952 FiftyThou:0.4064 TwentyThou:0.4136 FiveThou:0.0848 
+Age Senior:0.1024 Adult:0.8121 Adolescent:0.0855 
+RiskAversion Cautious:0.7424 Normal:0.2576 
+OtherCar False:0.4976 True:0.5024 
+HomeBase Rural:0.1392 Suburb:0.0368 City:0.824 
+MakeModel FamilySedan:0.0336 Economy:0.8179 SportsCar:0.1485 
+DrivQuality Excellent:0.1232 Normal:0.8768 
+CarValue Million:0.0016 FiftyThou:0.0048 TwentyThou:0.0496 TenThou:0.2224 FiveThou:0.7216 
+RuggedAuto Football:0.0304 EggShell:0.9696 
+Airbag False:0.96 True:0.04 
+DrivHist Many:0.0176 One:0.0352 Zero:0.9472 
+ThisCarDam None:1 
+OtherCarCost Thousand:1 
+ThisCarCost Thousand:1 
+ILiCost Thousand:1 
+MedCost Thousand:1 
+
+RiskAversion Cautious:0.2112 Normal:0.7492 Adventurous:0.0372 Psychopath:0.0024 
+GoodStudent False:1 
+AntiTheft False:0.102 True:0.898 
+MakeModel Luxury:0.9592 SportsCar:0.0408 
+DrivingSkill Normal:1 
+RuggedAuto Tank:0.2665 Football:0.5787 EggShell:0.1548 
+Airbag True:1 
+DrivHist Many:0.03 One:0.0672 Zero:0.9028 
+Cushioning Excellent:0.4432 Good:0.3672 Fair:0.0996 Poor:0.09 
+ThisCarCost Thousand:1 
+ILiCost Thousand:1 
+MedCost Thousand:1 
+

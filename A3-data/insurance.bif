@@ -1,0 +1,548 @@
+network unknown {
+}
+variable GoodStudent {
+  type discrete [ 2 ] { True, False };
+}
+variable Age {
+  type discrete [ 3 ] { Adolescent, Adult, Senior };
+}
+variable SocioEcon {
+  type discrete [ 4 ] { Prole, Middle, UpperMiddle, Wealthy };
+}
+variable RiskAversion {
+  type discrete [ 4 ] { Psychopath, Adventurous, Normal, Cautious };
+}
+variable VehicleYear {
+  type discrete [ 2 ] { Current, Older };
+}
+variable ThisCarDam {
+  type discrete [ 4 ] { None, Mild, Moderate, Severe };
+}
+variable RuggedAuto {
+  type discrete [ 3 ] { EggShell, Football, Tank };
+}
+variable Accident {
+  type discrete [ 4 ] { None, Mild, Moderate, Severe };
+}
+variable MakeModel {
+  type discrete [ 5 ] { SportsCar, Economy, FamilySedan, Luxury, SuperLuxury };
+}
+variable DrivQuality {
+  type discrete [ 3 ] { Poor, Normal, Excellent };
+}
+variable Mileage {
+  type discrete [ 4 ] { FiveThou, TwentyThou, FiftyThou, Domino };
+}
+variable Antilock {
+  type discrete [ 2 ] { True, False };
+}
+variable DrivingSkill {
+  type discrete [ 3 ] { SubStandard, Normal, Expert };
+}
+variable SeniorTrain {
+  type discrete [ 2 ] { True, False };
+}
+variable ThisCarCost {
+  type discrete [ 4 ] { Thousand, TenThou, HundredThou, Million };
+}
+variable Theft {
+  type discrete [ 2 ] { True, False };
+}
+variable CarValue {
+  type discrete [ 5 ] { FiveThou, TenThou, TwentyThou, FiftyThou, Million };
+}
+variable HomeBase {
+  type discrete [ 4 ] { Secure, City, Suburb, Rural };
+}
+variable AntiTheft {
+  type discrete [ 2 ] { True, False };
+}
+variable PropCost {
+  type discrete [ 4 ] { Thousand, TenThou, HundredThou, Million };
+}
+variable OtherCarCost {
+  type discrete [ 4 ] { Thousand, TenThou, HundredThou, Million };
+}
+variable OtherCar {
+  type discrete [ 2 ] { True, False };
+}
+variable MedCost {
+  type discrete [ 4 ] { Thousand, TenThou, HundredThou, Million };
+}
+variable Cushioning {
+  type discrete [ 4 ] { Poor, Fair, Good, Excellent };
+}
+variable Airbag {
+  type discrete [ 2 ] { True, False };
+}
+variable ILiCost {
+  type discrete [ 4 ] { Thousand, TenThou, HundredThou, Million };
+}
+variable DrivHist {
+  type discrete [ 3 ] { Zero, One, Many };
+}
+probability ( GoodStudent | SocioEcon, Age ) {
+  (Prole, Adolescent) ?, ?;
+  (Middle, Adolescent) ?, ?;
+  (UpperMiddle, Adolescent) ?, ?;
+  (Wealthy, Adolescent) ?, ?;
+  (Prole, Adult) ?, ?;
+  (Middle, Adult) ?, ?;
+  (UpperMiddle, Adult) ?, ?;
+  (Wealthy, Adult) ?, ?;
+  (Prole, Senior) ?, ?;
+  (Middle, Senior) ?, ?;
+  (UpperMiddle, Senior) ?, ?;
+  (Wealthy, Senior) ?, ?;
+}
+probability ( Age ) {
+  table ?, ?, ?;
+}
+probability ( SocioEcon | Age ) {
+  (Adolescent) ?, ?, ?, ?;
+  (Adult) ?, ?, ?, ?;
+  (Senior) ?, ?, ?, ?;
+}
+probability ( RiskAversion | Age, SocioEcon ) {
+  (Adolescent, Prole) ?, ?, ?, ?;
+  (Adult, Prole) ?, ?, ?, ?;
+  (Senior, Prole) ?, ?, ?, ?;
+  (Adolescent, Middle) ?, ?, ?, ?;
+  (Adult, Middle) ?, ?, ?, ?;
+  (Senior, Middle) ?, ?, ?, ?;
+  (Adolescent, UpperMiddle) ?, ?, ?, ?;
+  (Adult, UpperMiddle) ?, ?, ?, ?;
+  (Senior, UpperMiddle) ?, ?, ?, ?;
+  (Adolescent, Wealthy) ?, ?, ?, ?;
+  (Adult, Wealthy) ?, ?, ?, ?;
+  (Senior, Wealthy) ?, ?, ?, ?;
+}
+probability ( VehicleYear | SocioEcon, RiskAversion ) {
+  (Prole, Psychopath) ?, ?;
+  (Middle, Psychopath) ?, ?;
+  (UpperMiddle, Psychopath) ?, ?;
+  (Wealthy, Psychopath) ?, ?;
+  (Prole, Adventurous) ?, ?;
+  (Middle, Adventurous) ?, ?;
+  (UpperMiddle, Adventurous) ?, ?;
+  (Wealthy, Adventurous) ?, ?;
+  (Prole, Normal) ?, ?;
+  (Middle, Normal) ?, ?;
+  (UpperMiddle, Normal) ?, ?;
+  (Wealthy, Normal) ?, ?;
+  (Prole, Cautious) ?, ?;
+  (Middle, Cautious) ?, ?;
+  (UpperMiddle, Cautious) ?, ?;
+  (Wealthy, Cautious) ?, ?;
+}
+probability ( ThisCarDam | Accident, RuggedAuto ) {
+  (None, EggShell) ?, ?, ?, ?;
+  (Mild, EggShell) ?, ?, ?, ?;
+  (Moderate, EggShell) ?, ?, ?, ?;
+  (Severe, EggShell) ?, ?, ?, ?;
+  (None, Football) ?, ?, ?, ?;
+  (Mild, Football) ?, ?, ?, ?;
+  (Moderate, Football) ?, ?, ?, ?;
+  (Severe, Football) ?, ?, ?, ?;
+  (None, Tank) ?, ?, ?, ?;
+  (Mild, Tank) ?, ?, ?, ?;
+  (Moderate, Tank) ?, ?, ?, ?;
+  (Severe, Tank) ?, ?, ?, ?;
+}
+probability ( RuggedAuto | MakeModel, VehicleYear ) {
+  (SportsCar, Current) ?, ?, ?;
+  (Economy, Current) ?, ?, ?;
+  (FamilySedan, Current) ?, ?, ?;
+  (Luxury, Current) ?, ?, ?;
+  (SuperLuxury, Current) ?, ?, ?;
+  (SportsCar, Older) ?, ?, ?;
+  (Economy, Older) ?, ?, ?;
+  (FamilySedan, Older) ?, ?, ?;
+  (Luxury, Older) ?, ?, ?;
+  (SuperLuxury, Older) ?, ?, ?;
+}
+probability ( Accident | Antilock, Mileage, DrivQuality ) {
+  (True, FiveThou, Poor) ?, ?, ?, ?;
+  (False, FiveThou, Poor) ?, ?, ?, ?;
+  (True, TwentyThou, Poor) ?, ?, ?, ?;
+  (False, TwentyThou, Poor) ?, ?, ?, ?;
+  (True, FiftyThou, Poor) ?, ?, ?, ?;
+  (False, FiftyThou, Poor) ?, ?, ?, ?;
+  (True, Domino, Poor) ?, ?, ?, ?;
+  (False, Domino, Poor) ?, ?, ?, ?;
+  (True, FiveThou, Normal) ?, ?, ?, ?;
+  (False, FiveThou, Normal) ?, ?, ?, ?;
+  (True, TwentyThou, Normal) ?, ?, ?, ?;
+  (False, TwentyThou, Normal) ?, ?, ?, ?;
+  (True, FiftyThou, Normal) ?, ?, ?, ?;
+  (False, FiftyThou, Normal) ?, ?, ?, ?;
+  (True, Domino, Normal) ?, ?, ?, ?;
+  (False, Domino, Normal) ?, ?, ?, ?;
+  (True, FiveThou, Excellent) ?, ?, ?, ?;
+  (False, FiveThou, Excellent) ?, ?, ?, ?;
+  (True, TwentyThou, Excellent) ?, ?, ?, ?;
+  (False, TwentyThou, Excellent) ?, ?, ?, ?;
+  (True, FiftyThou, Excellent) ?, ?, ?, ?;
+  (False, FiftyThou, Excellent) ?, ?, ?, ?;
+  (True, Domino, Excellent) ?, ?, ?, ?;
+  (False, Domino, Excellent) ?, ?, ?, ?;
+}
+probability ( MakeModel | SocioEcon, RiskAversion ) {
+  (Prole, Psychopath) ?, ?, ?, ?, ?;
+  (Middle, Psychopath) ?, ?, ?, ?, ?;
+  (UpperMiddle, Psychopath) ?, ?, ?, ?, ?;
+  (Wealthy, Psychopath) ?, ?, ?, ?, ?;
+  (Prole, Adventurous) ?, ?, ?, ?, ?;
+  (Middle, Adventurous) ?, ?, ?, ?, ?;
+  (UpperMiddle, Adventurous) ?, ?, ?, ?, ?;
+  (Wealthy, Adventurous) ?, ?, ?, ?, ?;
+  (Prole, Normal) ?, ?, ?, ?, ?;
+  (Middle, Normal) ?, ?, ?, ?, ?;
+  (UpperMiddle, Normal) ?, ?, ?, ?, ?;
+  (Wealthy, Normal) ?, ?, ?, ?, ?;
+  (Prole, Cautious) ?, ?, ?, ?, ?;
+  (Middle, Cautious) ?, ?, ?, ?, ?;
+  (UpperMiddle, Cautious) ?, ?, ?, ?, ?;
+  (Wealthy, Cautious) ?, ?, ?, ?, ?;
+}
+probability ( DrivQuality | DrivingSkill, RiskAversion ) {
+  (SubStandard, Psychopath) ?, ?, ?;
+  (Normal, Psychopath) ?, ?, ?;
+  (Expert, Psychopath) ?, ?, ?;
+  (SubStandard, Adventurous) ?, ?, ?;
+  (Normal, Adventurous) ?, ?, ?;
+  (Expert, Adventurous) ?, ?, ?;
+  (SubStandard, Normal) ?, ?, ?;
+  (Normal, Normal) ?, ?, ?;
+  (Expert, Normal) ?, ?, ?;
+  (SubStandard, Cautious) ?, ?, ?;
+  (Normal, Cautious) ?, ?, ?;
+  (Expert, Cautious) ?, ?, ?;
+}
+probability ( Mileage ) {
+  table ?, ?, ?, ?;
+}
+probability ( Antilock | MakeModel, VehicleYear ) {
+  (SportsCar, Current) ?, ?;
+  (Economy, Current) ?, ?;
+  (FamilySedan, Current) ?, ?;
+  (Luxury, Current) ?, ?;
+  (SuperLuxury, Current) ?, ?;
+  (SportsCar, Older) ?, ?;
+  (Economy, Older) ?, ?;
+  (FamilySedan, Older) ?, ?;
+  (Luxury, Older) ?, ?;
+  (SuperLuxury, Older) ?, ?;
+}
+probability ( DrivingSkill | Age, SeniorTrain ) {
+  (Adolescent, True) ?, ?, ?;
+  (Adult, True) ?, ?, ?;
+  (Senior, True) ?, ?, ?;
+  (Adolescent, False) ?, ?, ?;
+  (Adult, False) ?, ?, ?;
+  (Senior, False) ?, ?, ?;
+}
+probability ( SeniorTrain | Age, RiskAversion ) {
+  (Adolescent, Psychopath) ?, ?;
+  (Adult, Psychopath) ?, ?;
+  (Senior, Psychopath) ?, ?;
+  (Adolescent, Adventurous) ?, ?;
+  (Adult, Adventurous) ?, ?;
+  (Senior, Adventurous) ?, ?;
+  (Adolescent, Normal) ?, ?;
+  (Adult, Normal) ?, ?;
+  (Senior, Normal) ?, ?;
+  (Adolescent, Cautious) ?, ?;
+  (Adult, Cautious) ?, ?;
+  (Senior, Cautious) ?, ?;
+}
+probability ( ThisCarCost | ThisCarDam, CarValue, Theft ) {
+  (None, FiveThou, True) ?, ?, ?, ?;
+  (Mild, FiveThou, True) ?, ?, ?, ?;
+  (Moderate, FiveThou, True) ?, ?, ?, ?;
+  (Severe, FiveThou, True) ?, ?, ?, ?;
+  (None, TenThou, True) ?, ?, ?, ?;
+  (Mild, TenThou, True) ?, ?, ?, ?;
+  (Moderate, TenThou, True) ?, ?, ?, ?;
+  (Severe, TenThou, True) ?, ?, ?, ?;
+  (None, TwentyThou, True) ?, ?, ?, ?;
+  (Mild, TwentyThou, True) ?, ?, ?, ?;
+  (Moderate, TwentyThou, True) ?, ?, ?, ?;
+  (Severe, TwentyThou, True) ?, ?, ?, ?;
+  (None, FiftyThou, True) ?, ?, ?, ?;
+  (Mild, FiftyThou, True) ?, ?, ?, ?;
+  (Moderate, FiftyThou, True) ?, ?, ?, ?;
+  (Severe, FiftyThou, True) ?, ?, ?, ?;
+  (None, Million, True) ?, ?, ?, ?;
+  (Mild, Million, True) ?, ?, ?, ?;
+  (Moderate, Million, True) ?, ?, ?, ?;
+  (Severe, Million, True) ?, ?, ?, ?;
+  (None, FiveThou, False) ?, ?, ?, ?;
+  (Mild, FiveThou, False) ?, ?, ?, ?;
+  (Moderate, FiveThou, False) ?, ?, ?, ?;
+  (Severe, FiveThou, False) ?, ?, ?, ?;
+  (None, TenThou, False) ?, ?, ?, ?;
+  (Mild, TenThou, False) ?, ?, ?, ?;
+  (Moderate, TenThou, False) ?, ?, ?, ?;
+  (Severe, TenThou, False) ?, ?, ?, ?;
+  (None, TwentyThou, False) ?, ?, ?, ?;
+  (Mild, TwentyThou, False) ?, ?, ?, ?;
+  (Moderate, TwentyThou, False) ?, ?, ?, ?;
+  (Severe, TwentyThou, False) ?, ?, ?, ?;
+  (None, FiftyThou, False) ?, ?, ?, ?;
+  (Mild, FiftyThou, False) ?, ?, ?, ?;
+  (Moderate, FiftyThou, False) ?, ?, ?, ?;
+  (Severe, FiftyThou, False) ?, ?, ?, ?;
+  (None, Million, False) ?, ?, ?, ?;
+  (Mild, Million, False) ?, ?, ?, ?;
+  (Moderate, Million, False) ?, ?, ?, ?;
+  (Severe, Million, False) ?, ?, ?, ?;
+}
+probability ( Theft | AntiTheft, HomeBase, CarValue ) {
+  (True, Secure, FiveThou) ?, ?;
+  (False, Secure, FiveThou) ?, ?;
+  (True, City, FiveThou) ?, ?;
+  (False, City, FiveThou) ?, ?;
+  (True, Suburb, FiveThou) ?, ?;
+  (False, Suburb, FiveThou) ?, ?;
+  (True, Rural, FiveThou) ?, ?;
+  (False, Rural, FiveThou) ?, ?;
+  (True, Secure, TenThou) ?, ?;
+  (False, Secure, TenThou) ?, ?;
+  (True, City, TenThou) ?, ?;
+  (False, City, TenThou) ?, ?;
+  (True, Suburb, TenThou) ?, ?;
+  (False, Suburb, TenThou) ?, ?;
+  (True, Rural, TenThou) ?, ?;
+  (False, Rural, TenThou) ?, ?;
+  (True, Secure, TwentyThou) ?, ?;
+  (False, Secure, TwentyThou) ?, ?;
+  (True, City, TwentyThou) ?, ?;
+  (False, City, TwentyThou) ?, ?;
+  (True, Suburb, TwentyThou) ?, ?;
+  (False, Suburb, TwentyThou) ?, ?;
+  (True, Rural, TwentyThou) ?, ?;
+  (False, Rural, TwentyThou) ?, ?;
+  (True, Secure, FiftyThou) ?, ?;
+  (False, Secure, FiftyThou) ?, ?;
+  (True, City, FiftyThou) ?, ?;
+  (False, City, FiftyThou) ?, ?;
+  (True, Suburb, FiftyThou) ?, ?;
+  (False, Suburb, FiftyThou) ?, ?;
+  (True, Rural, FiftyThou) ?, ?;
+  (False, Rural, FiftyThou) ?, ?;
+  (True, Secure, Million) ?, ?;
+  (False, Secure, Million) ?, ?;
+  (True, City, Million) ?, ?;
+  (False, City, Million) ?, ?;
+  (True, Suburb, Million) ?, ?;
+  (False, Suburb, Million) ?, ?;
+  (True, Rural, Million) ?, ?;
+  (False, Rural, Million) ?, ?;
+}
+probability ( CarValue | MakeModel, VehicleYear, Mileage ) {
+  (SportsCar, Current, FiveThou) ?, ?, ?, ?, ?;
+  (Economy, Current, FiveThou) ?, ?, ?, ?, ?;
+  (FamilySedan, Current, FiveThou) ?, ?, ?, ?, ?;
+  (Luxury, Current, FiveThou) ?, ?, ?, ?, ?;
+  (SuperLuxury, Current, FiveThou) ?, ?, ?, ?, ?;
+  (SportsCar, Older, FiveThou) ?, ?, ?, ?, ?;
+  (Economy, Older, FiveThou) ?, ?, ?, ?, ?;
+  (FamilySedan, Older, FiveThou) ?, ?, ?, ?, ?;
+  (Luxury, Older, FiveThou) ?, ?, ?, ?, ?;
+  (SuperLuxury, Older, FiveThou) ?, ?, ?, ?, ?;
+  (SportsCar, Current, TwentyThou) ?, ?, ?, ?, ?;
+  (Economy, Current, TwentyThou) ?, ?, ?, ?, ?;
+  (FamilySedan, Current, TwentyThou) ?, ?, ?, ?, ?;
+  (Luxury, Current, TwentyThou) ?, ?, ?, ?, ?;
+  (SuperLuxury, Current, TwentyThou) ?, ?, ?, ?, ?;
+  (SportsCar, Older, TwentyThou) ?, ?, ?, ?, ?;
+  (Economy, Older, TwentyThou) ?, ?, ?, ?, ?;
+  (FamilySedan, Older, TwentyThou) ?, ?, ?, ?, ?;
+  (Luxury, Older, TwentyThou) ?, ?, ?, ?, ?;
+  (SuperLuxury, Older, TwentyThou) ?, ?, ?, ?, ?;
+  (SportsCar, Current, FiftyThou) ?, ?, ?, ?, ?;
+  (Economy, Current, FiftyThou) ?, ?, ?, ?, ?;
+  (FamilySedan, Current, FiftyThou) ?, ?, ?, ?, ?;
+  (Luxury, Current, FiftyThou) ?, ?, ?, ?, ?;
+  (SuperLuxury, Current, FiftyThou) ?, ?, ?, ?, ?;
+  (SportsCar, Older, FiftyThou) ?, ?, ?, ?, ?;
+  (Economy, Older, FiftyThou) ?, ?, ?, ?, ?;
+  (FamilySedan, Older, FiftyThou) ?, ?, ?, ?, ?;
+  (Luxury, Older, FiftyThou) ?, ?, ?, ?, ?;
+  (SuperLuxury, Older, FiftyThou) ?, ?, ?, ?, ?;
+  (SportsCar, Current, Domino) ?, ?, ?, ?, ?;
+  (Economy, Current, Domino) ?, ?, ?, ?, ?;
+  (FamilySedan, Current, Domino) ?, ?, ?, ?, ?;
+  (Luxury, Current, Domino) ?, ?, ?, ?, ?;
+  (SuperLuxury, Current, Domino) ?, ?, ?, ?, ?;
+  (SportsCar, Older, Domino) ?, ?, ?, ?, ?;
+  (Economy, Older, Domino) ?, ?, ?, ?, ?;
+  (FamilySedan, Older, Domino) ?, ?, ?, ?, ?;
+  (Luxury, Older, Domino) ?, ?, ?, ?, ?;
+  (SuperLuxury, Older, Domino) ?, ?, ?, ?, ?;
+}
+probability ( HomeBase | RiskAversion, SocioEcon ) {
+  (Psychopath, Prole) ?, ?, ?, ?;
+  (Adventurous, Prole) ?, ?, ?, ?;
+  (Normal, Prole) ?, ?, ?, ?;
+  (Cautious, Prole) ?, ?, ?, ?;
+  (Psychopath, Middle) ?, ?, ?, ?;
+  (Adventurous, Middle) ?, ?, ?, ?;
+  (Normal, Middle) ?, ?, ?, ?;
+  (Cautious, Middle) ?, ?, ?, ?;
+  (Psychopath, UpperMiddle) ?, ?, ?, ?;
+  (Adventurous, UpperMiddle) ?, ?, ?, ?;
+  (Normal, UpperMiddle) ?, ?, ?, ?;
+  (Cautious, UpperMiddle) ?, ?, ?, ?;
+  (Psychopath, Wealthy) ?, ?, ?, ?;
+  (Adventurous, Wealthy) ?, ?, ?, ?;
+  (Normal, Wealthy) ?, ?, ?, ?;
+  (Cautious, Wealthy) ?, ?, ?, ?;
+}
+probability ( AntiTheft | RiskAversion, SocioEcon ) {
+  (Psychopath, Prole) ?, ?;
+  (Adventurous, Prole) ?, ?;
+  (Normal, Prole) ?, ?;
+  (Cautious, Prole) ?, ?;
+  (Psychopath, Middle) ?, ?;
+  (Adventurous, Middle) ?, ?;
+  (Normal, Middle) ?, ?;
+  (Cautious, Middle) ?, ?;
+  (Psychopath, UpperMiddle) ?, ?;
+  (Adventurous, UpperMiddle) ?, ?;
+  (Normal, UpperMiddle) ?, ?;
+  (Cautious, UpperMiddle) ?, ?;
+  (Psychopath, Wealthy) ?, ?;
+  (Adventurous, Wealthy) ?, ?;
+  (Normal, Wealthy) ?, ?;
+  (Cautious, Wealthy) ?, ?;
+}
+probability ( PropCost | OtherCarCost, ThisCarCost ) {
+  (Thousand, Thousand) ?, ?, ?, ?;
+  (TenThou, Thousand) ?, ?, ?, ?;
+  (HundredThou, Thousand) ?, ?, ?, ?;
+  (Million, Thousand) ?, ?, ?, ?;
+  (Thousand, TenThou) ?, ?, ?, ?;
+  (TenThou, TenThou) ?, ?, ?, ?;
+  (HundredThou, TenThou) ?, ?, ?, ?;
+  (Million, TenThou) ?, ?, ?, ?;
+  (Thousand, HundredThou) ?, ?, ?, ?;
+  (TenThou, HundredThou) ?, ?, ?, ?;
+  (HundredThou, HundredThou) ?, ?, ?, ?;
+  (Million, HundredThou) ?, ?, ?, ?;
+  (Thousand, Million) ?, ?, ?, ?;
+  (TenThou, Million) ?, ?, ?, ?;
+  (HundredThou, Million) ?, ?, ?, ?;
+  (Million, Million) ?, ?, ?, ?;
+}
+probability ( OtherCarCost | Accident, RuggedAuto ) {
+  (None, EggShell) ?, ?, ?, ?;
+  (Mild, EggShell) ?, ?, ?, ?;
+  (Moderate, EggShell) ?, ?, ?, ?;
+  (Severe, EggShell) ?, ?, ?, ?;
+  (None, Football) ?, ?, ?, ?;
+  (Mild, Football) ?, ?, ?, ?;
+  (Moderate, Football) ?, ?, ?, ?;
+  (Severe, Football) ?, ?, ?, ?;
+  (None, Tank) ?, ?, ?, ?;
+  (Mild, Tank) ?, ?, ?, ?;
+  (Moderate, Tank) ?, ?, ?, ?;
+  (Severe, Tank) ?, ?, ?, ?;
+}
+probability ( OtherCar | SocioEcon ) {
+  (Prole) ?, ?;
+  (Middle) ?, ?;
+  (UpperMiddle) ?, ?;
+  (Wealthy) ?, ?;
+}
+probability ( MedCost | Accident, Age, Cushioning ) {
+  (None, Adolescent, Poor) ?, ?, ?, ?;
+  (Mild, Adolescent, Poor) ?, ?, ?, ?;
+  (Moderate, Adolescent, Poor) ?, ?, ?, ?;
+  (Severe, Adolescent, Poor) ?, ?, ?, ?;
+  (None, Adult, Poor) ?, ?, ?, ?;
+  (Mild, Adult, Poor) ?, ?, ?, ?;
+  (Moderate, Adult, Poor) ?, ?, ?, ?;
+  (Severe, Adult, Poor) ?, ?, ?, ?;
+  (None, Senior, Poor) ?, ?, ?, ?;
+  (Mild, Senior, Poor) ?, ?, ?, ?;
+  (Moderate, Senior, Poor) ?, ?, ?, ?;
+  (Severe, Senior, Poor) ?, ?, ?, ?;
+  (None, Adolescent, Fair) ?, ?, ?, ?;
+  (Mild, Adolescent, Fair) ?, ?, ?, ?;
+  (Moderate, Adolescent, Fair) ?, ?, ?, ?;
+  (Severe, Adolescent, Fair) ?, ?, ?, ?;
+  (None, Adult, Fair) ?, ?, ?, ?;
+  (Mild, Adult, Fair) ?, ?, ?, ?;
+  (Moderate, Adult, Fair) ?, ?, ?, ?;
+  (Severe, Adult, Fair) ?, ?, ?, ?;
+  (None, Senior, Fair) ?, ?, ?, ?;
+  (Mild, Senior, Fair) ?, ?, ?, ?;
+  (Moderate, Senior, Fair) ?, ?, ?, ?;
+  (Severe, Senior, Fair) ?, ?, ?, ?;
+  (None, Adolescent, Good) ?, ?, ?, ?;
+  (Mild, Adolescent, Good) ?, ?, ?, ?;
+  (Moderate, Adolescent, Good) ?, ?, ?, ?;
+  (Severe, Adolescent, Good) ?, ?, ?, ?;
+  (None, Adult, Good) ?, ?, ?, ?;
+  (Mild, Adult, Good) ?, ?, ?, ?;
+  (Moderate, Adult, Good) ?, ?, ?, ?;
+  (Severe, Adult, Good) ?, ?, ?, ?;
+  (None, Senior, Good) ?, ?, ?, ?;
+  (Mild, Senior, Good) ?, ?, ?, ?;
+  (Moderate, Senior, Good) ?, ?, ?, ?;
+  (Severe, Senior, Good) ?, ?, ?, ?;
+  (None, Adolescent, Excellent) ?, ?, ?, ?;
+  (Mild, Adolescent, Excellent) ?, ?, ?, ?;
+  (Moderate, Adolescent, Excellent) ?, ?, ?, ?;
+  (Severe, Adolescent, Excellent) ?, ?, ?, ?;
+  (None, Adult, Excellent) ?, ?, ?, ?;
+  (Mild, Adult, Excellent) ?, ?, ?, ?;
+  (Moderate, Adult, Excellent) ?, ?, ?, ?;
+  (Severe, Adult, Excellent) ?, ?, ?, ?;
+  (None, Senior, Excellent) ?, ?, ?, ?;
+  (Mild, Senior, Excellent) ?, ?, ?, ?;
+  (Moderate, Senior, Excellent) ?, ?, ?, ?;
+  (Severe, Senior, Excellent) ?, ?, ?, ?;
+}
+probability ( Cushioning | RuggedAuto, Airbag ) {
+  (EggShell, True) ?, ?, ?, ?;
+  (Football, True) ?, ?, ?, ?;
+  (Tank, True) ?, ?, ?, ?;
+  (EggShell, False) ?, ?, ?, ?;
+  (Football, False) ?, ?, ?, ?;
+  (Tank, False) ?, ?, ?, ?;
+}
+probability ( Airbag | MakeModel, VehicleYear ) {
+  (SportsCar, Current) ?, ?;
+  (Economy, Current) ?, ?;
+  (FamilySedan, Current) ?, ?;
+  (Luxury, Current) ?, ?;
+  (SuperLuxury, Current) ?, ?;
+  (SportsCar, Older) ?, ?;
+  (Economy, Older) ?, ?;
+  (FamilySedan, Older) ?, ?;
+  (Luxury, Older) ?, ?;
+  (SuperLuxury, Older) ?, ?;
+}
+probability ( ILiCost | Accident ) {
+  (None) ?, ?, ?, ?;
+  (Mild) ?, ?, ?, ?;
+  (Moderate) ?, ?, ?, ?;
+  (Severe) ?, ?, ?, ?;
+}
+probability ( DrivHist | DrivingSkill, RiskAversion ) {
+  (SubStandard, Psychopath) ?, ?, ?;
+  (Normal, Psychopath) ?, ?, ?;
+  (Expert, Psychopath) ?, ?, ?;
+  (SubStandard, Adventurous) ?, ?, ?;
+  (Normal, Adventurous) ?, ?, ?;
+  (Expert, Adventurous) ?, ?, ?;
+  (SubStandard, Normal) ?, ?, ?;
+  (Normal, Normal) ?, ?, ?;
+  (Expert, Normal) ?, ?, ?;
+  (SubStandard, Cautious) ?, ?, ?;
+  (Normal, Cautious) ?, ?, ?;
+  (Expert, Cautious) ?, ?, ?;
+}

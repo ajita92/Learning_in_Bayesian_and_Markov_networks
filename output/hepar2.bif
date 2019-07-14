@@ -1,0 +1,1037 @@
+network unknown{}
+variable alcoholism {
+type discrete [ 2 ] { absent, present };
+}
+variable vh_amn {
+type discrete [ 2 ] { absent, present };
+}
+variable hepatotoxic {
+type discrete [ 2 ] { absent, present };
+}
+variable THepatitis {
+type discrete [ 2 ] { absent, present };
+}
+variable hospital {
+type discrete [ 2 ] { absent, present };
+}
+variable surgery {
+type discrete [ 2 ] { absent, present };
+}
+variable gallstones {
+type discrete [ 2 ] { absent, present };
+}
+variable choledocholithotomy {
+type discrete [ 2 ] { absent, present };
+}
+variable injections {
+type discrete [ 2 ] { absent, present };
+}
+variable transfusion {
+type discrete [ 2 ] { absent, present };
+}
+variable ChHepatitis {
+type discrete [ 3 ] { absent, persistent, active };
+}
+variable sex {
+type discrete [ 2 ] { male, female };
+}
+variable age {
+type discrete [ 4 ] { age0_30, age31_50, age51_65, age65_100 };
+}
+variable PBC {
+type discrete [ 2 ] { absent, present };
+}
+variable fibrosis {
+type discrete [ 2 ] { absent, present };
+}
+variable diabetes {
+type discrete [ 2 ] { absent, present };
+}
+variable obesity {
+type discrete [ 2 ] { absent, present };
+}
+variable Steatosis {
+type discrete [ 2 ] { absent, present };
+}
+variable Cirrhosis {
+type discrete [ 3 ] { absent, compensate, decompensate };
+}
+variable Hyperbilirubinemia {
+type discrete [ 2 ] { absent, present };
+}
+variable triglycerides {
+type discrete [ 3 ] { a1_0, a3_2, a17_4 };
+}
+variable RHepatitis {
+type discrete [ 2 ] { absent, present };
+}
+variable fatigue {
+type discrete [ 2 ] { absent, present };
+}
+variable bilirubin {
+type discrete [ 4 ] { a1_0, a6_2, a19_7, a88_20 };
+}
+variable itching {
+type discrete [ 2 ] { absent, present };
+}
+variable upper_pain {
+type discrete [ 2 ] { absent, present };
+}
+variable fat {
+type discrete [ 2 ] { absent, present };
+}
+variable pain_ruq {
+type discrete [ 2 ] { absent, present };
+}
+variable pressure_ruq {
+type discrete [ 2 ] { absent, present };
+}
+variable phosphatase {
+type discrete [ 3 ] { a239_0, a699_240, a4000_700 };
+}
+variable skin {
+type discrete [ 2 ] { absent, present };
+}
+variable ama {
+type discrete [ 2 ] { absent, present };
+}
+variable le_cells {
+type discrete [ 2 ] { absent, present };
+}
+variable joints {
+type discrete [ 2 ] { absent, present };
+}
+variable pain {
+type discrete [ 2 ] { absent, present };
+}
+variable proteins {
+type discrete [ 2 ] { a5_2, a10_6 };
+}
+variable edema {
+type discrete [ 2 ] { absent, present };
+}
+variable platelet {
+type discrete [ 4 ] { a99_0, a149_100, a299_150, a597_300 };
+}
+variable inr {
+type discrete [ 3 ] { a69_0, a109_70, a200_110 };
+}
+variable bleeding {
+type discrete [ 2 ] { absent, present };
+}
+variable flatulence {
+type discrete [ 2 ] { absent, present };
+}
+variable alcohol {
+type discrete [ 2 ] { absent, present };
+}
+variable encephalopathy {
+type discrete [ 2 ] { absent, present };
+}
+variable urea {
+type discrete [ 3 ] { a39_0, a49_40, a165_50 };
+}
+variable ascites {
+type discrete [ 2 ] { absent, present };
+}
+variable hepatomegaly {
+type discrete [ 2 ] { absent, present };
+}
+variable hepatalgia {
+type discrete [ 2 ] { absent, present };
+}
+variable density {
+type discrete [ 2 ] { absent, present };
+}
+variable ESR {
+type discrete [ 3 ] { a14_0, a49_15, a200_50 };
+}
+variable alt {
+type discrete [ 4 ] { a34_0, a99_35, a199_100, a850_200 };
+}
+variable ast {
+type discrete [ 4 ] { a39_0, a149_40, a399_150, a700_400 };
+}
+variable amylase {
+type discrete [ 3 ] { a299_0, a499_300, a1400_500 };
+}
+variable ggtp {
+type discrete [ 4 ] { a9_0, a29_10, a69_30, a640_70 };
+}
+variable cholesterol {
+type discrete [ 3 ] { a239_0, a349_240, a999_350 };
+}
+variable hbsag {
+type discrete [ 2 ] { absent, present };
+}
+variable hbsag_anti {
+type discrete [ 2 ] { absent, present };
+}
+variable anorexia {
+type discrete [ 2 ] { absent, present };
+}
+variable nausea {
+type discrete [ 2 ] { absent, present };
+}
+variable spleen {
+type discrete [ 2 ] { absent, present };
+}
+variable consciousness {
+type discrete [ 2 ] { absent, present };
+}
+variable spiders {
+type discrete [ 2 ] { absent, present };
+}
+variable jaundice {
+type discrete [ 2 ] { absent, present };
+}
+variable albumin {
+type discrete [ 3 ] { a29_0, a49_30, a70_50 };
+}
+variable edge {
+type discrete [ 2 ] { absent, present };
+}
+variable irregular_liver {
+type discrete [ 2 ] { absent, present };
+}
+variable hbc_anti {
+type discrete [ 2 ] { absent, present };
+}
+variable hcv_anti {
+type discrete [ 2 ] { absent, present };
+}
+variable palms {
+type discrete [ 2 ] { absent, present };
+}
+variable hbeag {
+type discrete [ 2 ] { absent, present };
+}
+variable carcinoma {
+type discrete [ 2 ] { absent, present };
+}
+probability ( alcoholism ) {
+table 0.863538, 0.136462;
+}
+probability ( vh_amn ) {
+table 0.827736, 0.172264;
+}
+probability ( hepatotoxic ) {
+table 0.919004, 0.0809958;
+}
+probability ( THepatitis | alcoholism, hepatotoxic ) {
+(absent, absent) 0.96727, 0.0327301;
+(absent, present) 0.998212, 0.00178827;
+(present, absent) 0.911826, 0.0881738;
+(present, present) 0.803045, 0.196955;
+}
+probability ( hospital ) {
+table 0.465517, 0.534483;
+}
+probability ( surgery ) {
+table 0.577266, 0.422734;
+}
+probability ( gallstones ) {
+table 0.84708, 0.15292;
+}
+probability ( choledocholithotomy | gallstones ) {
+(absent) 0.962778, 0.0372219;
+(present) 0.29134, 0.70866;
+}
+probability ( injections | choledocholithotomy, surgery, hospital ) {
+(absent, absent, absent) 0.935645, 0.064355;
+(absent, absent, present) 0.518313, 0.481687;
+(absent, present, absent) 0.766732, 0.233268;
+(absent, present, present) 0.282701, 0.717299;
+(present, absent, absent) 0.989434, 0.0105656;
+(present, absent, present) 0.164689, 0.835311;
+(present, present, absent) 0.623094, 0.376906;
+(present, present, present) 0.199159, 0.800841;
+}
+probability ( transfusion | choledocholithotomy, surgery, hospital ) {
+(absent, absent, absent) 0.989399, 0.0106009;
+(absent, absent, present) 0.881043, 0.118957;
+(absent, present, absent) 0.700428, 0.299572;
+(absent, present, present) 0.70861, 0.29139;
+(present, absent, absent) 0.989434, 0.0105656;
+(present, absent, present) 0.831156, 0.168844;
+(present, present, absent) 0.873769, 0.126231;
+(present, present, present) 0.667845, 0.332155;
+}
+probability ( ChHepatitis | injections, vh_amn, transfusion ) {
+(absent, absent, absent) 0.816781, 0.0531445, 0.130074;
+(absent, absent, present) 0.825306, 0.0453285, 0.129365;
+(absent, present, absent) 0.620743, 0.139019, 0.240238;
+(absent, present, present) 0.223953, 0.31058, 0.465467;
+(present, absent, absent) 0.916187, 0.00556181, 0.0782512;
+(present, absent, present) 0.879855, 0.059298, 0.0608474;
+(present, present, absent) 0.795608, 0.0506793, 0.153713;
+(present, present, present) 0.790945, 0.00472912, 0.204326;
+}
+probability ( sex ) {
+table 0.403179, 0.596821;
+}
+probability ( age ) {
+table 0.137176, 0.398315, 0.387677, 0.0768307;
+}
+probability ( PBC | age, sex ) {
+(age0_30, male) 0.99833, 0.00167006;
+(age0_30, female) 0.873386, 0.126614;
+(age31_50, male) 0.933092, 0.0669078;
+(age31_50, female) 0.386475, 0.613525;
+(age51_65, male) 0.914981, 0.0850194;
+(age51_65, female) 0.300178, 0.699822;
+(age65_100, male) 0.630361, 0.369639;
+(age65_100, female) 0.345626, 0.654374;
+}
+probability ( fibrosis | ChHepatitis ) {
+(absent) 0.999035, 0.000964766;
+(persistent) 0.949388, 0.0506122;
+(active) 0.700581, 0.299419;
+}
+probability ( diabetes ) {
+table 0.964575, 0.0354249;
+}
+probability ( obesity | diabetes ) {
+(absent) 0.937456, 0.0625444;
+(present) 0.760176, 0.239824;
+}
+probability ( Steatosis | alcoholism, obesity ) {
+(absent, absent) 0.936371, 0.0636289;
+(absent, present) 0.807411, 0.192589;
+(present, absent) 0.76093, 0.23907;
+(present, present) 0.629944, 0.370056;
+}
+probability ( Cirrhosis | Steatosis, fibrosis ) {
+(absent, absent) 0.997957, 0.00106864, 0.000973909;
+(absent, present) 0.305717, 0.206085, 0.488198;
+(present, absent) 0.502244, 0.1497, 0.348056;
+(present, present) 0.212591, 0.238571, 0.548838;
+}
+probability ( Hyperbilirubinemia | sex, age ) {
+(male, age0_30) 0.549339, 0.450661;
+(male, age31_50) 0.923892, 0.0761079;
+(male, age51_65) 0.978547, 0.0214528;
+(male, age65_100) 0.995641, 0.00435925;
+(female, age0_30) 0.784595, 0.215405;
+(female, age31_50) 0.954028, 0.0459716;
+(female, age51_65) 0.989014, 0.0109863;
+(female, age65_100) 0.996888, 0.00311158;
+}
+probability ( triglycerides | Steatosis ) {
+(absent) 0.944785, 0.0314352, 0.0237798;
+(present) 0.656611, 0.163541, 0.179848;
+}
+probability ( RHepatitis | hepatotoxic ) {
+(absent) 0.975181, 0.0248192;
+(present) 0.982493, 0.0175068;
+}
+probability ( fatigue | RHepatitis, THepatitis, ChHepatitis ) {
+(absent, absent, absent) 0.463785, 0.536215;
+(absent, absent, persistent) 0.469775, 0.530225;
+(absent, absent, active) 0.396602, 0.603398;
+(absent, present, absent) 0.336077, 0.663923;
+(absent, present, persistent) 0.411294, 0.588706;
+(absent, present, active) 0.375709, 0.624291;
+(present, absent, absent) 0.290348, 0.709652;
+(present, absent, persistent) 0.41443, 0.58557;
+(present, absent, active) 0.376636, 0.623364;
+(present, present, absent) 0.383439, 0.616561;
+(present, present, persistent) 0.5, 0.5;
+(present, present, active) 0.281553, 0.718447;
+}
+probability ( bilirubin | ChHepatitis, gallstones, Cirrhosis, PBC, Hyperbilirubinemia ) {
+(absent, absent, absent, absent, absent) 0.843957, 0.134222, 0.0211379, 0.000682926;
+(absent, absent, absent, absent, present) 0.449048, 0.546968, 0.00190307, 0.00208069;
+(absent, absent, absent, present, absent) 0.414656, 0.388838, 0.16646, 0.0300458;
+(absent, absent, absent, present, present) 0.438287, 0.406127, 0.131181, 0.0244057;
+(absent, absent, compensate, absent, absent) 0.833389, 0.0975083, 0.0358804, 0.0332226;
+(absent, absent, compensate, absent, present) 0.622291, 0.369969, 0.00309598, 0.00464396;
+(absent, absent, compensate, present, absent) 0.500372, 0.336975, 0.133598, 0.0290539;
+(absent, absent, compensate, present, present) 0.459259, 0.37037, 0.133333, 0.037037;
+(absent, absent, decompensate, absent, absent) 0.416197, 0.436535, 0.131012, 0.0162559;
+(absent, absent, decompensate, absent, present) 0.514503, 0.42058, 0.0628453, 0.00207182;
+(absent, absent, decompensate, present, absent) 0.442098, 0.382052, 0.151435, 0.0244144;
+(absent, absent, decompensate, present, present) 0.387097, 0.467742, 0.116129, 0.0290323;
+(absent, present, absent, absent, absent) 0.952179, 0.0154933, 0.0162381, 0.0160891;
+(absent, present, absent, absent, present) 0.76259, 0.0828722, 0.0754012, 0.0791367;
+(absent, present, absent, present, absent) 0.304308, 0.368445, 0.244159, 0.0830888;
+(absent, present, absent, present, present) 0.339648, 0.366035, 0.219892, 0.0744249;
+(absent, present, compensate, absent, absent) 0.456562, 0.457486, 0.038817, 0.0471349;
+(absent, present, compensate, absent, present) 0.541667, 0.408333, 0.0166667, 0.0333333;
+(absent, present, compensate, present, absent) 0.348649, 0.344595, 0.228378, 0.0783784;
+(absent, present, compensate, present, present) 0.333333, 0.333333, 0.212121, 0.121212;
+(absent, present, decompensate, absent, absent) 0.758384, 0.0177778, 0.201212, 0.0226263;
+(absent, present, decompensate, absent, present) 0.645522, 0.261194, 0.0858209, 0.00746269;
+(absent, present, decompensate, present, absent) 0.339427, 0.350396, 0.235832, 0.0743449;
+(absent, present, decompensate, present, present) 0.220339, 0.355932, 0.288136, 0.135593;
+(persistent, absent, absent, absent, absent) 0.937375, 0.0568874, 0.00289107, 0.0028466;
+(persistent, absent, absent, absent, present) 0.671697, 0.325449, 0.00163132, 0.00122349;
+(persistent, absent, absent, present, absent) 0.488889, 0.334001, 0.147614, 0.0294962;
+(persistent, absent, absent, present, present) 0.464981, 0.404669, 0.114786, 0.0155642;
+(persistent, absent, compensate, absent, absent) 0.863222, 0.107903, 0.0121581, 0.0167173;
+(persistent, absent, compensate, absent, present) 0.653846, 0.307692, 0.0128205, 0.025641;
+(persistent, absent, compensate, present, absent) 0.510811, 0.316216, 0.140541, 0.0324324;
+(persistent, absent, compensate, present, present) 0.428571, 0.285714, 0.142857, 0.142857;
+(persistent, absent, decompensate, absent, absent) 0.666422, 0.248347, 0.0712711, 0.0139603;
+(persistent, absent, decompensate, absent, present) 0.583333, 0.356061, 0.0530303, 0.00757576;
+(persistent, absent, decompensate, present, absent) 0.471562, 0.364012, 0.142709, 0.0217166;
+(persistent, absent, decompensate, present, present) 0.4375, 0.4375, 0.09375, 0.03125;
+(persistent, present, absent, absent, absent) 0.773431, 0.0741646, 0.0736213, 0.0787829;
+(persistent, present, absent, absent, present) 0.685851, 0.294964, 0.00479616, 0.0143885;
+(persistent, present, absent, present, absent) 0.395487, 0.359857, 0.187253, 0.057403;
+(persistent, present, absent, present, present) 0.472973, 0.256757, 0.162162, 0.108108;
+(persistent, present, compensate, absent, absent) 0.522124, 0.442478, 0.0176991, 0.0176991;
+(persistent, present, compensate, absent, present) 0.333333, 0.5, 0.0833333, 0.0833333;
+(persistent, present, compensate, present, absent) 0.441176, 0.323529, 0.161765, 0.0735294;
+(persistent, present, compensate, present, present) 0.142857, 0.285714, 0.285714, 0.285714;
+(persistent, present, decompensate, absent, absent) 0.476923, 0.326923, 0.161538, 0.0346154;
+(persistent, present, decompensate, absent, present) 0.576923, 0.230769, 0.153846, 0.0384615;
+(persistent, present, decompensate, present, absent) 0.283784, 0.405405, 0.263514, 0.0472973;
+(persistent, present, decompensate, present, present) 0.25, 0.375, 0.125, 0.25;
+(active, absent, absent, absent, absent) 0.814567, 0.149091, 0.0242999, 0.0120417;
+(active, absent, absent, absent, present) 0.679886, 0.306081, 0.0130161, 0.00101688;
+(active, absent, absent, present, absent) 0.480226, 0.326624, 0.153215, 0.0399354;
+(active, absent, absent, present, present) 0.517766, 0.328934, 0.126904, 0.0263959;
+(active, absent, compensate, absent, absent) 0.825338, 0.137157, 0.0189708, 0.0185347;
+(active, absent, compensate, absent, present) 0.704167, 0.264583, 0.0270833, 0.00416667;
+(active, absent, compensate, present, absent) 0.515091, 0.316566, 0.132797, 0.0355466;
+(active, absent, compensate, present, present) 0.484848, 0.343434, 0.151515, 0.020202;
+(active, absent, decompensate, absent, absent) 0.662959, 0.245052, 0.0770971, 0.0148916;
+(active, absent, decompensate, absent, present) 0.626384, 0.326568, 0.045203, 0.00184502;
+(active, absent, decompensate, present, absent) 0.471355, 0.351475, 0.146376, 0.0307935;
+(active, absent, decompensate, present, present) 0.495798, 0.386555, 0.10084, 0.0168067;
+(active, present, absent, absent, absent) 0.789541, 0.193154, 0.00877974, 0.00852526;
+(active, present, absent, absent, present) 0.636163, 0.357222, 0.00330761, 0.00330761;
+(active, present, absent, present, absent) 0.448713, 0.345382, 0.162755, 0.0431491;
+(active, present, absent, present, present) 0.472826, 0.353261, 0.141304, 0.0326087;
+(active, present, compensate, absent, absent) 0.505128, 0.382051, 0.1, 0.0128205;
+(active, present, compensate, absent, present) 0.422535, 0.507042, 0.056338, 0.0140845;
+(active, present, compensate, present, absent) 0.414634, 0.402439, 0.150407, 0.0325203;
+(active, present, compensate, present, present) 0.5, 0.333333, 0.125, 0.0416667;
+(active, present, decompensate, absent, absent) 0.432628, 0.378619, 0.159243, 0.02951;
+(active, present, decompensate, absent, present) 0.422222, 0.4, 0.15, 0.0277778;
+(active, present, decompensate, present, absent) 0.390244, 0.402439, 0.166667, 0.0406504;
+(active, present, decompensate, present, present) 0.481481, 0.333333, 0.148148, 0.037037;
+}
+probability ( itching | bilirubin ) {
+(a1_0) 0.666925, 0.333075;
+(a6_2) 0.45201, 0.54799;
+(a19_7) 0.312478, 0.687522;
+(a88_20) 0.124541, 0.875459;
+}
+probability ( upper_pain | gallstones ) {
+(absent) 0.613404, 0.386596;
+(present) 0.588336, 0.411664;
+}
+probability ( fat | gallstones ) {
+(absent) 0.719347, 0.280653;
+(present) 0.821503, 0.178497;
+}
+probability ( pain_ruq | Hyperbilirubinemia, Steatosis ) {
+(absent, absent) 0.578715, 0.421285;
+(absent, present) 0.520758, 0.479242;
+(present, absent) 0.715969, 0.284031;
+(present, present) 0.615451, 0.384549;
+}
+probability ( pressure_ruq | ChHepatitis, PBC, gallstones ) {
+(absent, absent, absent) 0.545951, 0.454049;
+(absent, absent, present) 0.713811, 0.286189;
+(absent, present, absent) 0.707537, 0.292463;
+(absent, present, present) 0.669103, 0.330897;
+(persistent, absent, absent) 0.570629, 0.429371;
+(persistent, absent, present) 0.909739, 0.0902608;
+(persistent, present, absent) 0.67669, 0.32331;
+(persistent, present, present) 0.667853, 0.332147;
+(active, absent, absent) 0.533732, 0.466268;
+(active, absent, present) 0.592775, 0.407225;
+(active, present, absent) 0.657081, 0.342919;
+(active, present, present) 0.668652, 0.331348;
+}
+probability ( phosphatase | ChHepatitis, Cirrhosis, THepatitis, RHepatitis ) {
+(absent, absent, absent, absent) 0.449245, 0.33928, 0.211475;
+(absent, absent, absent, present) 0.75875, 0.236439, 0.00481062;
+(absent, absent, present, absent) 0.780564, 0.143915, 0.0755219;
+(absent, absent, present, present) 0.792916, 0.185286, 0.0217984;
+(absent, compensate, absent, absent) 0.549911, 0.389195, 0.0608939;
+(absent, compensate, absent, present) 0.703333, 0.27, 0.0266667;
+(absent, compensate, present, absent) 0.714497, 0.22929, 0.056213;
+(absent, compensate, present, present) 0.5, 0.375, 0.125;
+(absent, decompensate, absent, absent) 0.446801, 0.48459, 0.0686082;
+(absent, decompensate, absent, present) 0.576296, 0.380741, 0.042963;
+(absent, decompensate, present, absent) 0.602555, 0.347007, 0.0504371;
+(absent, decompensate, present, present) 0.690476, 0.285714, 0.0238095;
+(persistent, absent, absent, absent) 0.780546, 0.193749, 0.0257049;
+(persistent, absent, absent, present) 0.717153, 0.260949, 0.0218978;
+(persistent, absent, present, absent) 0.72522, 0.231278, 0.0435022;
+(persistent, absent, present, present) 0.777778, 0.2, 0.0222222;
+(persistent, compensate, absent, absent) 0.664725, 0.301165, 0.0341098;
+(persistent, compensate, absent, present) 0.625, 0.34375, 0.03125;
+(persistent, compensate, present, absent) 0.677419, 0.274194, 0.0483871;
+(persistent, compensate, present, present) 0.5, 0.25, 0.25;
+(persistent, decompensate, absent, absent) 0.62246, 0.334688, 0.0428519;
+(persistent, decompensate, absent, present) 0.56338, 0.422535, 0.0140845;
+(persistent, decompensate, present, absent) 0.630769, 0.307692, 0.0615385;
+(persistent, decompensate, present, present) 0.333333, 0.333333, 0.333333;
+(active, absent, absent, absent) 0.748493, 0.218234, 0.0332727;
+(active, absent, absent, present) 0.732737, 0.242114, 0.0251492;
+(active, absent, present, absent) 0.740471, 0.216648, 0.0428812;
+(active, absent, present, present) 0.721519, 0.21519, 0.0632911;
+(active, compensate, absent, absent) 0.621692, 0.328998, 0.0493101;
+(active, compensate, absent, present) 0.690583, 0.282511, 0.0269058;
+(active, compensate, present, absent) 0.658654, 0.298077, 0.0432692;
+(active, compensate, present, present) 0.538462, 0.307692, 0.153846;
+(active, decompensate, absent, absent) 0.655433, 0.302295, 0.0422719;
+(active, decompensate, absent, present) 0.653846, 0.313765, 0.0323887;
+(active, decompensate, present, absent) 0.639668, 0.310488, 0.0498442;
+(active, decompensate, present, present) 0.722222, 0.222222, 0.0555556;
+}
+probability ( skin | bilirubin ) {
+(a1_0) 0.817373, 0.182627;
+(a6_2) 0.295106, 0.704894;
+(a19_7) 0.105161, 0.894839;
+(a88_20) 0.00586012, 0.99414;
+}
+probability ( ama | PBC ) {
+(absent) 0.987999, 0.0120015;
+(present) 0.431772, 0.568228;
+}
+probability ( le_cells | PBC ) {
+(absent) 0.959417, 0.0405831;
+(present) 0.879253, 0.120747;
+}
+probability ( joints | PBC ) {
+(absent) 0.899103, 0.100897;
+(present) 0.871734, 0.128266;
+}
+probability ( pain | joints, PBC ) {
+(absent, absent) 0.81673, 0.18327;
+(absent, present) 0.852517, 0.147483;
+(present, absent) 0.189265, 0.810735;
+(present, present) 0.609059, 0.390941;
+}
+probability ( proteins | Cirrhosis ) {
+(absent) 0.0199174, 0.980083;
+(compensate) 0.00318566, 0.996814;
+(decompensate) 0.00169293, 0.998307;
+}
+probability ( edema | Cirrhosis ) {
+(absent) 0.869025, 0.130975;
+(compensate) 0.934078, 0.0659219;
+(decompensate) 0.65388, 0.34612;
+}
+probability ( platelet | PBC, Cirrhosis ) {
+(absent, absent) 0.0304072, 0.140008, 0.735687, 0.093898;
+(absent, compensate) 0.129229, 0.158471, 0.644227, 0.0680729;
+(absent, decompensate) 0.187341, 0.277459, 0.468519, 0.0666808;
+(present, absent) 0.107165, 0.156397, 0.672453, 0.0639852;
+(present, compensate) 0.122164, 0.179725, 0.632279, 0.0658321;
+(present, decompensate) 0.119714, 0.17945, 0.637089, 0.0637475;
+}
+probability ( inr | Hyperbilirubinemia, THepatitis, Cirrhosis, ChHepatitis ) {
+(absent, absent, absent, absent) 0.0599534, 0.87478, 0.0652664;
+(absent, absent, absent, persistent) 0.0270644, 0.890789, 0.082147;
+(absent, absent, absent, active) 0.0770833, 0.900798, 0.0221192;
+(absent, absent, compensate, absent) 0.317691, 0.679008, 0.00330092;
+(absent, absent, compensate, persistent) 0.111306, 0.849255, 0.0394391;
+(absent, absent, compensate, active) 0.130177, 0.847277, 0.0225466;
+(absent, absent, decompensate, absent) 0.395803, 0.602059, 0.00213819;
+(absent, absent, decompensate, persistent) 0.225298, 0.748174, 0.0265283;
+(absent, absent, decompensate, active) 0.18671, 0.797046, 0.0162445;
+(absent, present, absent, absent) 0.0378535, 0.92648, 0.0356669;
+(absent, present, absent, persistent) 0.0509259, 0.894097, 0.0549769;
+(absent, present, absent, active) 0.0796908, 0.901873, 0.0184359;
+(absent, present, compensate, absent) 0.186154, 0.801538, 0.0123077;
+(absent, present, compensate, persistent) 0.12069, 0.844828, 0.0344828;
+(absent, present, compensate, active) 0.119107, 0.873449, 0.00744417;
+(absent, present, decompensate, absent) 0.231638, 0.75565, 0.0127119;
+(absent, present, decompensate, persistent) 0.2, 0.768, 0.032;
+(absent, present, decompensate, active) 0.170517, 0.818482, 0.0110011;
+(present, absent, absent, absent) 0.0528986, 0.89162, 0.0554812;
+(present, absent, absent, persistent) 0.0443573, 0.899517, 0.0561255;
+(present, absent, absent, active) 0.0792656, 0.899836, 0.0208986;
+(present, absent, compensate, absent) 0.188209, 0.785714, 0.0260771;
+(present, absent, compensate, persistent) 0.0967742, 0.849462, 0.0537634;
+(present, absent, compensate, active) 0.10815, 0.862069, 0.0297806;
+(present, absent, decompensate, absent) 0.226809, 0.749745, 0.0234455;
+(present, absent, decompensate, persistent) 0.180791, 0.80226, 0.0169492;
+(present, absent, decompensate, active) 0.176918, 0.803041, 0.0200415;
+(present, present, absent, absent) 0.133302, 0.835114, 0.0315838;
+(present, present, absent, persistent) 0.0526316, 0.909774, 0.037594;
+(present, present, absent, active) 0.084507, 0.866197, 0.0492958;
+(present, present, compensate, absent) 0.238095, 0.714286, 0.047619;
+(present, present, compensate, persistent) 0.125, 0.75, 0.125;
+(present, present, compensate, active) 0.0769231, 0.884615, 0.0384615;
+(present, present, decompensate, absent) 0.176991, 0.787611, 0.0353982;
+(present, present, decompensate, persistent) 0.0909091, 0.818182, 0.0909091;
+(present, present, decompensate, active) 0.138889, 0.847222, 0.0138889;
+}
+probability ( bleeding | inr, platelet ) {
+(a69_0, a99_0) 0.33828, 0.66172;
+(a69_0, a149_100) 0.752817, 0.247183;
+(a69_0, a299_150) 0.575068, 0.424932;
+(a69_0, a597_300) 0.89964, 0.10036;
+(a109_70, a99_0) 0.744529, 0.255471;
+(a109_70, a149_100) 0.865394, 0.134606;
+(a109_70, a299_150) 0.862358, 0.137642;
+(a109_70, a597_300) 0.893282, 0.106718;
+(a200_110, a99_0) 0.49812, 0.50188;
+(a200_110, a149_100) 0.798063, 0.201937;
+(a200_110, a299_150) 0.868282, 0.131718;
+(a200_110, a597_300) 0.848747, 0.151253;
+}
+probability ( flatulence | gallstones ) {
+(absent) 0.569001, 0.430999;
+(present) 0.606581, 0.393419;
+}
+probability ( alcohol | Cirrhosis ) {
+(absent) 0.888807, 0.111193;
+(compensate) 0.775092, 0.224908;
+(decompensate) 0.792979, 0.207021;
+}
+probability ( encephalopathy | PBC, Cirrhosis ) {
+(absent, absent) 0.984772, 0.0152283;
+(absent, compensate) 0.997466, 0.00253425;
+(absent, decompensate) 0.950584, 0.0494163;
+(present, absent) 0.946426, 0.0535741;
+(present, compensate) 0.95204, 0.0479598;
+(present, decompensate) 0.94717, 0.05283;
+}
+probability ( urea | encephalopathy ) {
+(absent) 0.899392, 0.0647603, 0.0358475;
+(present) 0.64711, 0.131681, 0.221209;
+}
+probability ( ascites | proteins ) {
+(a5_2) 0.416114, 0.583886;
+(a10_6) 0.872377, 0.127623;
+}
+probability ( hepatomegaly | Hyperbilirubinemia, Steatosis, THepatitis, RHepatitis ) {
+(absent, absent, absent, absent) 0.303561, 0.696439;
+(absent, absent, absent, present) 0.293124, 0.706876;
+(absent, absent, present, absent) 0.216916, 0.783084;
+(absent, absent, present, present) 0.324037, 0.675963;
+(absent, present, absent, absent) 0.313529, 0.686471;
+(absent, present, absent, present) 0.342667, 0.657333;
+(absent, present, present, absent) 0.329666, 0.670334;
+(absent, present, present, present) 0.385965, 0.614035;
+(present, absent, absent, absent) 0.625189, 0.374811;
+(present, absent, absent, present) 0.422619, 0.577381;
+(present, absent, present, absent) 0.418136, 0.581864;
+(present, absent, present, present) 0.35, 0.65;
+(present, present, absent, absent) 0.405388, 0.594612;
+(present, present, absent, present) 0.411765, 0.588235;
+(present, present, present, absent) 0.367568, 0.632432;
+(present, present, present, present) 0.545455, 0.454545;
+}
+probability ( hepatalgia | hepatomegaly ) {
+(absent) 0.969345, 0.030655;
+(present) 0.684776, 0.315224;
+}
+probability ( density | encephalopathy ) {
+(absent) 0.62317, 0.37683;
+(present) 0.265544, 0.734456;
+}
+probability ( ESR | Hyperbilirubinemia, Steatosis, ChHepatitis, PBC ) {
+(absent, absent, absent, absent) 0.898936, 0.0536889, 0.0473748;
+(absent, absent, absent, present) 0.357514, 0.21093, 0.431556;
+(absent, absent, persistent, absent) 0.890387, 0.0544194, 0.0551941;
+(absent, absent, persistent, present) 0.444444, 0.179894, 0.375661;
+(absent, absent, active, absent) 0.746855, 0.2208, 0.0323446;
+(absent, absent, active, present) 0.474263, 0.20569, 0.320047;
+(absent, present, absent, absent) 0.805756, 0.0594075, 0.134837;
+(absent, present, absent, present) 0.455943, 0.18142, 0.362637;
+(absent, present, persistent, absent) 0.833824, 0.0768382, 0.0893382;
+(absent, present, persistent, present) 0.497022, 0.170547, 0.332431;
+(absent, present, active, absent) 0.662525, 0.163681, 0.173794;
+(absent, present, active, present) 0.513155, 0.189389, 0.297456;
+(present, absent, absent, absent) 0.910214, 0.0713641, 0.0184216;
+(present, absent, absent, present) 0.445421, 0.181706, 0.372874;
+(present, absent, persistent, absent) 0.878981, 0.0679406, 0.0530786;
+(present, absent, persistent, present) 0.502618, 0.193717, 0.303665;
+(present, absent, active, absent) 0.726681, 0.164136, 0.109183;
+(present, absent, active, present) 0.50036, 0.2062, 0.293439;
+(present, present, absent, absent) 0.853956, 0.0702862, 0.0757576;
+(present, present, absent, present) 0.507599, 0.157042, 0.33536;
+(present, present, persistent, absent) 0.802198, 0.150183, 0.047619;
+(present, present, persistent, present) 0.465517, 0.172414, 0.362069;
+(present, present, active, absent) 0.575071, 0.171388, 0.253541;
+(present, present, active, present) 0.532895, 0.164474, 0.302632;
+}
+probability ( alt | Cirrhosis, Steatosis, THepatitis, RHepatitis, ChHepatitis ) {
+(absent, absent, absent, absent, absent) 0.351925, 0.427091, 0.175433, 0.0455517;
+(absent, absent, absent, absent, persistent) 0.558269, 0.277513, 0.136288, 0.0279302;
+(absent, absent, absent, absent, active) 0.251382, 0.396237, 0.233329, 0.119053;
+(absent, absent, absent, present, absent) 0.289448, 0.468471, 0.236948, 0.00513329;
+(absent, absent, absent, present, persistent) 0.447847, 0.37799, 0.155024, 0.0191388;
+(absent, absent, absent, present, active) 0.260655, 0.426649, 0.21624, 0.0964558;
+(absent, absent, present, absent, absent) 0.555789, 0.367028, 0.0735013, 0.00368243;
+(absent, absent, present, absent, persistent) 0.541149, 0.34103, 0.101835, 0.0159858;
+(absent, absent, present, absent, active) 0.32549, 0.396983, 0.193665, 0.0838612;
+(absent, absent, present, present, absent) 0.419355, 0.442815, 0.134897, 0.00293255;
+(absent, absent, present, present, persistent) 0.543478, 0.217391, 0.195652, 0.0434783;
+(absent, absent, present, present, active) 0.216216, 0.405405, 0.297297, 0.0810811;
+(absent, present, absent, absent, absent) 0.49449, 0.413788, 0.0900539, 0.00166817;
+(absent, present, absent, absent, persistent) 0.496419, 0.369293, 0.118174, 0.0161146;
+(absent, present, absent, absent, active) 0.340021, 0.418182, 0.167398, 0.0743992;
+(absent, present, absent, present, absent) 0.411827, 0.454065, 0.133052, 0.00105597;
+(absent, present, absent, present, persistent) 0.464286, 0.375, 0.125, 0.0357143;
+(absent, present, absent, present, active) 0.319672, 0.393443, 0.180328, 0.106557;
+(absent, present, present, absent, absent) 0.490069, 0.424018, 0.0840647, 0.00184758;
+(absent, present, present, absent, persistent) 0.545455, 0.348485, 0.0984848, 0.00757576;
+(absent, present, present, absent, active) 0.341085, 0.457364, 0.120155, 0.0813953;
+(absent, present, present, present, absent) 0.385965, 0.403509, 0.192982, 0.0175439;
+(absent, present, present, present, persistent) 0.25, 0.25, 0.25, 0.25;
+(absent, present, present, present, active) 0.3, 0.4, 0.1, 0.2;
+(compensate, absent, absent, absent, absent) 0.270548, 0.518265, 0.180365, 0.0308219;
+(compensate, absent, absent, absent, persistent) 0.41954, 0.409962, 0.139847, 0.0306513;
+(compensate, absent, absent, absent, active) 0.290152, 0.427755, 0.197098, 0.0849941;
+(compensate, absent, absent, present, absent) 0.192308, 0.576923, 0.153846, 0.0769231;
+(compensate, absent, absent, present, persistent) 0.470588, 0.294118, 0.176471, 0.0588235;
+(compensate, absent, absent, present, active) 0.283133, 0.385542, 0.246988, 0.0843373;
+(compensate, absent, present, absent, absent) 0.277778, 0.5, 0.194444, 0.0277778;
+(compensate, absent, present, absent, persistent) 0.55, 0.25, 0.15, 0.05;
+(compensate, absent, present, absent, active) 0.299652, 0.442509, 0.170732, 0.087108;
+(compensate, absent, present, present, absent) 0.285714, 0.285714, 0.142857, 0.285714;
+(compensate, absent, present, present, persistent) 0.25, 0.25, 0.25, 0.25;
+(compensate, absent, present, present, active) 0.222222, 0.555556, 0.111111, 0.111111;
+(compensate, present, absent, absent, absent) 0.425824, 0.457418, 0.102289, 0.0144689;
+(compensate, present, absent, absent, persistent) 0.458394, 0.407299, 0.113869, 0.020438;
+(compensate, present, absent, absent, active) 0.367276, 0.415225, 0.161641, 0.0558576;
+(compensate, present, absent, present, absent) 0.390681, 0.469534, 0.132616, 0.00716846;
+(compensate, present, absent, present, persistent) 0.4, 0.45, 0.1, 0.05;
+(compensate, present, absent, present, active) 0.225806, 0.403226, 0.258065, 0.112903;
+(compensate, present, present, absent, absent) 0.415504, 0.477519, 0.105426, 0.00155039;
+(compensate, present, present, absent, persistent) 0.531915, 0.297872, 0.148936, 0.0212766;
+(compensate, present, present, absent, active) 0.402985, 0.410448, 0.149254, 0.0373134;
+(compensate, present, present, present, absent) 0.5, 0.285714, 0.142857, 0.0714286;
+(compensate, present, present, present, persistent) 0.2, 0.4, 0.2, 0.2;
+(compensate, present, present, present, active) 0.333333, 0.444444, 0.111111, 0.111111;
+(decompensate, absent, absent, absent, absent) 0.35575, 0.460039, 0.120858, 0.0633528;
+(decompensate, absent, absent, absent, persistent) 0.496344, 0.35192, 0.11883, 0.0329068;
+(decompensate, absent, absent, absent, active) 0.319873, 0.422847, 0.174714, 0.082566;
+(decompensate, absent, absent, present, absent) 0.290323, 0.451613, 0.193548, 0.0645161;
+(decompensate, absent, absent, present, persistent) 0.454545, 0.393939, 0.121212, 0.030303;
+(decompensate, absent, absent, present, active) 0.285714, 0.454545, 0.181818, 0.0779221;
+(decompensate, absent, present, absent, absent) 0.390244, 0.414634, 0.121951, 0.0731707;
+(decompensate, absent, present, absent, persistent) 0.490196, 0.352941, 0.0784314, 0.0784314;
+(decompensate, absent, present, absent, active) 0.369925, 0.390977, 0.168421, 0.0706767;
+(decompensate, absent, present, present, absent) 0.2, 0.4, 0.2, 0.2;
+(decompensate, absent, present, present, persistent) 0.4, 0.2, 0.2, 0.2;
+(decompensate, absent, present, present, active) 0.384615, 0.230769, 0.307692, 0.0769231;
+(decompensate, present, absent, absent, absent) 0.457662, 0.424317, 0.0907488, 0.0272717;
+(decompensate, present, absent, absent, persistent) 0.454883, 0.389988, 0.117429, 0.0377009;
+(decompensate, present, absent, absent, active) 0.345474, 0.413086, 0.172955, 0.0684842;
+(decompensate, present, absent, present, absent) 0.428351, 0.454545, 0.109399, 0.00770416;
+(decompensate, present, absent, present, persistent) 0.325581, 0.44186, 0.139535, 0.0930233;
+(decompensate, present, absent, present, active) 0.315789, 0.394737, 0.210526, 0.0789474;
+(decompensate, present, present, absent, absent) 0.442453, 0.437629, 0.104755, 0.015162;
+(decompensate, present, present, absent, persistent) 0.488095, 0.404762, 0.0714286, 0.0357143;
+(decompensate, present, present, absent, active) 0.346535, 0.429043, 0.158416, 0.0660066;
+(decompensate, present, present, present, absent) 0.357143, 0.52381, 0.0952381, 0.0238095;
+(decompensate, present, present, present, persistent) 0.5, 0.166667, 0.166667, 0.166667;
+(decompensate, present, present, present, active) 0.1, 0.3, 0.4, 0.2;
+}
+probability ( ast | Cirrhosis, Steatosis, THepatitis, RHepatitis, ChHepatitis ) {
+(absent, absent, absent, absent, absent) 0.295363, 0.467963, 0.225906, 0.0107684;
+(absent, absent, absent, absent, persistent) 0.500215, 0.361279, 0.109932, 0.0285742;
+(absent, absent, absent, absent, active) 0.251475, 0.46025, 0.232901, 0.0553744;
+(absent, absent, absent, present, absent) 0.231173, 0.648428, 0.114799, 0.00559995;
+(absent, absent, absent, present, persistent) 0.430622, 0.464115, 0.102392, 0.00287081;
+(absent, absent, absent, present, active) 0.257963, 0.513683, 0.194706, 0.0336474;
+(absent, absent, present, absent, absent) 0.552732, 0.370158, 0.0733171, 0.0037929;
+(absent, absent, present, absent, persistent) 0.485494, 0.418591, 0.0929544, 0.00296033;
+(absent, absent, present, absent, active) 0.320965, 0.455807, 0.192459, 0.0307692;
+(absent, absent, present, present, absent) 0.398827, 0.516129, 0.0821114, 0.00293255;
+(absent, absent, present, present, persistent) 0.413043, 0.413043, 0.152174, 0.0217391;
+(absent, absent, present, present, active) 0.364865, 0.418919, 0.162162, 0.0540541;
+(absent, present, absent, absent, absent) 0.489485, 0.436377, 0.0726064, 0.00153144;
+(absent, present, absent, absent, persistent) 0.482095, 0.43017, 0.0863921, 0.00134288;
+(absent, present, absent, absent, active) 0.352978, 0.460606, 0.16092, 0.0254963;
+(absent, present, absent, present, absent) 0.398099, 0.510032, 0.0897571, 0.00211193;
+(absent, present, absent, present, persistent) 0.375, 0.482143, 0.125, 0.0178571;
+(absent, present, absent, present, active) 0.295082, 0.54918, 0.147541, 0.00819672;
+(absent, present, present, absent, absent) 0.486836, 0.443418, 0.0674365, 0.00230947;
+(absent, present, present, absent, persistent) 0.462121, 0.424242, 0.106061, 0.00757576;
+(absent, present, present, absent, active) 0.356589, 0.465116, 0.151163, 0.0271318;
+(absent, present, present, present, absent) 0.403509, 0.491228, 0.0877193, 0.0175439;
+(absent, present, present, present, persistent) 0.25, 0.25, 0.25, 0.25;
+(absent, present, present, present, active) 0.3, 0.3, 0.3, 0.1;
+(compensate, absent, absent, absent, absent) 0.240868, 0.659817, 0.0605023, 0.0388128;
+(compensate, absent, absent, absent, persistent) 0.436782, 0.452107, 0.101533, 0.00957854;
+(compensate, absent, absent, absent, active) 0.2818, 0.49619, 0.183324, 0.038687;
+(compensate, absent, absent, present, absent) 0.269231, 0.615385, 0.0769231, 0.0384615;
+(compensate, absent, absent, present, persistent) 0.352941, 0.411765, 0.176471, 0.0588235;
+(compensate, absent, absent, present, active) 0.283133, 0.475904, 0.216867, 0.0240964;
+(compensate, absent, present, absent, absent) 0.611111, 0.277778, 0.0833333, 0.0277778;
+(compensate, absent, present, absent, persistent) 0.35, 0.45, 0.15, 0.05;
+(compensate, absent, present, absent, active) 0.317073, 0.470383, 0.163763, 0.0487805;
+(compensate, absent, present, present, absent) 0.285714, 0.428571, 0.142857, 0.142857;
+(compensate, absent, present, present, persistent) 0.25, 0.25, 0.25, 0.25;
+(compensate, absent, present, present, active) 0.333333, 0.444444, 0.111111, 0.111111;
+(compensate, present, absent, absent, absent) 0.424634, 0.494597, 0.0794872, 0.00128205;
+(compensate, present, absent, absent, persistent) 0.427737, 0.493431, 0.0773723, 0.00145985;
+(compensate, present, absent, absent, active) 0.327731, 0.474048, 0.162135, 0.036085;
+(compensate, present, absent, present, absent) 0.405018, 0.508961, 0.0824373, 0.00358423;
+(compensate, present, absent, present, persistent) 0.3, 0.45, 0.2, 0.05;
+(compensate, present, absent, present, active) 0.354839, 0.435484, 0.129032, 0.0806452;
+(compensate, present, present, absent, absent) 0.465116, 0.468217, 0.0635659, 0.00310078;
+(compensate, present, present, absent, persistent) 0.468085, 0.404255, 0.106383, 0.0212766;
+(compensate, present, present, absent, active) 0.358209, 0.477612, 0.119403, 0.0447761;
+(compensate, present, present, present, absent) 0.5, 0.357143, 0.0714286, 0.0714286;
+(compensate, present, present, present, persistent) 0.4, 0.2, 0.2, 0.2;
+(compensate, present, present, present, active) 0.222222, 0.444444, 0.222222, 0.111111;
+(decompensate, absent, absent, absent, absent) 0.353801, 0.484405, 0.141326, 0.0204678;
+(decompensate, absent, absent, absent, persistent) 0.445155, 0.444241, 0.100548, 0.0100548;
+(decompensate, absent, absent, absent, active) 0.314522, 0.475548, 0.172847, 0.0370831;
+(decompensate, absent, absent, present, absent) 0.258065, 0.580645, 0.129032, 0.0322581;
+(decompensate, absent, absent, present, persistent) 0.363636, 0.393939, 0.212121, 0.030303;
+(decompensate, absent, absent, present, active) 0.296104, 0.509091, 0.176623, 0.0181818;
+(decompensate, absent, present, absent, absent) 0.317073, 0.487805, 0.170732, 0.0243902;
+(decompensate, absent, present, absent, persistent) 0.490196, 0.392157, 0.0980392, 0.0196078;
+(decompensate, absent, present, absent, active) 0.368421, 0.473684, 0.13985, 0.0180451;
+(decompensate, absent, present, present, absent) 0.2, 0.4, 0.2, 0.2;
+(decompensate, absent, present, present, persistent) 0.4, 0.2, 0.2, 0.2;
+(decompensate, absent, present, present, active) 0.230769, 0.538462, 0.153846, 0.0769231;
+(decompensate, present, absent, absent, absent) 0.450766, 0.454998, 0.0928255, 0.0014106;
+(decompensate, present, absent, absent, persistent) 0.448084, 0.437577, 0.111867, 0.00247219;
+(decompensate, present, absent, absent, active) 0.335005, 0.473064, 0.160742, 0.0311887;
+(decompensate, present, absent, present, absent) 0.385208, 0.489985, 0.120185, 0.0046225;
+(decompensate, present, absent, present, persistent) 0.44186, 0.488372, 0.0465116, 0.0232558;
+(decompensate, present, absent, present, active) 0.289474, 0.535088, 0.166667, 0.00877193;
+(decompensate, present, present, absent, absent) 0.444521, 0.465886, 0.0861475, 0.0034459;
+(decompensate, present, present, absent, persistent) 0.392857, 0.47619, 0.119048, 0.0119048;
+(decompensate, present, present, absent, active) 0.353135, 0.475248, 0.151815, 0.019802;
+(decompensate, present, present, present, absent) 0.52381, 0.309524, 0.142857, 0.0238095;
+(decompensate, present, present, present, persistent) 0.166667, 0.333333, 0.333333, 0.166667;
+(decompensate, present, present, present, active) 0.4, 0.2, 0.2, 0.2;
+}
+probability ( amylase | gallstones ) {
+(absent) 0.972996, 0.016813, 0.0101914;
+(present) 0.934712, 0.0470763, 0.0182119;
+}
+probability ( ggtp | Hyperbilirubinemia, ChHepatitis, Steatosis, RHepatitis, THepatitis, PBC ) {
+(absent, absent, absent, absent, absent, absent) 0.680021, 0.144002, 0.0960783, 0.0798987;
+(absent, absent, absent, absent, absent, present) 0.4031, 0.13156, 0.224742, 0.240598;
+(absent, absent, absent, absent, present, absent) 0.886595, 0.0368122, 0.00395831, 0.0726349;
+(absent, absent, absent, absent, present, present) 0.469996, 0.121694, 0.190189, 0.218121;
+(absent, absent, absent, present, absent, absent) 0.821421, 0.0595957, 0.00604293, 0.11294;
+(absent, absent, absent, present, absent, present) 0.459663, 0.114169, 0.200818, 0.22535;
+(absent, absent, absent, present, present, absent) 0.908163, 0.0408163, 0.00765306, 0.0433673;
+(absent, absent, absent, present, present, present) 0.41129, 0.129032, 0.193548, 0.266129;
+(absent, absent, present, absent, absent, absent) 0.760564, 0.13588, 0.0283103, 0.0752464;
+(absent, absent, present, absent, absent, present) 0.49369, 0.130729, 0.177146, 0.198434;
+(absent, absent, present, absent, present, absent) 0.839012, 0.0890119, 0.0140545, 0.0579216;
+(absent, absent, present, absent, present, present) 0.507788, 0.125857, 0.170717, 0.195639;
+(absent, absent, present, present, absent, absent) 0.789122, 0.116412, 0.0171756, 0.0772901;
+(absent, absent, present, present, absent, present) 0.490593, 0.108538, 0.205499, 0.195369;
+(absent, absent, present, present, present, absent) 0.762712, 0.169492, 0.0169492, 0.0508475;
+(absent, absent, present, present, present, present) 0.522727, 0.0681818, 0.204545, 0.204545;
+(absent, persistent, absent, absent, absent, absent) 0.748154, 0.195536, 0.0540819, 0.00222763;
+(absent, persistent, absent, absent, absent, present) 0.470037, 0.134199, 0.197044, 0.198721;
+(absent, persistent, absent, absent, present, absent) 0.839506, 0.0997942, 0.026749, 0.0339506;
+(absent, persistent, absent, absent, present, present) 0.509745, 0.127436, 0.173913, 0.188906;
+(absent, persistent, absent, present, absent, absent) 0.773266, 0.137056, 0.0473773, 0.0423012;
+(absent, persistent, absent, present, absent, present) 0.533019, 0.127358, 0.150943, 0.188679;
+(absent, persistent, absent, present, present, absent) 0.777778, 0.111111, 0.037037, 0.0740741;
+(absent, persistent, absent, present, present, present) 0.388889, 0.0555556, 0.222222, 0.333333;
+(absent, persistent, present, absent, absent, absent) 0.772117, 0.14297, 0.0387046, 0.0462085;
+(absent, persistent, present, absent, absent, present) 0.508824, 0.131176, 0.165294, 0.194706;
+(absent, persistent, present, absent, present, absent) 0.789855, 0.152174, 0.0144928, 0.0434783;
+(absent, persistent, present, absent, present, present) 0.617647, 0.127451, 0.137255, 0.117647;
+(absent, persistent, present, present, absent, absent) 0.793103, 0.0862069, 0.0862069, 0.0344828;
+(absent, persistent, present, present, absent, present) 0.603774, 0.0943396, 0.169811, 0.132075;
+(absent, persistent, present, present, present, absent) 0.4, 0.2, 0.2, 0.2;
+(absent, persistent, present, present, present, present) 0.2, 0.4, 0.2, 0.2;
+(absent, active, absent, absent, absent, absent) 0.592489, 0.175596, 0.142392, 0.0895231;
+(absent, active, absent, absent, absent, present) 0.476373, 0.137931, 0.190417, 0.195279;
+(absent, active, absent, absent, present, absent) 0.730041, 0.115638, 0.0744856, 0.0798354;
+(absent, active, absent, absent, present, present) 0.466534, 0.123923, 0.203446, 0.206097;
+(absent, active, absent, present, absent, absent) 0.698163, 0.129921, 0.0879265, 0.0839895;
+(absent, active, absent, present, absent, present) 0.46263, 0.148534, 0.198675, 0.190161;
+(absent, active, absent, present, present, absent) 0.767857, 0.0714286, 0.0892857, 0.0714286;
+(absent, active, absent, present, present, present) 0.558824, 0.176471, 0.0588235, 0.205882;
+(absent, active, present, absent, absent, absent) 0.675477, 0.153581, 0.0924304, 0.0785111;
+(absent, active, present, absent, absent, present) 0.516052, 0.135077, 0.172414, 0.176457;
+(absent, active, present, absent, present, absent) 0.755435, 0.11413, 0.076087, 0.0543478;
+(absent, active, present, absent, present, present) 0.521583, 0.115108, 0.190647, 0.172662;
+(absent, active, present, present, absent, absent) 0.607362, 0.177914, 0.128834, 0.0858896;
+(absent, active, present, present, absent, present) 0.525862, 0.12931, 0.163793, 0.181034;
+(absent, active, present, present, present, absent) 0.7, 0.1, 0.1, 0.1;
+(absent, active, present, present, present, present) 0.384615, 0.307692, 0.153846, 0.153846;
+(present, absent, absent, absent, absent, absent) 0.979461, 0.01766, 0.00139169, 0.00148767;
+(present, absent, absent, absent, absent, present) 0.491171, 0.120961, 0.191231, 0.196637;
+(present, absent, absent, absent, present, absent) 0.891759, 0.0621156, 0.0141451, 0.0319803;
+(present, absent, absent, absent, present, present) 0.507788, 0.0965732, 0.224299, 0.17134;
+(present, absent, absent, present, absent, absent) 0.904715, 0.0550098, 0.0127701, 0.0275049;
+(present, absent, absent, present, absent, present) 0.532751, 0.122271, 0.152838, 0.19214;
+(present, absent, absent, present, present, absent) 0.906977, 0.0465116, 0.0232558, 0.0232558;
+(present, absent, absent, present, present, present) 0.533333, 0.0666667, 0.266667, 0.133333;
+(present, absent, present, absent, absent, absent) 0.844495, 0.0946652, 0.0247446, 0.0360953;
+(present, absent, present, absent, absent, present) 0.544743, 0.126398, 0.147651, 0.181208;
+(present, absent, present, absent, present, absent) 0.844262, 0.0942623, 0.0286885, 0.0327869;
+(present, absent, present, absent, present, present) 0.529412, 0.132353, 0.147059, 0.191176;
+(present, absent, present, present, absent, absent) 0.859813, 0.0560748, 0.00934579, 0.0747664;
+(present, absent, present, present, absent, present) 0.424242, 0.151515, 0.212121, 0.212121;
+(present, absent, present, present, present, absent) 0.666667, 0.111111, 0.111111, 0.111111;
+(present, absent, present, present, present, present) 0.4, 0.2, 0.2, 0.2;
+(present, persistent, absent, absent, absent, absent) 0.745578, 0.127588, 0.0835529, 0.0432819;
+(present, persistent, absent, absent, absent, present) 0.458716, 0.141284, 0.188991, 0.211009;
+(present, persistent, absent, absent, present, absent) 0.811881, 0.138614, 0.029703, 0.019802;
+(present, persistent, absent, absent, present, present) 0.416667, 0.0416667, 0.333333, 0.208333;
+(present, persistent, absent, present, absent, absent) 0.732394, 0.169014, 0.028169, 0.0704225;
+(present, persistent, absent, present, absent, present) 0.230769, 0.384615, 0.0769231, 0.307692;
+(present, persistent, absent, present, present, absent) 0.7, 0.1, 0.1, 0.1;
+(present, persistent, absent, present, present, present) 0.25, 0.25, 0.25, 0.25;
+(present, persistent, present, absent, absent, absent) 0.780392, 0.113725, 0.0509804, 0.054902;
+(present, persistent, present, absent, absent, present) 0.518519, 0.203704, 0.12963, 0.148148;
+(present, persistent, present, absent, present, absent) 0.736842, 0.157895, 0.0526316, 0.0526316;
+(present, persistent, present, absent, present, present) 0.125, 0.125, 0.375, 0.375;
+(present, persistent, present, present, absent, absent) 0.428571, 0.142857, 0.285714, 0.142857;
+(present, persistent, present, present, absent, present) 0.2, 0.2, 0.2, 0.4;
+(present, persistent, present, present, present, absent) 0.4, 0.2, 0.2, 0.2;
+(present, persistent, present, present, present, present) 0.25, 0.25, 0.25, 0.25;
+(present, active, absent, absent, absent, absent) 0.748765, 0.123379, 0.0685608, 0.0592959;
+(present, active, absent, absent, absent, present) 0.497322, 0.140015, 0.187452, 0.17521;
+(present, active, absent, absent, present, absent) 0.74359, 0.10989, 0.0915751, 0.0549451;
+(present, active, absent, absent, present, present) 0.525424, 0.135593, 0.152542, 0.186441;
+(present, active, absent, present, absent, absent) 0.803468, 0.0693642, 0.0751445, 0.0520231;
+(present, active, absent, present, absent, present) 0.366667, 0.2, 0.2, 0.233333;
+(present, active, absent, present, present, absent) 0.5, 0.166667, 0.166667, 0.166667;
+(present, active, absent, present, present, present) 0.25, 0.25, 0.25, 0.25;
+(present, active, present, absent, absent, absent) 0.75569, 0.124431, 0.0682853, 0.0515933;
+(present, active, present, absent, absent, present) 0.467626, 0.172662, 0.215827, 0.143885;
+(present, active, present, absent, present, absent) 0.783784, 0.0810811, 0.0810811, 0.0540541;
+(present, active, present, absent, present, present) 0.5625, 0.125, 0.0625, 0.25;
+(present, active, present, present, absent, absent) 0.705882, 0.0588235, 0.176471, 0.0588235;
+(present, active, present, present, absent, present) 0.333333, 0.166667, 0.333333, 0.166667;
+(present, active, present, present, present, absent) 0.166667, 0.5, 0.166667, 0.166667;
+(present, active, present, present, present, present) 0.25, 0.25, 0.25, 0.25;
+}
+probability ( cholesterol | ChHepatitis, Steatosis, PBC ) {
+(absent, absent, absent) 0.901539, 0.0980055, 0.000455381;
+(absent, absent, present) 0.510712, 0.364416, 0.124872;
+(absent, present, absent) 0.727932, 0.227592, 0.0444765;
+(absent, present, present) 0.573507, 0.324372, 0.102121;
+(persistent, absent, absent) 0.969205, 0.0278272, 0.00296777;
+(persistent, absent, present) 0.580224, 0.311835, 0.107941;
+(persistent, present, absent) 0.677258, 0.245819, 0.0769231;
+(persistent, present, present) 0.594111, 0.290747, 0.115142;
+(active, absent, absent) 0.898824, 0.0676689, 0.033507;
+(active, absent, present) 0.59223, 0.304966, 0.102804;
+(active, present, absent) 0.624918, 0.276066, 0.0990164;
+(active, present, present) 0.615206, 0.294019, 0.0907751;
+}
+probability ( hbsag | ChHepatitis, vh_amn ) {
+(absent, absent) 0.952894, 0.0471061;
+(absent, present) 0.887475, 0.112525;
+(persistent, absent) 0.956799, 0.0432011;
+(persistent, present) 0.535629, 0.464371;
+(active, absent) 0.808874, 0.191126;
+(active, present) 0.498689, 0.501311;
+}
+probability ( hbsag_anti | hbsag, ChHepatitis, vh_amn ) {
+(absent, absent, absent) 0.984926, 0.0150736;
+(absent, absent, present) 0.957942, 0.0420584;
+(absent, persistent, absent) 0.995449, 0.0045513;
+(absent, persistent, present) 0.985431, 0.0145687;
+(absent, active, absent) 0.998122, 0.00187767;
+(absent, active, present) 0.929716, 0.0702838;
+(present, absent, absent) 0.995763, 0.00423652;
+(present, absent, present) 0.988322, 0.011678;
+(present, persistent, absent) 0.912409, 0.0875912;
+(present, persistent, present) 0.981878, 0.0181219;
+(present, active, absent) 0.921472, 0.0785276;
+(present, active, present) 0.993856, 0.00614369;
+}
+probability ( anorexia | THepatitis, RHepatitis ) {
+(absent, absent) 0.719081, 0.280919;
+(absent, present) 0.878697, 0.121303;
+(present, absent) 0.773985, 0.226015;
+(present, present) 0.80794, 0.19206;
+}
+probability ( nausea | THepatitis, RHepatitis ) {
+(absent, absent) 0.714704, 0.285296;
+(absent, present) 0.644117, 0.355883;
+(present, absent) 0.630139, 0.369861;
+(present, present) 0.626609, 0.373391;
+}
+probability ( spleen | THepatitis, RHepatitis, Cirrhosis ) {
+(absent, absent, absent) 0.899836, 0.100164;
+(absent, absent, compensate) 0.742303, 0.257697;
+(absent, absent, decompensate) 0.515814, 0.484186;
+(absent, present, absent) 0.87737, 0.12263;
+(absent, present, compensate) 0.759124, 0.240876;
+(absent, present, decompensate) 0.629359, 0.370641;
+(present, absent, absent) 0.888162, 0.111838;
+(present, absent, compensate) 0.789015, 0.210985;
+(present, absent, decompensate) 0.623397, 0.376603;
+(present, present, absent) 0.834313, 0.165687;
+(present, present, compensate) 0.846154, 0.153846;
+(present, present, decompensate) 0.644068, 0.355932;
+}
+probability ( consciousness | encephalopathy ) {
+(absent) 0.983814, 0.0161857;
+(present) 0.697787, 0.302213;
+}
+probability ( spiders | Cirrhosis ) {
+(absent) 0.816532, 0.183468;
+(compensate) 0.512636, 0.487364;
+(decompensate) 0.396722, 0.603278;
+}
+probability ( jaundice | bilirubin ) {
+(a1_0) 0.805483, 0.194517;
+(a6_2) 0.652071, 0.347929;
+(a19_7) 0.437809, 0.562191;
+(a88_20) 0.248973, 0.751027;
+}
+probability ( albumin | Cirrhosis ) {
+(absent) 0.117775, 0.142669, 0.739557;
+(compensate) 0.0326622, 0.00373768, 0.9636;
+(decompensate) 0.00191614, 0.0861331, 0.911951;
+}
+probability ( edge | Cirrhosis ) {
+(absent) 0.765544, 0.234456;
+(compensate) 0.555367, 0.444633;
+(decompensate) 0.24114, 0.75886;
+}
+probability ( irregular_liver | Cirrhosis ) {
+(absent) 0.893194, 0.106806;
+(compensate) 0.646392, 0.353608;
+(decompensate) 0.399103, 0.600897;
+}
+probability ( hbc_anti | ChHepatitis, vh_amn ) {
+(absent, absent) 0.898742, 0.101258;
+(absent, present) 0.913273, 0.0867268;
+(persistent, absent) 0.866925, 0.133075;
+(persistent, present) 0.99291, 0.00709003;
+(active, absent) 0.919558, 0.0804418;
+(active, present) 0.996487, 0.00351279;
+}
+probability ( hcv_anti | ChHepatitis, vh_amn ) {
+(absent, absent) 0.998042, 0.00195751;
+(absent, present) 0.998774, 0.00122598;
+(persistent, absent) 0.995519, 0.00448105;
+(persistent, present) 0.992145, 0.00785514;
+(active, absent) 0.998369, 0.0016305;
+(active, present) 0.996054, 0.00394553;
+}
+probability ( palms | Cirrhosis ) {
+(absent) 0.858859, 0.141141;
+(compensate) 0.703521, 0.296479;
+(decompensate) 0.502112, 0.497888;
+}
+probability ( hbeag | ChHepatitis, vh_amn ) {
+(absent, absent) 0.997936, 0.00206366;
+(absent, present) 0.998774, 0.00122598;
+(persistent, absent) 0.953549, 0.0464515;
+(persistent, present) 0.991941, 0.00805917;
+(active, absent) 0.998448, 0.00155233;
+(active, present) 0.996004, 0.00399644;
+}
+probability ( carcinoma | PBC, Cirrhosis ) {
+(absent, absent) 0.990077, 0.009923;
+(absent, compensate) 0.795822, 0.204178;
+(absent, decompensate) 0.697605, 0.302395;
+(present, absent) 0.899817, 0.100183;
+(present, compensate) 0.720291, 0.279709;
+(present, decompensate) 0.636667, 0.363333;
+}

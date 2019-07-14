@@ -1,0 +1,11 @@
+Mileage Age SocioEcon RiskAversion OtherCar HomeBase GoodStudent AntiTheft MakeModel SeniorTrain VehicleYear DrivingSkill DrivQuality CarValue RuggedAuto Antilock Airbag Accident DrivHist ThisCarDam Cushioning OtherCarCost Theft ThisCarCost ILiCost PropCost MedCost
+FiftyThou ? Prole ? False ? ? ? ? False Older ? Poor ? ? ? ? ? Many Mild Fair ? ? ? Thousand ? Thousand
+? Adolescent Prole Adventurous True ? ? ? ? False Older ? ? TenThou ? False False None ? ? Fair ? False ? ? ? Thousand
+TwentyThou Adult Prole Adventurous False ? ? False ? False Older SubStandard ? FiveThou EggShell False False ? Many ? Poor ? ? ? Thousand HundredThou ?
+? Adult ? Normal ? ? False ? SportsCar False Current Normal Normal ? EggShell ? True None ? ? ? ? ? ? Thousand TenThou ?
+Domino Adult Middle ? ? ? False True ? ? Older ? Poor ? Football False ? Severe Many ? ? HundredThou ? TenThou TenThou ? ?
+Domino ? Prole Normal ? ? False False Economy ? ? ? Normal ? ? ? ? None ? ? Poor ? False Thousand ? Thousand ?
+FiftyThou Senior Prole ? False City False ? ? False ? ? Normal FiveThou Football False ? ? Zero None ? ? False ? ? ? ?
+? Adolescent ? ? ? ? ? ? ? False Older ? ? ? ? False ? ? ? ? ? ? False Thousand ? TenThou Thousand
+? ? Prole ? ? ? False True ? False Older Normal ? ? ? False ? None ? ? Poor ? False ? ? TenThou ?
+FiftyThou Senior UpperMiddle ? True Secure ? ? ? False Current ? Normal FiftyThou ? True ? None ? None ? Thousand False ? ? Thousand ?

@@ -1,0 +1,3430 @@
+network unknown{}
+variable GOAL_2 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_3 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_4 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_5 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_6 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_7 {
+type discrete [ 2 ] { true, false };
+}
+variable DISPLACEM0 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp1 {
+type discrete [ 2 ] { true, false };
+}
+variable GIVEN_1 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp2 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_8 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_9 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_10 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_11 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_12 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_13 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_14 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_15 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_16 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_17 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_18 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_19 {
+type discrete [ 2 ] { true, false };
+}
+variable NEED1 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_20 {
+type discrete [ 2 ] { true, false };
+}
+variable GRAV2 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_21 {
+type discrete [ 2 ] { true, false };
+}
+variable VALUE3 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_24 {
+type discrete [ 2 ] { true, false };
+}
+variable SLIDING4 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_25 {
+type discrete [ 2 ] { true, false };
+}
+variable CONSTANT5 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_26 {
+type discrete [ 2 ] { true, false };
+}
+variable KNOWN6 {
+type discrete [ 2 ] { true, false };
+}
+variable VELOCITY7 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_47 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp3 {
+type discrete [ 2 ] { true, false };
+}
+variable KNOWN8 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp4 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_27 {
+type discrete [ 2 ] { true, false };
+}
+variable COMPO16 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_48 {
+type discrete [ 2 ] { true, false };
+}
+variable TRY12 {
+type discrete [ 2 ] { true, false };
+}
+variable TRY11 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_49 {
+type discrete [ 2 ] { true, false };
+}
+variable CHOOSE19 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_50 {
+type discrete [ 2 ] { true, false };
+}
+variable SYSTEM18 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_51 {
+type discrete [ 2 ] { true, false };
+}
+variable KINEMATI17 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_52 {
+type discrete [ 2 ] { true, false };
+}
+variable IDENTIFY10 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_53 {
+type discrete [ 2 ] { true, false };
+}
+variable IDENTIFY9 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_28 {
+type discrete [ 2 ] { true, false };
+}
+variable TRY13 {
+type discrete [ 2 ] { true, false };
+}
+variable TRY14 {
+type discrete [ 2 ] { true, false };
+}
+variable TRY15 {
+type discrete [ 2 ] { true, false };
+}
+variable VAR20 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_29 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_31 {
+type discrete [ 2 ] { true, false };
+}
+variable GIVEN21 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_33 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_34 {
+type discrete [ 2 ] { true, false };
+}
+variable VECTOR27 {
+type discrete [ 2 ] { true, false };
+}
+variable APPLY32 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_56 {
+type discrete [ 2 ] { true, false };
+}
+variable CHOOSE35 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_57 {
+type discrete [ 2 ] { true, false };
+}
+variable MAXIMIZE34 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_59 {
+type discrete [ 2 ] { true, false };
+}
+variable AXIS33 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_60 {
+type discrete [ 2 ] { true, false };
+}
+variable WRITE31 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_61 {
+type discrete [ 2 ] { true, false };
+}
+variable WRITE30 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_62 {
+type discrete [ 2 ] { true, false };
+}
+variable RESOLVE37 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_63 {
+type discrete [ 2 ] { true, false };
+}
+variable NEED36 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_64 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_41 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_42 {
+type discrete [ 2 ] { true, false };
+}
+variable IDENTIFY39 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_43 {
+type discrete [ 2 ] { true, false };
+}
+variable RESOLVE38 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_66 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_67 {
+type discrete [ 2 ] { true, false };
+}
+variable IDENTIFY41 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_54 {
+type discrete [ 2 ] { true, false };
+}
+variable RESOLVE40 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_69 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_70 {
+type discrete [ 2 ] { true, false };
+}
+variable IDENTIFY43 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_55 {
+type discrete [ 2 ] { true, false };
+}
+variable RESOLVE42 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_72 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_73 {
+type discrete [ 2 ] { true, false };
+}
+variable KINE29 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_74 {
+type discrete [ 2 ] { true, false };
+}
+variable VECTOR44 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_75 {
+type discrete [ 2 ] { true, false };
+}
+variable EQUATION28 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_79 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp5 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_80 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp6 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_81 {
+type discrete [ 2 ] { true, false };
+}
+variable TRY25 {
+type discrete [ 2 ] { true, false };
+}
+variable TRY24 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_83 {
+type discrete [ 2 ] { true, false };
+}
+variable CHOOSE47 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_84 {
+type discrete [ 2 ] { true, false };
+}
+variable SYSTEM46 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_86 {
+type discrete [ 2 ] { true, false };
+}
+variable NEWTONS45 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_156 {
+type discrete [ 2 ] { true, false };
+}
+variable DEFINE23 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_98 {
+type discrete [ 2 ] { true, false };
+}
+variable IDENTIFY22 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_37 {
+type discrete [ 2 ] { true, false };
+}
+variable TRY26 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_38 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_40 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_44 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_46 {
+type discrete [ 2 ] { true, false };
+}
+variable NULL48 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_65 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_68 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_71 {
+type discrete [ 2 ] { true, false };
+}
+variable FIND49 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_87 {
+type discrete [ 2 ] { true, false };
+}
+variable NORMAL50 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_88 {
+type discrete [ 2 ] { true, false };
+}
+variable STRAT_90 {
+type discrete [ 2 ] { SNode_91_2, SNode_92_1 };
+}
+variable NORMAL52 {
+type discrete [ 2 ] { true, false };
+}
+variable INCLINE51 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_91 {
+type discrete [ 2 ] { true, false };
+}
+variable HORIZ53 {
+type discrete [ 2 ] { true, false };
+}
+variable BUGGY54 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_92 {
+type discrete [ 2 ] { true, false };
+}
+variable IDENTIFY55 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_93 {
+type discrete [ 2 ] { true, false };
+}
+variable WEIGHT56 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_94 {
+type discrete [ 2 ] { true, false };
+}
+variable WEIGHT57 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_95 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_97 {
+type discrete [ 2 ] { true, false };
+}
+variable FIND58 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_99 {
+type discrete [ 2 ] { true, false };
+}
+variable IDENTIFY59 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_100 {
+type discrete [ 2 ] { true, false };
+}
+variable FORCE60 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_102 {
+type discrete [ 2 ] { true, false };
+}
+variable APPLY61 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_103 {
+type discrete [ 2 ] { true, false };
+}
+variable CHOOSE62 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_104 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_106 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_152 {
+type discrete [ 2 ] { true, false };
+}
+variable WRITE63 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_107 {
+type discrete [ 2 ] { true, false };
+}
+variable WRITE64 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_108 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_109 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL65 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_110 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL66 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_111 {
+type discrete [ 2 ] { true, false };
+}
+variable NEED67 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp7 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp8 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_112 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL68 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_113 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_114 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_115 {
+type discrete [ 2 ] { true, false };
+}
+variable VECTOR69 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_116 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_117 {
+type discrete [ 2 ] { true, false };
+}
+variable VECTOR70 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_118 {
+type discrete [ 2 ] { true, false };
+}
+variable EQUAL71 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_119 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_120 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL72 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_121 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_122 {
+type discrete [ 2 ] { true, false };
+}
+variable VECTOR73 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_123 {
+type discrete [ 2 ] { true, false };
+}
+variable NEWTONS74 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_124 {
+type discrete [ 2 ] { true, false };
+}
+variable SUM75 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_125 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_126 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_127 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp9 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp10 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_128 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_129 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_130 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_131 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_132 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_133 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_134 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_135 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_154 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_136 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_137 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_142 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_143 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_146 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp11 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp12 {
+type discrete [ 2 ] { true, false };
+}
+variable RApp13 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_147 {
+type discrete [ 2 ] { true, false };
+}
+variable TRY76 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_149 {
+type discrete [ 2 ] { true, false };
+}
+variable APPLY77 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_150 {
+type discrete [ 2 ] { true, false };
+}
+variable GRAV78 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_151 {
+type discrete [ 2 ] { true, false };
+}
+variable GOAL_153 {
+type discrete [ 2 ] { true, false };
+}
+variable SNode_155 {
+type discrete [ 2 ] { true, false };
+}
+probability ( GOAL_2 ) {
+(true) 3.61283;
+(false) 0.276792;
+}
+probability ( SNode_3 ) {
+(true) 2.50576;
+(false) 0.39908;
+}
+probability ( SNode_4 ) {
+(true) 3.13563;
+(false) 0.318915;
+}
+probability ( SNode_5 ) {
+(true) 4.20367;
+(false) 0.237887;
+}
+probability ( SNode_6 ) {
+(true) 3.66605;
+(false) 0.272773;
+}
+probability ( SNode_7 ) {
+(true) 3.87228;
+(false) 0.258246;
+}
+probability ( DISPLACEM0 ) {
+(true) 1.07277;
+(false) 0.932166;
+}
+probability ( SNode_3, DISPLACEM0, RApp1 ) {
+(true, true, true) 5.41465;
+(true, true, false) 0.340122;
+(true, false, true) 0.337095;
+(true, false, false) 4.03629;
+(false, true, true) 0.682566;
+(false, true, false) 0.853408;
+(false, false, true) 0.742749;
+(false, false, false) 0.922394;
+}
+probability ( GIVEN_1 ) {
+(true) 2.40002;
+(false) 0.416663;
+}
+probability ( GIVEN_1, RApp2 ) {
+(true, true) 5.96732;
+(true, false) 0.402194;
+(false, true) 0.469921;
+(false, false) 0.886666;
+}
+probability ( RApp2, RApp1, SNode_8 ) {
+(true, true, true) 3.92527;
+(true, true, false) 0.406248;
+(true, false, true) 4.10356;
+(true, false, false) 0.428531;
+(false, true, true) 0.82257;
+(false, true, false) 0.705467;
+(false, false, true) 0.775279;
+(false, false, false) 0.792663;
+}
+probability ( SNode_9 ) {
+(true) 3.44232;
+(false) 0.290502;
+}
+probability ( SNode_10 ) {
+(true) 2.27832;
+(false) 0.43892;
+}
+probability ( SNode_11 ) {
+(true) 2.28353;
+(false) 0.437918;
+}
+probability ( SNode_12 ) {
+(true) 3.66301;
+(false) 0.272999;
+}
+probability ( SNode_13 ) {
+(true) 3.76953;
+(false) 0.265285;
+}
+probability ( SNode_14 ) {
+(true) 0.97877;
+(false) 0.0439196;
+}
+probability ( SNode_15 ) {
+(true) 3.33546;
+(false) 0.299809;
+}
+probability ( SNode_16 ) {
+(true) 3.01722;
+(false) 0.331431;
+}
+probability ( SNode_17 ) {
+(true) 3.97148;
+(false) 0.251795;
+}
+probability ( SNode_18 ) {
+(true) 1.00018;
+(false) 0.0436097;
+}
+probability ( SNode_19 ) {
+(true) 1.0665;
+(false) 0.0429908;
+}
+probability ( NEED1 ) {
+(true) 0.928775;
+(false) 1.07669;
+}
+probability ( NEED1, SNode_16, SNode_20 ) {
+(true, true, true) 4.11725;
+(true, true, false) 0.372275;
+(true, false, true) 0.722385;
+(true, false, false) 0.838822;
+(false, true, true) 0.67852;
+(false, true, false) 2.90117;
+(false, false, true) 0.699363;
+(false, false, false) 0.782081;
+}
+probability ( GRAV2 ) {
+(true) 0.844928;
+(false) 1.18353;
+}
+probability ( GRAV2, SNode_20, SNode_21 ) {
+(true, true, true) 3.01583;
+(true, true, false) 0.342184;
+(true, false, true) 0.544564;
+(true, false, false) 1.5035;
+(false, true, true) 0.652744;
+(false, true, false) 2.09523;
+(false, false, true) 0.690619;
+(false, false, false) 1.25305;
+}
+probability ( VALUE3 ) {
+(true) 1.04834;
+(false) 0.953891;
+}
+probability ( VALUE3, SNode_21, SNode_24 ) {
+(true, true, true) 2.55453;
+(true, true, false) 0.397142;
+(true, false, true) 0.542941;
+(true, false, false) 1.90323;
+(false, true, true) 0.430315;
+(false, true, false) 1.69588;
+(false, false, true) 0.603497;
+(false, false, false) 2.16592;
+}
+probability ( SLIDING4 ) {
+(true) 1.71635;
+(false) 0.582633;
+}
+probability ( SLIDING4, SNode_15, SNode_25 ) {
+(true, true, true) 9.26261;
+(true, true, false) 0.364665;
+(true, false, true) 0.598568;
+(true, false, false) 0.848914;
+(false, true, true) 0.60797;
+(false, true, false) 1.62423;
+(false, false, true) 0.742545;
+(false, false, false) 0.794592;
+}
+probability ( CONSTANT5 ) {
+(true) 0.614779;
+(false) 1.6266;
+}
+probability ( CONSTANT5, SNode_11, SNode_26 ) {
+(true, true, true) 3.11838;
+(true, true, false) 0.30525;
+(true, false, true) 0.766714;
+(true, false, false) 0.842365;
+(false, true, true) 0.728221;
+(false, true, false) 3.29427;
+(false, false, true) 0.728123;
+(false, false, false) 0.931225;
+}
+probability ( KNOWN6 ) {
+(true) 1.43901;
+(false) 0.694923;
+}
+probability ( VELOCITY7 ) {
+(true) 0.67671;
+(false) 1.47774;
+}
+probability ( VELOCITY7, SNode_3, SNode_47 ) {
+(true, true, true) 3.71905;
+(true, true, false) 0.310889;
+(true, false, true) 0.767009;
+(true, false, false) 0.76307;
+(false, true, true) 0.710976;
+(false, true, false) 3.04823;
+(false, false, true) 0.744214;
+(false, false, false) 0.916216;
+}
+probability ( SNode_47, SNode_26, KNOWN6, RApp3 ) {
+(true, true, true, true) 4.92138;
+(true, true, true, false) 0.437669;
+(true, true, false, true) 0.619963;
+(true, true, false, false) 1.14454;
+(true, false, true, true) 0.730229;
+(true, false, true, false) 1.33834;
+(true, false, false, true) 0.725571;
+(true, false, false, false) 1.39268;
+(false, true, true, true) 0.615147;
+(false, true, true, false) 1.41243;
+(false, true, false, true) 0.601219;
+(false, true, false, false) 1.58791;
+(false, false, true, true) 0.615884;
+(false, false, true, false) 1.2775;
+(false, false, false, true) 0.679705;
+(false, false, false, false) 1.49359;
+}
+probability ( KNOWN8 ) {
+(true) 1.27409;
+(false) 0.784876;
+}
+probability ( SNode_11, KNOWN8, RApp4 ) {
+(true, true, true) 5.67533;
+(true, true, false) 0.325959;
+(true, false, true) 0.329167;
+(true, false, false) 3.75005;
+(false, true, true) 0.788441;
+(false, true, false) 0.873526;
+(false, false, true) 0.736021;
+(false, false, false) 0.863888;
+}
+probability ( RApp4, RApp3, SNode_27 ) {
+(true, true, true) 1.15281;
+(true, true, false) 0.512736;
+(true, false, true) 4.47867;
+(true, false, false) 0.409511;
+(false, true, true) 0.96021;
+(false, true, false) 0.440964;
+(false, false, true) 0.726664;
+(false, false, false) 2.99799;
+}
+probability ( COMPO16 ) {
+(true) 1.06679;
+(false) 0.937391;
+}
+probability ( COMPO16, GOAL_2, GOAL_48 ) {
+(true, true, true) 5.79641;
+(true, true, false) 0.346222;
+(true, false, true) 0.710862;
+(true, false, false) 0.747791;
+(false, true, true) 0.61558;
+(false, true, false) 2.92448;
+(false, false, true) 0.661976;
+(false, false, false) 0.786583;
+}
+probability ( TRY12 ) {
+(true) 0.817702;
+(false) 1.22294;
+}
+probability ( TRY12, TRY11 ) {
+(true, true) 2.44546;
+(true, false) 0.334376;
+(false, true) 0.555769;
+(false, false) 2.20045;
+}
+probability ( TRY11, GOAL_48, SNode_6, SNode_5, GOAL_49 ) {
+(true, true, true, true, true) 5.05767;
+(true, true, true, true, false) 0.444874;
+(true, true, true, false, true) 0.918114;
+(true, true, true, false, false) 0.902854;
+(true, true, false, true, true) 0.892179;
+(true, true, false, true, false) 0.990937;
+(true, true, false, false, true) 0.973527;
+(true, true, false, false, false) 0.984;
+(true, false, true, true, true) 0.897471;
+(true, false, true, true, false) 1.75449;
+(true, false, true, false, true) 0.870895;
+(true, false, true, false, false) 0.898868;
+(true, false, false, true, true) 0.873721;
+(true, false, false, true, false) 0.89687;
+(true, false, false, false, true) 0.941897;
+(true, false, false, false, false) 0.945738;
+(false, true, true, true, true) 0.819809;
+(false, true, true, true, false) 2.50547;
+(false, true, true, false, true) 0.824373;
+(false, true, true, false, false) 0.885079;
+(false, true, false, true, true) 0.888631;
+(false, true, false, true, false) 0.927517;
+(false, true, false, false, true) 0.895647;
+(false, true, false, false, false) 0.960819;
+(false, false, true, true, true) 0.810727;
+(false, false, true, true, false) 1.68281;
+(false, false, true, false, true) 0.921259;
+(false, false, true, false, false) 0.846573;
+(false, false, false, true, true) 0.909524;
+(false, false, false, true, false) 0.815268;
+(false, false, false, false, true) 0.934672;
+(false, false, false, false, false) 0.938616;
+}
+probability ( CHOOSE19 ) {
+(true) 1.05641;
+(false) 0.946599;
+}
+probability ( CHOOSE19, GOAL_49, GOAL_50 ) {
+(true, true, true) 2.53091;
+(true, true, false) 0.358436;
+(true, false, true) 0.699544;
+(true, false, false) 1.66468;
+(false, true, true) 0.711304;
+(false, true, false) 1.37307;
+(false, false, true) 0.618928;
+(false, false, false) 1.56595;
+}
+probability ( SYSTEM18 ) {
+(true) 1.05846;
+(false) 0.944769;
+}
+probability ( SYSTEM18, GOAL_50, SNode_17, SNode_51 ) {
+(true, true, true, true) 2.85803;
+(true, true, true, false) 0.453335;
+(true, true, false, true) 0.810939;
+(true, true, false, false) 0.775283;
+(true, false, true, true) 0.67794;
+(true, false, true, false) 2.76088;
+(true, false, false, true) 0.857942;
+(true, false, false, false) 0.809177;
+(false, true, true, true) 0.72153;
+(false, true, true, false) 1.76142;
+(false, true, false, true) 0.879626;
+(false, true, false, false) 0.855929;
+(false, false, true, true) 0.621987;
+(false, false, true, false) 2.07171;
+(false, false, false, true) 0.837074;
+(false, false, false, false) 0.915373;
+}
+probability ( KINEMATI17 ) {
+(true) 1.08356;
+(false) 0.92288;
+}
+probability ( KINEMATI17, SNode_51, SNode_52 ) {
+(true, true, true) 1.7354;
+(true, true, false) 0.381395;
+(true, false, true) 0.882618;
+(true, false, false) 1.85485;
+(false, true, true) 0.653802;
+(false, true, false) 1.02939;
+(false, false, true) 0.694265;
+(false, false, false) 1.97512;
+}
+probability ( IDENTIFY10 ) {
+(true) 1.01646;
+(false) 0.983803;
+}
+probability ( IDENTIFY10, SNode_52, GOAL_49, GOAL_53 ) {
+(true, true, true, true) 1.80462;
+(true, true, true, false) 0.516555;
+(true, true, false, true) 0.777573;
+(true, true, false, false) 1.14155;
+(true, false, true, true) 0.915483;
+(true, false, true, false) 1.10258;
+(true, false, false, true) 0.875605;
+(true, false, false, false) 1.38991;
+(false, true, true, true) 0.859217;
+(false, true, true, false) 1.06594;
+(false, true, false, true) 0.776943;
+(false, true, false, false) 1.18081;
+(false, false, true, true) 0.950038;
+(false, false, true, false) 1.08217;
+(false, false, false, true) 0.794356;
+(false, false, false, false) 1.43368;
+}
+probability ( IDENTIFY9 ) {
+(true) 1.07347;
+(false) 0.93156;
+}
+probability ( IDENTIFY9, GOAL_53, SNode_27, SNode_28 ) {
+(true, true, true, true) 1.94813;
+(true, true, true, false) 0.555142;
+(true, true, false, true) 0.845;
+(true, true, false, false) 0.880937;
+(true, false, true, true) 0.987722;
+(true, false, true, false) 2.0198;
+(true, false, false, true) 0.775853;
+(true, false, false, false) 0.861473;
+(false, true, true, true) 0.773865;
+(false, true, true, false) 1.30919;
+(false, true, false, true) 0.841;
+(false, true, false, false) 0.826126;
+(false, false, true, true) 0.864116;
+(false, false, true, false) 1.90722;
+(false, false, false, true) 0.789763;
+(false, false, false, false) 1.01679;
+}
+probability ( TRY12, TRY13 ) {
+(true, true) 2.4782;
+(true, false) 0.329958;
+(false, true) 0.644898;
+(false, false) 1.89633;
+}
+probability ( TRY12, TRY14 ) {
+(true, true) 2.65231;
+(true, false) 0.308298;
+(false, true) 0.426195;
+(false, false) 2.86944;
+}
+probability ( TRY12, TRY15 ) {
+(true, true) 3.03354;
+(true, false) 0.269554;
+(false, true) 0.40222;
+(false, false) 3.04047;
+}
+probability ( VAR20 ) {
+(true) 1.22246;
+(false) 0.818026;
+}
+probability ( VAR20, SNode_28, SNode_29 ) {
+(true, true, true) 2.5811;
+(true, true, false) 0.342326;
+(true, false, true) 0.726914;
+(true, false, false) 1.90329;
+(false, true, true) 0.622815;
+(false, true, false) 1.01816;
+(false, false, true) 0.716167;
+(false, false, false) 1.80127;
+}
+probability ( VALUE3, SNode_29, SNode_31 ) {
+(true, true, true) 2.26987;
+(true, true, false) 0.442662;
+(true, false, true) 0.475904;
+(true, false, false) 2.19234;
+(false, true, true) 0.498028;
+(false, true, false) 1.67238;
+(false, false, true) 0.544136;
+(false, false, false) 2.10476;
+}
+probability ( GIVEN21 ) {
+(true) 1.49598;
+(false) 0.66846;
+}
+probability ( GIVEN21, SNode_10, SNode_33 ) {
+(true, true, true) 6.48873;
+(true, true, false) 0.353846;
+(true, false, true) 0.741955;
+(true, false, false) 0.878159;
+(false, true, true) 0.577512;
+(false, true, false) 1.71823;
+(false, false, true) 0.789195;
+(false, false, false) 0.853591;
+}
+probability ( CONSTANT5, SNode_10, SNode_34 ) {
+(true, true, true) 2.91418;
+(true, true, false) 0.318246;
+(true, false, true) 0.740143;
+(true, false, false) 0.895621;
+(false, true, true) 0.740591;
+(false, true, false) 3.31709;
+(false, false, true) 0.818135;
+(false, false, false) 0.809319;
+}
+probability ( VECTOR27 ) {
+(true) 0.99922;
+(false) 1.00078;
+}
+probability ( APPLY32 ) {
+(true) 0.98736;
+(false) 1.0128;
+}
+probability ( APPLY32, SNode_52, GOAL_49, GOAL_56 ) {
+(true, true, true, true) 1.60371;
+(true, true, true, false) 0.568729;
+(true, true, false, true) 0.81854;
+(true, true, false, false) 1.05899;
+(true, false, true, true) 0.695001;
+(true, false, true, false) 1.426;
+(true, false, false, true) 0.913302;
+(true, false, false, false) 1.37973;
+(false, true, true, true) 0.883863;
+(false, true, true, false) 1.05906;
+(false, true, false, true) 0.789822;
+(false, true, false, false) 1.18945;
+(false, false, true, true) 0.820983;
+(false, false, true, false) 1.27543;
+(false, false, false, true) 0.819133;
+(false, false, false, false) 1.34276;
+}
+probability ( CHOOSE35 ) {
+(true) 1.04046;
+(false) 0.961111;
+}
+probability ( CHOOSE35, GOAL_56, GOAL_57 ) {
+(true, true, true) 1.59029;
+(true, true, false) 0.369936;
+(true, false, true) 0.74979;
+(true, false, false) 2.35876;
+(false, true, true) 0.666586;
+(false, true, false) 0.997493;
+(false, false, true) 0.865527;
+(false, false, false) 1.67004;
+}
+probability ( MAXIMIZE34 ) {
+(true) 1.01428;
+(false) 0.985919;
+}
+probability ( MAXIMIZE34, GOAL_57, SNode_7, SNode_59 ) {
+(true, true, true, true) 2.62331;
+(true, true, true, false) 0.443176;
+(true, true, false, true) 0.865803;
+(true, true, false, false) 0.757493;
+(true, false, true, true) 0.747712;
+(true, false, true, false) 2.60166;
+(true, false, false, true) 0.863105;
+(true, false, false, false) 0.792294;
+(false, true, true, true) 0.733431;
+(false, true, true, false) 1.53263;
+(false, true, false, true) 0.923791;
+(false, true, false, false) 0.868878;
+(false, false, true, true) 0.643587;
+(false, false, true, false) 2.36674;
+(false, false, false, true) 0.824488;
+(false, false, false, false) 0.870099;
+}
+probability ( AXIS33 ) {
+(true) 1.39442;
+(false) 0.717143;
+}
+probability ( AXIS33, SNode_59, SNode_60 ) {
+(true, true, true) 2.43191;
+(true, true, false) 0.311324;
+(true, false, true) 0.750375;
+(true, false, false) 2.45446;
+(false, true, true) 0.68829;
+(false, true, false) 1.01125;
+(false, false, true) 0.683586;
+(false, false, false) 1.50724;
+}
+probability ( WRITE31 ) {
+(true) 1.12051;
+(false) 0.892451;
+}
+probability ( WRITE31, SNode_60, GOAL_56, GOAL_61 ) {
+(true, true, true, true) 1.43851;
+(true, true, true, false) 0.604994;
+(true, true, false, true) 0.931099;
+(true, true, false, false) 1.34451;
+(true, false, true, true) 0.73924;
+(true, false, true, false) 1.06313;
+(true, false, false, true) 0.77039;
+(true, false, false, false) 1.69867;
+(false, true, true, true) 0.796791;
+(false, true, true, false) 0.98665;
+(false, true, false, true) 0.787342;
+(false, true, false, false) 1.2732;
+(false, false, true, true) 0.702562;
+(false, false, true, false) 1.03547;
+(false, false, false, true) 0.87753;
+(false, false, false, false) 1.77391;
+}
+probability ( WRITE30 ) {
+(true) 1.02051;
+(false) 0.979905;
+}
+probability ( WRITE30, GOAL_61, GOAL_62 ) {
+(true, true, true) 1.54712;
+(true, true, false) 0.387172;
+(true, false, true) 0.863546;
+(true, false, false) 1.97289;
+(false, true, true) 0.583533;
+(false, true, false) 0.844047;
+(false, false, true) 1.01173;
+(false, false, false) 1.96646;
+}
+probability ( RESOLVE37 ) {
+(true) 0.979255;
+(false) 1.02118;
+}
+probability ( RESOLVE37, GOAL_62, SNode_28, GOAL_63 ) {
+(true, true, true, true) 1.23031;
+(true, true, true, false) 0.706062;
+(true, true, false, true) 0.830961;
+(true, true, false, false) 1.17606;
+(true, false, true, true) 0.770838;
+(true, false, true, false) 1.19992;
+(true, false, false, true) 0.941727;
+(true, false, false, false) 1.3243;
+(false, true, true, true) 0.866123;
+(false, true, true, false) 0.933808;
+(false, true, false, true) 0.9216;
+(false, true, false, false) 1.2465;
+(false, false, true, true) 0.814291;
+(false, false, true, false) 1.05884;
+(false, false, false, true) 0.942755;
+(false, false, false, false) 1.35216;
+}
+probability ( NEED36 ) {
+(true) 0.842194;
+(false) 1.18737;
+}
+probability ( NEED36, GOAL_63, SNode_64 ) {
+(true, true, true) 1.55067;
+(true, true, false) 0.471558;
+(true, false, true) 0.76127;
+(true, false, false) 1.51293;
+(false, true, true) 0.586372;
+(false, true, false) 1.06061;
+(false, false, true) 0.894059;
+(false, false, false) 2.13546;
+}
+probability ( CONSTANT5, SNode_9, SNode_41 ) {
+(true, true, true) 3.0754;
+(true, true, false) 0.376295;
+(true, false, true) 0.639547;
+(true, false, false) 0.830646;
+(false, true, true) 0.76078;
+(false, true, false) 3.90986;
+(false, false, true) 0.718427;
+(false, false, false) 0.761164;
+}
+probability ( KNOWN6, SNode_41, SNode_8, SNode_42 ) {
+(true, true, true, true) 5.34685;
+(true, true, true, false) 0.499657;
+(true, true, false, true) 0.783913;
+(true, true, false, false) 0.766901;
+(true, false, true, true) 0.766928;
+(true, false, true, false) 2.02825;
+(true, false, false, true) 0.728701;
+(true, false, false, false) 0.790427;
+(false, true, true, true) 0.799121;
+(false, true, true, false) 1.67;
+(false, true, false, true) 0.70613;
+(false, true, false, false) 0.710273;
+(false, false, true, true) 0.887929;
+(false, false, true, false) 2.08597;
+(false, false, false, true) 0.810691;
+(false, false, false, false) 0.691442;
+}
+probability ( IDENTIFY39 ) {
+(true) 0.956217;
+(false) 1.04579;
+}
+probability ( IDENTIFY39, GOAL_53, SNode_42, SNode_43 ) {
+(true, true, true, true) 1.58795;
+(true, true, true, false) 0.606803;
+(true, true, false, true) 0.745975;
+(true, true, false, false) 1.10386;
+(true, false, true, true) 0.736315;
+(true, false, true, false) 1.38577;
+(true, false, false, true) 0.806526;
+(true, false, false, false) 1.46441;
+(false, true, true, true) 0.873176;
+(false, true, true, false) 0.998746;
+(false, true, false, true) 0.830616;
+(false, true, false, false) 0.985949;
+(false, false, true, true) 0.797337;
+(false, false, true, false) 1.39176;
+(false, false, false, true) 0.863787;
+(false, false, false, false) 1.52763;
+}
+probability ( RESOLVE38 ) {
+(true) 0.977311;
+(false) 1.02322;
+}
+probability ( RESOLVE38, GOAL_62, SNode_43, GOAL_66 ) {
+(true, true, true, true) 1.21972;
+(true, true, true, false) 0.640737;
+(true, true, false, true) 0.983144;
+(true, true, false, false) 1.26993;
+(true, false, true, true) 0.731073;
+(true, false, true, false) 0.978509;
+(true, false, false, true) 0.868226;
+(true, false, false, false) 1.61263;
+(false, true, true, true) 0.80687;
+(false, true, true, false) 0.920821;
+(false, true, false, true) 0.864146;
+(false, true, false, false) 1.25903;
+(false, false, true, true) 0.829371;
+(false, false, true, false) 1.02;
+(false, false, false, true) 0.930094;
+(false, false, false, false) 1.60875;
+}
+probability ( NEED36, GOAL_66, SNode_67 ) {
+(true, true, true) 1.17719;
+(true, true, false) 0.446852;
+(true, false, true) 0.803572;
+(true, false, false) 1.9924;
+(false, true, true) 0.598107;
+(false, true, false) 1.30122;
+(false, false, true) 0.931464;
+(false, false, false) 1.63792;
+}
+probability ( IDENTIFY41 ) {
+(true) 1.02278;
+(false) 0.977727;
+}
+probability ( IDENTIFY41, GOAL_53, SNode_54 ) {
+(true, true, true) 1.61698;
+(true, true, false) 0.456426;
+(true, false, true) 0.672391;
+(true, false, false) 2.06104;
+(false, true, true) 0.60045;
+(false, true, false) 1.27874;
+(false, false, true) 0.726162;
+(false, false, false) 1.75358;
+}
+probability ( RESOLVE40 ) {
+(true) 1.01668;
+(false) 0.983591;
+}
+probability ( RESOLVE40, GOAL_62, SNode_54, GOAL_69 ) {
+(true, true, true, true) 1.25905;
+(true, true, true, false) 0.633591;
+(true, true, false, true) 0.960603;
+(true, true, false, false) 1.22374;
+(true, false, true, true) 0.755301;
+(true, false, true, false) 1.04865;
+(true, false, false, true) 0.89292;
+(true, false, false, false) 1.53299;
+(false, true, true, true) 0.807414;
+(false, true, true, false) 0.9774;
+(false, true, false, true) 0.885442;
+(false, true, false, false) 1.20373;
+(false, false, true, true) 0.833195;
+(false, false, true, false) 1.14109;
+(false, false, false, true) 0.878571;
+(false, false, false, false) 1.39995;
+}
+probability ( NEED36, GOAL_69, SNode_70 ) {
+(true, true, true) 1.54131;
+(true, true, false) 0.43207;
+(true, false, true) 0.760429;
+(true, false, false) 1.66307;
+(false, true, true) 0.61721;
+(false, true, false) 1.03853;
+(false, false, true) 0.895102;
+(false, false, false) 2.06948;
+}
+probability ( IDENTIFY43 ) {
+(true) 0.935894;
+(false) 1.0685;
+}
+probability ( IDENTIFY43, GOAL_53, SNode_34, SNode_55 ) {
+(true, true, true, true) 1.58376;
+(true, true, true, false) 0.64728;
+(true, true, false, true) 0.759547;
+(true, true, false, false) 0.907747;
+(true, false, true, true) 0.845668;
+(true, false, true, false) 1.40518;
+(true, false, false, true) 0.73404;
+(true, false, false, false) 1.51801;
+(false, true, true, true) 0.744385;
+(false, true, true, false) 1.36654;
+(false, true, false, true) 0.891148;
+(false, true, false, false) 0.884428;
+(false, false, true, true) 0.665859;
+(false, false, true, false) 1.58387;
+(false, false, false, true) 0.80379;
+(false, false, false, false) 1.57216;
+}
+probability ( RESOLVE42 ) {
+(true) 1.06643;
+(false) 0.937709;
+}
+probability ( RESOLVE42, GOAL_62, SNode_55, GOAL_72 ) {
+(true, true, true, true) 1.35865;
+(true, true, true, false) 0.540817;
+(true, true, false, true) 0.88748;
+(true, true, false, false) 1.35854;
+(true, false, true, true) 0.746017;
+(true, false, true, false) 1.0034;
+(true, false, false, true) 0.978021;
+(true, false, false, false) 1.64427;
+(false, true, true, true) 0.872495;
+(false, true, true, false) 0.807758;
+(false, true, false, true) 1.02643;
+(false, true, false, false) 1.23078;
+(false, false, true, true) 0.800557;
+(false, false, true, false) 0.854321;
+(false, false, false, true) 0.827055;
+(false, false, false, false) 1.86195;
+}
+probability ( NEED36, GOAL_72, SNode_73 ) {
+(true, true, true) 1.43867;
+(true, true, false) 0.454989;
+(true, false, true) 0.860672;
+(true, false, false) 1.4949;
+(false, true, true) 0.633557;
+(false, true, false) 1.25786;
+(false, false, true) 0.967047;
+(false, false, false) 1.54072;
+}
+probability ( KINE29 ) {
+(true) 1.01793;
+(false) 0.982382;
+}
+probability ( KINE29, SNode_73, SNode_70, SNode_67, SNode_64, GOAL_62, SNode_74 ) {
+(true, true, true, true, true, true, true) 1.01583;
+(true, true, true, true, true, true, false) 0.966185;
+(true, true, true, true, true, false, true) 0.959964;
+(true, true, true, true, true, false, false) 0.949591;
+(true, true, true, true, false, true, true) 0.982323;
+(true, true, true, true, false, true, false) 1.02135;
+(true, true, true, true, false, false, true) 0.976535;
+(true, true, true, true, false, false, false) 1.01915;
+(true, true, true, false, true, true, true) 1.00608;
+(true, true, true, false, true, true, false) 1.0412;
+(true, true, true, false, true, false, true) 0.988729;
+(true, true, true, false, true, false, false) 1.02905;
+(true, true, true, false, false, true, true) 0.980616;
+(true, true, true, false, false, true, false) 1.0238;
+(true, true, true, false, false, false, true) 0.965263;
+(true, true, true, false, false, false, false) 1.03586;
+(true, true, false, true, true, true, true) 0.984777;
+(true, true, false, true, true, true, false) 1.02949;
+(true, true, false, true, true, false, true) 0.997852;
+(true, true, false, true, true, false, false) 1.06099;
+(true, true, false, true, false, true, true) 0.957174;
+(true, true, false, true, false, true, false) 0.993526;
+(true, true, false, true, false, false, true) 0.961506;
+(true, true, false, true, false, false, false) 1.05598;
+(true, true, false, false, true, true, true) 1.00894;
+(true, true, false, false, true, true, false) 1.00869;
+(true, true, false, false, true, false, true) 0.96591;
+(true, true, false, false, true, false, false) 0.997932;
+(true, true, false, false, false, true, true) 0.934551;
+(true, true, false, false, false, true, false) 0.981562;
+(true, true, false, false, false, false, true) 0.92037;
+(true, true, false, false, false, false, false) 1.14315;
+(true, false, true, true, true, true, true) 0.984014;
+(true, false, true, true, true, true, false) 1.04506;
+(true, false, true, true, true, false, true) 0.925224;
+(true, false, true, true, true, false, false) 0.916275;
+(true, false, true, true, false, true, true) 0.962261;
+(true, false, true, true, false, true, false) 0.957845;
+(true, false, true, true, false, false, true) 0.883641;
+(true, false, true, true, false, false, false) 1.05782;
+(true, false, true, false, true, true, true) 0.987815;
+(true, false, true, false, true, true, false) 1.01207;
+(true, false, true, false, true, false, true) 0.914307;
+(true, false, true, false, true, false, false) 1.02101;
+(true, false, true, false, false, true, true) 0.95445;
+(true, false, true, false, false, true, false) 1.06445;
+(true, false, true, false, false, false, true) 0.983557;
+(true, false, true, false, false, false, false) 1.27103;
+(true, false, false, true, true, true, true) 0.967017;
+(true, false, false, true, true, true, false) 1.02338;
+(true, false, false, true, true, false, true) 0.987188;
+(true, false, false, true, true, false, false) 1.08819;
+(true, false, false, true, false, true, true) 0.94624;
+(true, false, false, true, false, true, false) 0.965581;
+(true, false, false, true, false, false, true) 0.903269;
+(true, false, false, true, false, false, false) 1.11834;
+(true, false, false, false, true, true, true) 0.93082;
+(true, false, false, false, true, true, false) 1.03057;
+(true, false, false, false, true, false, true) 0.902155;
+(true, false, false, false, true, false, false) 1.05862;
+(true, false, false, false, false, true, true) 0.92356;
+(true, false, false, false, false, true, false) 1.21109;
+(true, false, false, false, false, false, true) 0.872638;
+(true, false, false, false, false, false, false) 1.38947;
+(false, true, true, true, true, true, true) 0.992092;
+(false, true, true, true, true, true, false) 1.00974;
+(false, true, true, true, true, false, true) 0.961953;
+(false, true, true, true, true, false, false) 0.986759;
+(false, true, true, true, false, true, true) 0.985432;
+(false, true, true, true, false, true, false) 1.0221;
+(false, true, true, true, false, false, true) 0.974428;
+(false, true, true, true, false, false, false) 0.998271;
+(false, true, true, false, true, true, true) 1.00428;
+(false, true, true, false, true, true, false) 1.03556;
+(false, true, true, false, true, false, true) 0.943226;
+(false, true, true, false, true, false, false) 1.00965;
+(false, true, true, false, false, true, true) 0.954002;
+(false, true, true, false, false, true, false) 1.00102;
+(false, true, true, false, false, false, true) 0.983262;
+(false, true, true, false, false, false, false) 1.02081;
+(false, true, false, true, true, true, true) 0.984083;
+(false, true, false, true, true, true, false) 0.986641;
+(false, true, false, true, true, false, true) 0.953325;
+(false, true, false, true, true, false, false) 1.06363;
+(false, true, false, true, false, true, true) 0.976569;
+(false, true, false, true, false, true, false) 1.01788;
+(false, true, false, true, false, false, true) 0.907235;
+(false, true, false, true, false, false, false) 1.06595;
+(false, true, false, false, true, true, true) 0.972777;
+(false, true, false, false, true, true, false) 0.987583;
+(false, true, false, false, true, false, true) 0.966794;
+(false, true, false, false, true, false, false) 1.06566;
+(false, true, false, false, false, true, true) 0.953101;
+(false, true, false, false, false, true, false) 0.957059;
+(false, true, false, false, false, false, true) 0.895781;
+(false, true, false, false, false, false, false) 1.1949;
+(false, false, true, true, true, true, true) 0.961862;
+(false, false, true, true, true, true, false) 0.976583;
+(false, false, true, true, true, false, true) 0.98591;
+(false, false, true, true, true, false, false) 0.934757;
+(false, false, true, true, false, true, true) 0.93601;
+(false, false, true, true, false, true, false) 1.04492;
+(false, false, true, true, false, false, true) 0.886584;
+(false, false, true, true, false, false, false) 1.08568;
+(false, false, true, false, true, true, true) 0.965017;
+(false, false, true, false, true, true, false) 1.03568;
+(false, false, true, false, true, false, true) 0.975569;
+(false, false, true, false, true, false, false) 1.01659;
+(false, false, true, false, false, true, true) 0.916435;
+(false, false, true, false, false, true, false) 1.11214;
+(false, false, true, false, false, false, true) 0.877824;
+(false, false, true, false, false, false, false) 1.19044;
+(false, false, false, true, true, true, true) 1.00668;
+(false, false, false, true, true, true, false) 1.02202;
+(false, false, false, true, true, false, true) 0.966378;
+(false, false, false, true, true, false, false) 0.972967;
+(false, false, false, true, false, true, true) 0.943471;
+(false, false, false, true, false, true, false) 1.10467;
+(false, false, false, true, false, false, true) 0.909587;
+(false, false, false, true, false, false, false) 1.17205;
+(false, false, false, false, true, true, true) 0.974667;
+(false, false, false, false, true, true, false) 1.02386;
+(false, false, false, false, true, false, true) 0.948409;
+(false, false, false, false, true, false, false) 1.07884;
+(false, false, false, false, false, true, true) 0.887533;
+(false, false, false, false, false, true, false) 1.20272;
+(false, false, false, false, false, false, true) 0.852601;
+(false, false, false, false, false, false, false) 1.41319;
+}
+probability ( VECTOR44 ) {
+(true) 0.980325;
+(false) 1.02007;
+}
+probability ( VECTOR44, SNode_73, GOAL_72, SNode_4, SNode_75 ) {
+(true, true, true, true, true) 1.95384;
+(true, true, true, true, false) 0.57516;
+(true, true, true, false, true) 0.992608;
+(true, true, true, false, false) 0.972598;
+(true, true, false, true, true) 0.808158;
+(true, true, false, true, false) 1.2075;
+(true, true, false, false, true) 0.92832;
+(true, true, false, false, false) 0.962021;
+(true, false, true, true, true) 0.873844;
+(true, false, true, true, false) 0.924447;
+(true, false, true, false, true) 0.924549;
+(true, false, true, false, false) 0.93344;
+(true, false, false, true, true) 0.879943;
+(true, false, false, true, false) 1.84071;
+(true, false, false, false, true) 0.936829;
+(true, false, false, false, false) 0.980135;
+(false, true, true, true, true) 0.822581;
+(false, true, true, true, false) 1.22434;
+(false, true, true, false, true) 0.914723;
+(false, true, true, false, false) 0.911992;
+(false, true, false, true, true) 0.880299;
+(false, true, false, true, false) 1.23972;
+(false, true, false, false, true) 0.952263;
+(false, true, false, false, false) 0.918987;
+(false, false, true, true, true) 0.822869;
+(false, false, true, true, false) 1.187;
+(false, false, true, false, true) 0.917348;
+(false, false, true, false, false) 0.916188;
+(false, false, false, true, true) 1.01149;
+(false, false, false, true, false) 2.01249;
+(false, false, false, false, true) 0.868165;
+(false, false, false, false, false) 0.876298;
+}
+probability ( EQUATION28 ) {
+(true) 0.922471;
+(false) 1.08405;
+}
+probability ( EQUATION28, SNode_75, SNode_74, GOAL_79 ) {
+(true, true, true, true) 0.86145;
+(true, true, true, false) 0.677737;
+(true, true, false, true) 0.923058;
+(true, true, false, false) 1.26576;
+(true, false, true, true) 0.686055;
+(true, false, true, false) 0.621098;
+(true, false, false, true) 1.26519;
+(true, false, false, false) 2.50846;
+(false, true, true, true) 0.721223;
+(false, true, true, false) 0.671695;
+(false, true, false, true) 0.833208;
+(false, true, false, false) 1.47149;
+(false, false, true, true) 0.591377;
+(false, false, true, false) 0.642263;
+(false, false, false, true) 1.48367;
+(false, false, false, false) 3.23875;
+}
+probability ( GOAL_79, VECTOR27, RApp5 ) {
+(true, true, true) 1.64572;
+(true, true, false) 0.385509;
+(true, false, true) 0.524928;
+(true, false, false) 1.09272;
+(false, true, true) 0.492779;
+(false, true, false) 3.19608;
+(false, false, true) 0.487583;
+(false, false, false) 3.57833;
+}
+probability ( EQUATION28, SNode_75, GOAL_80 ) {
+(true, true, true) 1.47684;
+(true, true, false) 0.461888;
+(true, false, true) 0.863951;
+(true, false, false) 1.56529;
+(false, true, true) 0.697181;
+(false, true, false) 0.851938;
+(false, false, true) 0.914467;
+(false, false, false) 1.99584;
+}
+probability ( GOAL_80, COMPO16, RApp6 ) {
+(true, true, true) 2.65583;
+(true, true, false) 0.368306;
+(true, false, true) 0.598281;
+(true, false, false) 1.39002;
+(false, true, true) 0.480084;
+(false, true, false) 2.2717;
+(false, false, true) 0.467764;
+(false, false, false) 2.40973;
+}
+probability ( RApp6, RApp5, GOAL_81 ) {
+(true, true, true) 0.668011;
+(true, true, false) 0.658628;
+(true, false, true) 1.57227;
+(true, false, false) 0.515822;
+(false, true, true) 0.939638;
+(false, true, false) 0.502081;
+(false, false, true) 0.953171;
+(false, false, false) 6.23224;
+}
+probability ( TRY25 ) {
+(true) 1.38281;
+(false) 0.723167;
+}
+probability ( TRY25, TRY24 ) {
+(true, true) 4.60988;
+(true, false) 0.299966;
+(false, true) 0.502443;
+(false, false) 1.4393;
+}
+probability ( TRY24, GOAL_81, GOAL_83 ) {
+(true, true, true) 3.84215;
+(true, true, false) 0.38973;
+(true, false, true) 0.579546;
+(true, false, false) 2.66901;
+(false, true, true) 0.725129;
+(false, true, false) 0.86634;
+(false, false, true) 0.694609;
+(false, false, false) 0.989418;
+}
+probability ( CHOOSE47 ) {
+(true) 1.08684;
+(false) 0.920098;
+}
+probability ( CHOOSE47, GOAL_83, GOAL_84 ) {
+(true, true, true) 2.72542;
+(true, true, false) 0.363225;
+(true, false, true) 0.665528;
+(true, false, false) 1.64965;
+(false, true, true) 0.73533;
+(false, true, false) 1.54073;
+(false, false, true) 0.623753;
+(false, false, false) 1.30201;
+}
+probability ( SYSTEM46 ) {
+(true) 0.963787;
+(false) 1.03757;
+}
+probability ( SYSTEM46, GOAL_84, SNode_86 ) {
+(true, true, true) 2.67766;
+(true, true, false) 0.347028;
+(true, false, true) 0.53411;
+(true, false, false) 1.94192;
+(false, true, true) 0.58854;
+(false, true, false) 1.52124;
+(false, false, true) 0.530954;
+(false, false, false) 2.18267;
+}
+probability ( NEWTONS45 ) {
+(true) 0.89911;
+(false) 1.11221;
+}
+probability ( NEWTONS45, SNode_86, SNode_156 ) {
+(true, true, true) 1.6046;
+(true, true, false) 0.395932;
+(true, false, true) 0.719329;
+(true, false, false) 1.96742;
+(false, true, true) 0.615762;
+(false, true, false) 1.1424;
+(false, false, true) 0.820967;
+(false, false, false) 1.92589;
+}
+probability ( DEFINE23 ) {
+(true) 0.923717;
+(false) 1.08258;
+}
+probability ( DEFINE23, SNode_156, GOAL_83, GOAL_98 ) {
+(true, true, true, true) 1.80304;
+(true, true, true, false) 0.503282;
+(true, true, false, true) 0.877355;
+(true, true, false, false) 0.969011;
+(true, false, true, true) 0.935458;
+(true, false, true, false) 1.2506;
+(true, false, false, true) 0.788243;
+(true, false, false, false) 1.29841;
+(false, true, true, true) 0.968454;
+(false, true, true, false) 1.07425;
+(false, true, false, true) 0.785474;
+(false, true, false, false) 0.925544;
+(false, false, true, true) 0.853654;
+(false, false, true, false) 1.18957;
+(false, false, false, true) 0.839517;
+(false, false, false, false) 1.67899;
+}
+probability ( IDENTIFY22 ) {
+(true) 0.974602;
+(false) 1.02606;
+}
+probability ( IDENTIFY22, GOAL_98, SNode_37 ) {
+(true, true, true) 1.90625;
+(true, true, false) 0.402421;
+(true, false, true) 0.707444;
+(true, false, false) 1.79587;
+(false, true, true) 0.71439;
+(false, true, false) 1.16036;
+(false, false, true) 0.599194;
+(false, false, false) 2.06575;
+}
+probability ( TRY25, TRY26 ) {
+(true, true) 5.96077;
+(true, false) 0.231985;
+(false, true) 0.569675;
+(false, false) 1.26944;
+}
+probability ( VAR20, SNode_37, SNode_38 ) {
+(true, true, true) 2.44771;
+(true, true, false) 0.340852;
+(true, false, true) 0.651456;
+(true, false, false) 2.24917;
+(false, true, true) 0.757561;
+(false, true, false) 0.913338;
+(false, false, true) 0.721367;
+(false, false, false) 1.63893;
+}
+probability ( VALUE3, SNode_38, SNode_40 ) {
+(true, true, true) 2.40119;
+(true, true, false) 0.418162;
+(true, false, true) 0.467667;
+(true, false, false) 2.23251;
+(false, true, true) 0.440303;
+(false, true, false) 1.97105;
+(false, false, true) 0.500474;
+(false, false, false) 2.19619;
+}
+probability ( VAR20, SNode_43, SNode_44 ) {
+(true, true, true) 1.76861;
+(true, true, false) 0.359218;
+(true, false, true) 0.771023;
+(true, false, false) 2.4956;
+(false, true, true) 0.625734;
+(false, true, false) 0.88392;
+(false, false, true) 0.744999;
+(false, false, false) 1.98522;
+}
+probability ( VALUE3, SNode_44, SNode_46 ) {
+(true, true, true) 2.14567;
+(true, true, false) 0.40613;
+(true, false, true) 0.477718;
+(true, false, false) 2.51826;
+(false, true, true) 0.492324;
+(false, true, false) 1.48172;
+(false, false, true) 0.452927;
+(false, false, false) 2.88705;
+}
+probability ( NULL48 ) {
+(true) 0.967446;
+(false) 1.03365;
+}
+probability ( NULL48, SNode_64, GOAL_63, SNode_29, SNode_65 ) {
+(true, true, true, true, true) 1.21671;
+(true, true, true, true, false) 0.767231;
+(true, true, true, false, true) 0.76778;
+(true, true, true, false, false) 1.21291;
+(true, true, false, true, true) 0.760745;
+(true, true, false, true, false) 1.11489;
+(true, true, false, false, true) 0.745916;
+(true, true, false, false, false) 1.44988;
+(true, false, true, true, true) 0.85972;
+(true, false, true, true, false) 1.0322;
+(true, false, true, false, true) 0.764925;
+(true, false, true, false, false) 0.970533;
+(true, false, false, true, true) 0.671825;
+(true, false, false, true, false) 1.90622;
+(true, false, false, false, true) 0.622549;
+(true, false, false, false, false) 2.30995;
+(false, true, true, true, true) 0.804268;
+(false, true, true, true, false) 1.14018;
+(false, true, true, false, true) 0.868586;
+(false, true, true, false, false) 1.3132;
+(false, true, false, true, true) 0.831692;
+(false, true, false, true, false) 1.00378;
+(false, true, false, false, true) 0.718886;
+(false, true, false, false, false) 1.23637;
+(false, false, true, true, true) 0.89045;
+(false, false, true, true, false) 1.07626;
+(false, false, true, false, true) 0.757719;
+(false, false, true, false, false) 1.04546;
+(false, false, false, true, true) 0.70627;
+(false, false, false, true, false) 1.79495;
+(false, false, false, false, true) 0.551052;
+(false, false, false, false, false) 2.51125;
+}
+probability ( VECTOR44, SNode_67, GOAL_66, SNode_68 ) {
+(true, true, true, true) 1.29494;
+(true, true, true, false) 0.634517;
+(true, true, false, true) 0.682262;
+(true, true, false, false) 1.35771;
+(true, false, true, true) 0.674329;
+(true, false, true, false) 1.23849;
+(true, false, false, true) 0.560893;
+(true, false, false, false) 2.74962;
+(false, true, true, true) 0.707316;
+(false, true, true, false) 1.21148;
+(false, true, false, true) 0.619529;
+(false, true, false, false) 1.30428;
+(false, false, true, true) 0.621487;
+(false, false, true, false) 1.12026;
+(false, false, false, true) 0.573042;
+(false, false, false, false) 3.69259;
+}
+probability ( VECTOR44, SNode_70, GOAL_69, SNode_71 ) {
+(true, true, true, true) 1.3845;
+(true, true, true, false) 0.601135;
+(true, true, false, true) 0.716242;
+(true, true, false, false) 1.26414;
+(true, false, true, true) 0.709655;
+(true, false, true, false) 0.982303;
+(true, false, false, true) 0.595326;
+(true, false, false, false) 3.13475;
+(false, true, true, true) 0.803151;
+(false, true, true, false) 1.42318;
+(false, true, false, true) 0.604315;
+(false, true, false, false) 1.24398;
+(false, false, true, true) 0.585768;
+(false, false, true, false) 1.0989;
+(false, false, false, true) 0.649598;
+(false, false, false, false) 2.83902;
+}
+probability ( FIND49 ) {
+(true) 0.950074;
+(false) 1.05255;
+}
+probability ( FIND49, SNode_156, GOAL_83, GOAL_87 ) {
+(true, true, true, true) 1.75569;
+(true, true, true, false) 0.517705;
+(true, true, false, true) 0.974248;
+(true, true, false, false) 0.832103;
+(true, false, true, true) 0.906912;
+(true, false, true, false) 1.17904;
+(true, false, false, true) 0.936824;
+(true, false, false, false) 1.28715;
+(false, true, true, true) 0.932124;
+(false, true, true, false) 1.11429;
+(false, true, false, true) 0.916143;
+(false, true, false, false) 0.832191;
+(false, false, true, true) 0.858693;
+(false, false, true, false) 1.29386;
+(false, false, false, true) 0.895687;
+(false, false, false, false) 1.33569;
+}
+probability ( NORMAL50 ) {
+(true) 1.08857;
+(false) 0.918637;
+}
+probability ( NORMAL50, GOAL_87, SNode_25, SNode_88 ) {
+(true, true, true, true) 2.86655;
+(true, true, true, false) 0.478787;
+(true, true, false, true) 0.78659;
+(true, true, false, false) 0.987618;
+(true, false, true, true) 0.75809;
+(true, false, true, false) 1.67401;
+(true, false, false, true) 0.85235;
+(true, false, false, false) 0.943883;
+(false, true, true, true) 0.599041;
+(false, true, true, false) 1.96895;
+(false, true, false, true) 0.773598;
+(false, true, false, false) 0.981126;
+(false, false, true, true) 0.776272;
+(false, false, true, false) 1.56951;
+(false, false, false, true) 0.926377;
+(false, false, false, false) 0.909174;
+}
+probability ( STRAT_90 ) {
+(SNode_91_2) 1.18627;
+(SNode_92_1) 0.842982;
+}
+probability ( NORMAL52 ) {
+(true) 0.92504;
+(false) 1.08103;
+}
+probability ( NORMAL52, INCLINE51 ) {
+(true, true) 2.75542;
+(true, false) 0.335716;
+(false, true) 0.241476;
+(false, false) 4.47678;
+}
+probability ( INCLINE51, STRAT_90, SNode_13, SNode_12, SNode_88, SNode_91 ) {
+(true, SNode_91_2, true, true, true, true) 1.42345;
+(true, SNode_91_2, true, true, true, false) 0.610237;
+(true, SNode_91_2, true, true, false, true) 0.998387;
+(true, SNode_91_2, true, true, false, false) 1.52232;
+(true, SNode_91_2, true, false, true, true) 0.981768;
+(true, SNode_91_2, true, false, true, false) 0.964371;
+(true, SNode_91_2, true, false, false, true) 0.966944;
+(true, SNode_91_2, true, false, false, false) 0.951558;
+(true, SNode_91_2, false, true, true, true) 0.93601;
+(true, SNode_91_2, false, true, true, false) 0.963816;
+(true, SNode_91_2, false, true, false, true) 0.935397;
+(true, SNode_91_2, false, true, false, false) 0.903649;
+(true, SNode_91_2, false, false, true, true) 0.962482;
+(true, SNode_91_2, false, false, true, false) 0.976642;
+(true, SNode_91_2, false, false, false, true) 0.972131;
+(true, SNode_91_2, false, false, false, false) 0.933575;
+(true, SNode_92_1, true, true, true, true) 0.885397;
+(true, SNode_92_1, true, true, true, false) 1.15873;
+(true, SNode_92_1, true, true, false, true) 0.941285;
+(true, SNode_92_1, true, true, false, false) 1.48028;
+(true, SNode_92_1, true, false, true, true) 0.969854;
+(true, SNode_92_1, true, false, true, false) 0.972131;
+(true, SNode_92_1, true, false, false, true) 0.934158;
+(true, SNode_92_1, true, false, false, false) 0.978789;
+(true, SNode_92_1, false, true, true, true) 0.933169;
+(true, SNode_92_1, false, true, true, false) 0.98396;
+(true, SNode_92_1, false, true, false, true) 0.917059;
+(true, SNode_92_1, false, true, false, false) 0.917843;
+(true, SNode_92_1, false, false, true, true) 0.987099;
+(true, SNode_92_1, false, false, true, false) 0.979636;
+(true, SNode_92_1, false, false, false, true) 0.980709;
+(true, SNode_92_1, false, false, false, false) 0.984595;
+(false, SNode_91_2, true, true, true, true) 0.981136;
+(false, SNode_91_2, true, true, true, false) 1.29306;
+(false, SNode_91_2, true, true, false, true) 1.17428;
+(false, SNode_91_2, true, true, false, false) 1.81847;
+(false, SNode_91_2, true, false, true, true) 0.943877;
+(false, SNode_91_2, true, false, true, false) 0.922596;
+(false, SNode_91_2, true, false, false, true) 0.922909;
+(false, SNode_91_2, true, false, false, false) 0.935729;
+(false, SNode_91_2, false, true, true, true) 0.979361;
+(false, SNode_91_2, false, true, true, false) 0.946263;
+(false, SNode_91_2, false, true, false, true) 0.998077;
+(false, SNode_91_2, false, true, false, false) 0.951653;
+(false, SNode_91_2, false, false, true, true) 0.994122;
+(false, SNode_91_2, false, false, true, false) 0.954947;
+(false, SNode_91_2, false, false, false, true) 0.957912;
+(false, SNode_91_2, false, false, false, false) 0.972233;
+(false, SNode_92_1, true, true, true, true) 0.852353;
+(false, SNode_92_1, true, true, true, false) 1.19546;
+(false, SNode_92_1, true, true, false, true) 0.931983;
+(false, SNode_92_1, true, true, false, false) 1.76485;
+(false, SNode_92_1, true, false, true, true) 0.947432;
+(false, SNode_92_1, true, false, true, false) 0.971256;
+(false, SNode_92_1, true, false, false, true) 0.902326;
+(false, SNode_92_1, true, false, false, false) 0.938095;
+(false, SNode_92_1, false, true, true, true) 0.973118;
+(false, SNode_92_1, false, true, true, false) 0.973946;
+(false, SNode_92_1, false, true, false, true) 0.942048;
+(false, SNode_92_1, false, true, false, false) 0.922923;
+(false, SNode_92_1, false, false, true, true) 0.978162;
+(false, SNode_92_1, false, false, true, false) 0.959422;
+(false, SNode_92_1, false, false, false, true) 0.952949;
+(false, SNode_92_1, false, false, false, false) 0.985309;
+}
+probability ( NORMAL52, HORIZ53 ) {
+(true, true) 3.07859;
+(true, false) 0.300476;
+(false, true) 0.555227;
+(false, false) 1.94701;
+}
+probability ( NORMAL52, BUGGY54 ) {
+(true, true) 0.320078;
+(true, false) 2.89004;
+(false, true) 1.92131;
+(false, false) 0.562655;
+}
+probability ( BUGGY54, STRAT_90, SNode_12, SNode_92 ) {
+(true, SNode_91_2, true, true) 0.723908;
+(true, SNode_91_2, true, false) 1.91629;
+(true, SNode_91_2, false, true) 0.876724;
+(true, SNode_91_2, false, false) 0.854543;
+(true, SNode_92_1, true, true) 2.2402;
+(true, SNode_92_1, true, false) 0.368256;
+(true, SNode_92_1, false, true) 0.79664;
+(true, SNode_92_1, false, false) 0.900357;
+(false, SNode_91_2, true, true) 0.784751;
+(false, SNode_91_2, true, false) 2.20528;
+(false, SNode_91_2, false, true) 0.777321;
+(false, SNode_91_2, false, false) 0.848489;
+(false, SNode_92_1, true, true) 0.793285;
+(false, SNode_92_1, true, false) 2.33149;
+(false, SNode_92_1, false, true) 0.864185;
+(false, SNode_92_1, false, false) 0.891323;
+}
+probability ( IDENTIFY55 ) {
+(true) 1.0535;
+(false) 0.949215;
+}
+probability ( IDENTIFY55, SNode_88, GOAL_87, SNode_93 ) {
+(true, true, true, true) 1.86782;
+(true, true, true, false) 0.582139;
+(true, true, false, true) 0.748486;
+(true, true, false, false) 0.82471;
+(true, false, true, true) 0.823219;
+(true, false, true, false) 1.09406;
+(true, false, false, true) 0.832715;
+(true, false, false, false) 2.09283;
+(false, true, true, true) 0.813395;
+(false, true, true, false) 1.18146;
+(false, true, false, true) 0.782902;
+(false, true, false, false) 0.961497;
+(false, false, true, true) 0.852444;
+(false, false, true, false) 1.18978;
+(false, false, false, true) 0.851724;
+(false, false, false, false) 1.519;
+}
+probability ( WEIGHT56 ) {
+(true) 1.35175;
+(false) 0.739784;
+}
+probability ( WEIGHT56, GOAL_87, SNode_33, SNode_16, SNode_94 ) {
+(true, true, true, true, true) 3.224;
+(true, true, true, true, false) 0.483106;
+(true, true, true, false, true) 0.887219;
+(true, true, true, false, false) 0.940594;
+(true, true, false, true, true) 0.898149;
+(true, true, false, true, false) 1.10354;
+(true, true, false, false, true) 0.939372;
+(true, true, false, false, false) 0.934953;
+(true, false, true, true, true) 0.91211;
+(true, false, true, true, false) 2.05091;
+(true, false, true, false, true) 0.905268;
+(true, false, true, false, false) 0.880396;
+(true, false, false, true, true) 0.843481;
+(true, false, false, true, false) 1.14431;
+(true, false, false, false, true) 0.949866;
+(true, false, false, false, false) 0.874036;
+(false, true, true, true, true) 0.714218;
+(false, true, true, true, false) 1.56984;
+(false, true, true, false, true) 0.975154;
+(false, true, true, false, false) 0.956046;
+(false, true, false, true, true) 0.865037;
+(false, true, false, true, false) 0.997429;
+(false, true, false, false, true) 0.966509;
+(false, true, false, false, false) 0.967776;
+(false, false, true, true, true) 0.796122;
+(false, false, true, true, false) 1.60401;
+(false, false, true, false, true) 0.921222;
+(false, false, true, false, false) 0.920817;
+(false, false, false, true, true) 0.892161;
+(false, false, false, true, false) 0.982172;
+(false, false, false, false, true) 0.957108;
+(false, false, false, false, false) 0.965282;
+}
+probability ( WEIGHT57 ) {
+(true) 1.27508;
+(false) 0.784263;
+}
+probability ( WEIGHT57, SNode_94, SNode_95 ) {
+(true, true, true) 2.25278;
+(true, true, false) 0.364447;
+(true, false, true) 0.806326;
+(true, false, false) 1.92608;
+(false, true, true) 0.640881;
+(false, true, false) 1.10646;
+(false, false, true) 0.771794;
+(false, false, false) 1.433;
+}
+probability ( IDENTIFY55, SNode_94, GOAL_87, SNode_97 ) {
+(true, true, true, true) 2.13254;
+(true, true, true, false) 0.594086;
+(true, true, false, true) 0.742649;
+(true, true, false, false) 0.856794;
+(true, false, true, true) 0.761247;
+(true, false, true, false) 1.01542;
+(true, false, false, true) 0.836906;
+(true, false, false, false) 2.02013;
+(false, true, true, true) 0.744578;
+(false, true, true, false) 1.4897;
+(false, true, false, true) 0.733244;
+(false, true, false, false) 0.887978;
+(false, false, true, true) 0.838712;
+(false, false, true, false) 1.04768;
+(false, false, false, true) 0.800128;
+(false, false, false, false) 1.8694;
+}
+probability ( FIND58 ) {
+(true) 0.772715;
+(false) 1.29414;
+}
+probability ( FIND58, GOAL_98, GOAL_99 ) {
+(true, true, true) 1.40525;
+(true, true, false) 0.516539;
+(true, false, true) 0.615143;
+(true, false, false) 1.73055;
+(false, true, true) 0.612978;
+(false, true, false) 1.42917;
+(false, false, true) 0.671359;
+(false, false, false) 2.20037;
+}
+probability ( IDENTIFY59 ) {
+(true) 0.920885;
+(false) 1.08591;
+}
+probability ( IDENTIFY59, GOAL_98, SNode_100 ) {
+(true, true, true) 1.75548;
+(true, true, false) 0.462511;
+(true, false, true) 0.693034;
+(true, false, false) 1.63657;
+(false, true, true) 0.633117;
+(false, true, false) 1.23705;
+(false, false, true) 0.706832;
+(false, false, false) 1.96159;
+}
+probability ( FORCE60 ) {
+(true) 1.62231;
+(false) 0.616404;
+}
+probability ( FORCE60, SNode_94, SNode_88, GOAL_87, SNode_102 ) {
+(true, true, true, true, true) 2.27303;
+(true, true, true, true, false) 0.579319;
+(true, true, true, false, true) 0.84413;
+(true, true, true, false, false) 0.904884;
+(true, true, false, true, true) 0.715144;
+(true, true, false, true, false) 1.7722;
+(true, true, false, false, true) 0.759077;
+(true, true, false, false, false) 1.01534;
+(true, false, true, true, true) 0.809282;
+(true, false, true, true, false) 1.07103;
+(true, false, true, false, true) 0.802364;
+(true, false, true, false, false) 1.07467;
+(true, false, false, true, true) 0.805318;
+(true, false, false, true, false) 1.14484;
+(true, false, false, false, true) 0.790651;
+(true, false, false, false, false) 3.03085;
+(false, true, true, true, true) 0.904467;
+(false, true, true, true, false) 1.07179;
+(false, true, true, false, true) 0.928561;
+(false, true, true, false, false) 0.900398;
+(false, true, false, true, true) 0.819379;
+(false, true, false, true, false) 1.06008;
+(false, true, false, false, true) 0.833636;
+(false, true, false, false, false) 1.00969;
+(false, false, true, true, true) 0.929871;
+(false, false, true, true, false) 1.01562;
+(false, false, true, false, true) 0.888417;
+(false, false, true, false, false) 0.949799;
+(false, false, false, true, true) 0.885605;
+(false, false, false, true, false) 1.01627;
+(false, false, false, false, true) 0.761928;
+(false, false, false, false, false) 1.90354;
+}
+probability ( APPLY61 ) {
+(true) 0.989698;
+(false) 1.01041;
+}
+probability ( APPLY61, SNode_102, GOAL_83, GOAL_103 ) {
+(true, true, true, true) 1.35251;
+(true, true, true, false) 0.567213;
+(true, true, false, true) 0.710716;
+(true, true, false, false) 0.690896;
+(true, false, true, true) 1.0096;
+(true, false, true, false) 1.87347;
+(true, false, false, true) 0.89093;
+(true, false, false, false) 1.55907;
+(false, true, true, true) 0.702098;
+(false, true, true, false) 0.774063;
+(false, true, false, true) 0.774547;
+(false, true, false, false) 0.868478;
+(false, false, true, true) 0.965065;
+(false, false, true, false) 1.47368;
+(false, false, false, true) 0.993576;
+(false, false, false, false) 1.95595;
+}
+probability ( CHOOSE62 ) {
+(true) 1.14768;
+(false) 0.871321;
+}
+probability ( CHOOSE62, GOAL_103, GOAL_104 ) {
+(true, true, true) 1.58431;
+(true, true, false) 0.457711;
+(true, false, true) 0.720762;
+(true, false, false) 2.19584;
+(false, true, true) 0.634156;
+(false, true, false) 0.98041;
+(false, false, true) 0.774732;
+(false, false, false) 1.80893;
+}
+probability ( MAXIMIZE34, GOAL_104, SNode_106 ) {
+(true, true, true) 1.71744;
+(true, true, false) 0.414782;
+(true, false, true) 0.74936;
+(true, false, false) 1.90006;
+(false, true, true) 0.621419;
+(false, true, false) 1.26734;
+(false, false, true) 0.753446;
+(false, false, false) 1.66155;
+}
+probability ( AXIS33, SNode_106, SNode_152 ) {
+(true, true, true) 2.54889;
+(true, true, false) 0.330004;
+(true, false, true) 0.817608;
+(true, false, false) 2.02759;
+(false, true, true) 0.704395;
+(false, true, false) 1.017;
+(false, false, true) 0.732463;
+(false, false, false) 1.36672;
+}
+probability ( WRITE63 ) {
+(true) 1.06591;
+(false) 0.938169;
+}
+probability ( WRITE63, SNode_152, GOAL_103, GOAL_107 ) {
+(true, true, true, true) 1.59833;
+(true, true, true, false) 0.59507;
+(true, true, false, true) 0.885681;
+(true, true, false, false) 1.3546;
+(true, false, true, true) 0.855081;
+(true, false, true, false) 0.858865;
+(true, false, false, true) 0.806667;
+(true, false, false, false) 1.57677;
+(false, true, true, true) 0.776959;
+(false, true, true, false) 1.1099;
+(false, true, false, true) 0.909879;
+(false, true, false, false) 1.2009;
+(false, false, true, true) 0.738819;
+(false, false, true, false) 1.01308;
+(false, false, false, true) 0.902182;
+(false, false, false, false) 1.47446;
+}
+probability ( WRITE64 ) {
+(true) 1.04182;
+(false) 0.959858;
+}
+probability ( WRITE64, GOAL_107, GOAL_108 ) {
+(true, true, true) 1.74892;
+(true, true, false) 0.384269;
+(true, false, true) 0.95784;
+(true, false, false) 1.61843;
+(false, true, true) 0.620893;
+(false, true, false) 1.10265;
+(false, false, true) 0.866041;
+(false, false, false) 1.61888;
+}
+probability ( WRITE64, GOAL_107, GOAL_109 ) {
+(true, true, true) 1.80918;
+(true, true, false) 0.37147;
+(true, false, true) 0.983459;
+(true, false, false) 1.57627;
+(false, true, true) 0.741602;
+(false, true, false) 0.923172;
+(false, false, true) 0.990779;
+(false, false, false) 1.41506;
+}
+probability ( GOAL65 ) {
+(true) 1.04943;
+(false) 0.9529;
+}
+probability ( GOAL65, GOAL_109, GOAL_110 ) {
+(true, true, true) 3.03164;
+(true, true, false) 0.42867;
+(true, false, true) 0.580674;
+(true, false, false) 1.39066;
+(false, true, true) 0.730451;
+(false, true, false) 1.37719;
+(false, false, true) 0.620431;
+(false, false, false) 1.52675;
+}
+probability ( GOAL66 ) {
+(true) 0.858075;
+(false) 1.1654;
+}
+probability ( GOAL66, GOAL_109, GOAL_111 ) {
+(true, true, true) 2.57489;
+(true, true, false) 0.45713;
+(true, false, true) 0.691681;
+(true, false, false) 1.05395;
+(false, true, true) 0.773904;
+(false, true, false) 1.43516;
+(false, false, true) 0.707063;
+(false, false, false) 1.48398;
+}
+probability ( NEED67 ) {
+(true) 1.04292;
+(false) 0.958846;
+}
+probability ( GOAL_109, NEED67, RApp7 ) {
+(true, true, true) 2.62241;
+(true, true, false) 0.439297;
+(true, false, true) 0.543028;
+(true, false, false) 2.0898;
+(false, true, true) 0.41649;
+(false, true, false) 2.17364;
+(false, false, true) 0.470249;
+(false, false, false) 1.79677;
+}
+probability ( GOAL_111, NEED36, RApp8 ) {
+(true, true, true) 2.97169;
+(true, true, false) 0.397561;
+(true, false, true) 0.555162;
+(true, false, false) 1.48588;
+(false, true, true) 0.449197;
+(false, true, false) 1.58697;
+(false, false, true) 0.524561;
+(false, false, false) 2.74402;
+}
+probability ( RApp8, RApp7, SNode_112 ) {
+(true, true, true) 0.87552;
+(true, true, false) 0.63623;
+(true, false, true) 1.42073;
+(true, false, false) 0.491206;
+(false, true, true) 1.10102;
+(false, true, false) 0.454757;
+(false, false, true) 1.40972;
+(false, false, false) 3.64449;
+}
+probability ( GOAL68 ) {
+(true) 1.02198;
+(false) 0.978495;
+}
+probability ( GOAL68, GOAL_110, GOAL_113 ) {
+(true, true, true) 2.22536;
+(true, true, false) 0.405282;
+(true, false, true) 0.664055;
+(true, false, false) 1.7064;
+(false, true, true) 0.775569;
+(false, true, false) 1.14056;
+(false, false, true) 0.69176;
+(false, false, false) 1.59907;
+}
+probability ( GOAL68, GOAL_110, GOAL_114 ) {
+(true, true, true) 2.11952;
+(true, true, false) 0.42552;
+(true, false, true) 0.693193;
+(true, false, false) 1.63467;
+(false, true, true) 0.651384;
+(false, true, false) 1.358;
+(false, false, true) 0.650375;
+(false, false, false) 1.70082;
+}
+probability ( NEED36, GOAL_114, SNode_115 ) {
+(true, true, true) 1.78243;
+(true, true, false) 0.425376;
+(true, false, true) 0.698999;
+(true, false, false) 1.5891;
+(false, true, true) 0.552197;
+(false, true, false) 1.48667;
+(false, false, true) 0.676566;
+(false, false, false) 2.13781;
+}
+probability ( VECTOR69 ) {
+(true) 0.898547;
+(false) 1.11291;
+}
+probability ( VECTOR69, SNode_115, GOAL_114, SNode_97, SNode_95, SNode_116 ) {
+(true, true, true, true, true, true) 1.05778;
+(true, true, true, true, true, false) 0.923486;
+(true, true, true, true, false, true) 0.948271;
+(true, true, true, true, false, false) 0.90253;
+(true, true, true, false, true, true) 0.961891;
+(true, true, true, false, true, false) 1.06547;
+(true, true, true, false, false, true) 0.919818;
+(true, true, true, false, false, false) 1.23215;
+(true, true, false, true, true, true) 0.939451;
+(true, true, false, true, true, false) 0.963469;
+(true, true, false, true, false, true) 0.93288;
+(true, true, false, true, false, false) 0.965813;
+(true, true, false, false, true, true) 0.965249;
+(true, true, false, false, true, false) 0.896355;
+(true, true, false, false, false, true) 0.99951;
+(true, true, false, false, false, false) 0.983563;
+(true, false, true, true, true, true) 0.993481;
+(true, false, true, true, true, false) 1.00688;
+(true, false, true, true, false, true) 0.942406;
+(true, false, true, true, false, false) 0.99467;
+(true, false, true, false, true, true) 0.924928;
+(true, false, true, false, true, false) 1.05621;
+(true, false, true, false, false, true) 0.922946;
+(true, false, true, false, false, false) 1.07115;
+(true, false, false, true, true, true) 0.919206;
+(true, false, false, true, true, false) 1.03653;
+(true, false, false, true, false, true) 0.942561;
+(true, false, false, true, false, false) 1.08216;
+(true, false, false, false, true, true) 0.96079;
+(true, false, false, false, true, false) 1.17164;
+(true, false, false, false, false, true) 0.931439;
+(true, false, false, false, false, false) 1.44555;
+(false, true, true, true, true, true) 0.917825;
+(false, true, true, true, true, false) 1.00619;
+(false, true, true, true, false, true) 0.923251;
+(false, true, true, true, false, false) 0.973863;
+(false, true, true, false, true, true) 0.923699;
+(false, true, true, false, true, false) 1.11634;
+(false, true, true, false, false, true) 0.99993;
+(false, true, true, false, false, false) 1.18385;
+(false, true, false, true, true, true) 0.90069;
+(false, true, false, true, true, false) 0.994615;
+(false, true, false, true, false, true) 0.862368;
+(false, true, false, true, false, false) 0.897924;
+(false, true, false, false, true, true) 0.958746;
+(false, true, false, false, true, false) 1.08465;
+(false, true, false, false, false, true) 0.933761;
+(false, true, false, false, false, false) 1.01218;
+(false, false, true, true, true, true) 0.979592;
+(false, false, true, true, true, false) 1.0014;
+(false, false, true, true, false, true) 0.887498;
+(false, false, true, true, false, false) 0.995605;
+(false, false, true, false, true, true) 0.90248;
+(false, false, true, false, true, false) 0.991358;
+(false, false, true, false, false, true) 0.887503;
+(false, false, true, false, false, false) 1.01462;
+(false, false, false, true, true, true) 0.957203;
+(false, false, false, true, true, false) 1.11628;
+(false, false, false, true, false, true) 0.921535;
+(false, false, false, true, false, false) 1.21032;
+(false, false, false, false, true, true) 0.989387;
+(false, false, false, false, true, false) 1.32838;
+(false, false, false, false, false, true) 0.883991;
+(false, false, false, false, false, false) 1.66569;
+}
+probability ( NEED36, GOAL_113, SNode_117 ) {
+(true, true, true) 2.19848;
+(true, true, false) 0.386731;
+(true, false, true) 0.664899;
+(true, false, false) 1.4898;
+(false, true, true) 0.661377;
+(false, true, false) 1.40994;
+(false, false, true) 0.682422;
+(false, false, false) 1.86589;
+}
+probability ( VECTOR70 ) {
+(true) 2.10139;
+(false) 0.475875;
+}
+probability ( VECTOR70, GOAL_113, SNode_91, SNode_118 ) {
+(true, true, true, true) 1.22121;
+(true, true, true, false) 0.59439;
+(true, true, false, true) 0.782369;
+(true, true, false, false) 2.13052;
+(true, false, true, true) 0.660647;
+(true, false, true, false) 1.22616;
+(true, false, false, true) 0.78519;
+(true, false, false, false) 2.73059;
+(false, true, true, true) 0.895522;
+(false, true, true, false) 0.891885;
+(false, true, false, true) 0.822125;
+(false, true, false, false) 0.997922;
+(false, false, true, true) 0.79028;
+(false, false, true, false) 1.00984;
+(false, false, false, true) 0.762146;
+(false, false, false, false) 1.19399;
+}
+probability ( EQUAL71 ) {
+(true) 1.21724;
+(false) 0.821534;
+}
+probability ( EQUAL71, SNode_118, SNode_117, SNode_93, SNode_119 ) {
+(true, true, true, true, true) 1.05907;
+(true, true, true, true, false) 0.730116;
+(true, true, true, false, true) 0.793186;
+(true, true, true, false, false) 1.08552;
+(true, true, false, true, true) 0.776143;
+(true, true, false, true, false) 1.09021;
+(true, true, false, false, true) 0.64817;
+(true, true, false, false, false) 1.27144;
+(true, false, true, true, true) 0.809868;
+(true, false, true, true, false) 1.16208;
+(true, false, true, false, true) 0.706556;
+(true, false, true, false, false) 1.77937;
+(true, false, false, true, true) 0.779577;
+(true, false, false, true, false) 1.49674;
+(true, false, false, false, true) 0.704239;
+(true, false, false, false, false) 2.69658;
+(false, true, true, true, true) 0.882432;
+(false, true, true, true, false) 0.97718;
+(false, true, true, false, true) 0.857496;
+(false, true, true, false, false) 1.05219;
+(false, true, false, true, true) 0.793368;
+(false, true, false, true, false) 0.956668;
+(false, true, false, false, true) 0.684862;
+(false, true, false, false, false) 1.17055;
+(false, false, true, true, true) 0.818957;
+(false, false, true, true, false) 1.13316;
+(false, false, true, false, true) 0.765548;
+(false, false, true, false, false) 1.51523;
+(false, false, false, true, true) 0.79011;
+(false, false, false, true, false) 1.28512;
+(false, false, false, false, true) 0.695995;
+(false, false, false, false, false) 2.28126;
+}
+probability ( VECTOR69, SNode_117, GOAL_113, SNode_93, SNode_92, SNode_120 ) {
+(true, true, true, true, true, true) 1.01591;
+(true, true, true, true, true, false) 0.9445;
+(true, true, true, true, false, true) 0.945398;
+(true, true, true, true, false, false) 1.05037;
+(true, true, true, false, true, true) 0.877201;
+(true, true, true, false, true, false) 1.12635;
+(true, true, true, false, false, true) 0.949253;
+(true, true, true, false, false, false) 1.17566;
+(true, true, false, true, true, true) 0.930676;
+(true, true, false, true, true, false) 0.95934;
+(true, true, false, true, false, true) 0.938578;
+(true, true, false, true, false, false) 0.950674;
+(true, true, false, false, true, true) 0.886332;
+(true, true, false, false, true, false) 1.01888;
+(true, true, false, false, false, true) 0.916449;
+(true, true, false, false, false, false) 1.04355;
+(true, false, true, true, true, true) 0.962838;
+(true, false, true, true, true, false) 1.01623;
+(true, false, true, true, false, true) 0.975979;
+(true, false, true, true, false, false) 1.00222;
+(true, false, true, false, true, true) 0.914956;
+(true, false, true, false, true, false) 1.00845;
+(true, false, true, false, false, true) 0.925992;
+(true, false, true, false, false, false) 1.10426;
+(true, false, false, true, true, true) 0.895916;
+(true, false, false, true, true, false) 1.05749;
+(true, false, false, true, false, true) 0.864673;
+(true, false, false, true, false, false) 1.18692;
+(true, false, false, false, true, true) 0.788279;
+(true, false, false, false, true, false) 1.39618;
+(true, false, false, false, false, true) 0.78956;
+(true, false, false, false, false, false) 1.62922;
+(false, true, true, true, true, true) 0.874521;
+(false, true, true, true, true, false) 1.08048;
+(false, true, true, true, false, true) 0.936019;
+(false, true, true, true, false, false) 1.09272;
+(false, true, true, false, true, true) 0.826522;
+(false, true, true, false, true, false) 1.30381;
+(false, true, true, false, false, true) 0.814355;
+(false, true, true, false, false, false) 1.63176;
+(false, true, false, true, true, true) 0.859436;
+(false, true, false, true, true, false) 0.996935;
+(false, true, false, true, false, true) 0.879005;
+(false, true, false, true, false, false) 1.05399;
+(false, true, false, false, true, true) 0.789186;
+(false, true, false, false, true, false) 1.0943;
+(false, true, false, false, false, true) 0.756265;
+(false, true, false, false, false, false) 1.27204;
+(false, false, true, true, true, true) 0.910935;
+(false, false, true, true, true, false) 0.955009;
+(false, false, true, true, false, true) 0.812082;
+(false, false, true, true, false, false) 0.952362;
+(false, false, true, false, true, true) 0.834048;
+(false, false, true, false, true, false) 1.06051;
+(false, false, true, false, false, true) 0.891777;
+(false, false, true, false, false, false) 1.13781;
+(false, false, false, true, true, true) 0.806083;
+(false, false, false, true, true, false) 1.24137;
+(false, false, false, true, false, true) 0.803355;
+(false, false, false, true, false, false) 1.51173;
+(false, false, false, false, true, true) 0.650576;
+(false, false, false, false, true, false) 1.74401;
+(false, false, false, false, false, true) 0.650345;
+(false, false, false, false, false, false) 2.25192;
+}
+probability ( GOAL72 ) {
+(true) 1.08483;
+(false) 0.921802;
+}
+probability ( GOAL72, GOAL_109, GOAL_121 ) {
+(true, true, true) 2.53793;
+(true, true, false) 0.452595;
+(true, false, true) 0.686846;
+(true, false, false) 1.37504;
+(false, true, true) 0.759175;
+(false, true, false) 1.49919;
+(false, false, true) 0.667243;
+(false, false, false) 1.21382;
+}
+probability ( NEED36, GOAL_121, SNode_122 ) {
+(true, true, true) 2.29066;
+(true, true, false) 0.413163;
+(true, false, true) 0.655901;
+(true, false, false) 1.35672;
+(false, true, true) 0.597728;
+(false, true, false) 1.56091;
+(false, false, true) 0.647222;
+(false, false, false) 1.96631;
+}
+probability ( VECTOR73 ) {
+(true) 0.949096;
+(false) 1.05363;
+}
+probability ( VECTOR73, SNode_122, GOAL_121, SNode_100, SNode_4, SNode_123 ) {
+(true, true, true, true, true, true) 1.21981;
+(true, true, true, true, true, false) 0.879366;
+(true, true, true, true, false, true) 0.955243;
+(true, true, true, true, false, false) 0.984955;
+(true, true, true, false, true, true) 0.786362;
+(true, true, true, false, true, false) 1.56446;
+(true, true, true, false, false, true) 0.940165;
+(true, true, true, false, false, false) 0.976579;
+(true, true, false, true, true, true) 0.809824;
+(true, true, false, true, true, false) 1.03633;
+(true, true, false, true, false, true) 0.952525;
+(true, true, false, true, false, false) 0.980611;
+(true, true, false, false, true, true) 0.720815;
+(true, true, false, false, true, false) 1.29193;
+(true, true, false, false, false, true) 0.947158;
+(true, true, false, false, false, false) 0.936857;
+(true, false, true, true, true, true) 0.862915;
+(true, false, true, true, true, false) 1.04941;
+(true, false, true, true, false, true) 0.982323;
+(true, false, true, true, false, false) 0.991635;
+(true, false, true, false, true, true) 0.787763;
+(true, false, true, false, true, false) 1.34849;
+(true, false, true, false, false, true) 0.93528;
+(true, false, true, false, false, false) 0.991417;
+(true, false, false, true, true, true) 0.804436;
+(true, false, false, true, true, false) 1.50483;
+(true, false, false, true, false, true) 0.9655;
+(true, false, false, true, false, false) 0.953878;
+(true, false, false, false, true, true) 0.684376;
+(true, false, false, false, true, false) 2.26365;
+(true, false, false, false, false, true) 0.898899;
+(true, false, false, false, false, false) 0.952801;
+(false, true, true, true, true, true) 0.876833;
+(false, true, true, true, true, false) 1.08642;
+(false, true, true, true, false, true) 0.983739;
+(false, true, true, true, false, false) 1.00456;
+(false, true, true, false, true, true) 0.784226;
+(false, true, true, false, true, false) 1.73154;
+(false, true, true, false, false, true) 0.953177;
+(false, true, true, false, false, false) 0.985728;
+(false, true, false, true, true, true) 0.807596;
+(false, true, false, true, true, false) 1.10359;
+(false, true, false, true, false, true) 0.946093;
+(false, true, false, true, false, false) 0.973683;
+(false, true, false, false, true, true) 0.759631;
+(false, true, false, false, true, false) 1.16494;
+(false, true, false, false, false, true) 0.95132;
+(false, true, false, false, false, false) 0.948167;
+(false, false, true, true, true, true) 0.782225;
+(false, false, true, true, true, false) 1.05273;
+(false, false, true, true, false, true) 0.955415;
+(false, false, true, true, false, false) 0.995137;
+(false, false, true, false, true, true) 0.790814;
+(false, false, true, false, true, false) 1.26378;
+(false, false, true, false, false, true) 0.95852;
+(false, false, true, false, false, false) 0.989629;
+(false, false, false, true, true, true) 0.775732;
+(false, false, false, true, true, false) 1.6207;
+(false, false, false, true, false, true) 0.963662;
+(false, false, false, true, false, false) 0.954494;
+(false, false, false, false, true, true) 0.673453;
+(false, false, false, false, true, false) 2.37072;
+(false, false, false, false, false, true) 0.976608;
+(false, false, false, false, false, false) 1.0002;
+}
+probability ( NEWTONS74 ) {
+(true) 1.20132;
+(false) 0.832414;
+}
+probability ( NEWTONS74, SNode_122, SNode_112, GOAL_109, SNode_37, SNode_124 ) {
+(true, true, true, true, true, true) 1.18273;
+(true, true, true, true, true, false) 0.910948;
+(true, true, true, true, false, true) 0.990119;
+(true, true, true, true, false, false) 1.21664;
+(true, true, true, false, true, true) 0.965186;
+(true, true, true, false, true, false) 1.03394;
+(true, true, true, false, false, true) 0.890628;
+(true, true, true, false, false, false) 1.0876;
+(true, true, false, true, true, true) 0.917334;
+(true, true, false, true, true, false) 0.974029;
+(true, true, false, true, false, true) 0.9035;
+(true, true, false, true, false, false) 1.01951;
+(true, true, false, false, true, true) 0.858019;
+(true, true, false, false, true, false) 1.1873;
+(true, true, false, false, false, true) 0.7321;
+(true, true, false, false, false, false) 1.08044;
+(true, false, true, true, true, true) 0.938784;
+(true, false, true, true, true, false) 1.10201;
+(true, false, true, true, false, true) 0.850229;
+(true, false, true, true, false, false) 1.34348;
+(true, false, true, false, true, true) 0.86989;
+(true, false, true, false, true, false) 0.970538;
+(true, false, true, false, false, true) 0.864945;
+(true, false, true, false, false, false) 1.37623;
+(true, false, false, true, true, true) 0.950574;
+(true, false, false, true, true, false) 1.07442;
+(true, false, false, true, false, true) 0.914119;
+(true, false, false, true, false, false) 1.11542;
+(true, false, false, false, true, true) 0.741105;
+(true, false, false, false, true, false) 1.28358;
+(true, false, false, false, false, true) 0.70926;
+(true, false, false, false, false, false) 1.73033;
+(false, true, true, true, true, true) 0.949614;
+(false, true, true, true, true, false) 1.0947;
+(false, true, true, true, false, true) 0.923601;
+(false, true, true, true, false, false) 1.24408;
+(false, true, true, false, true, true) 0.916998;
+(false, true, true, false, true, false) 1.03192;
+(false, true, true, false, false, true) 0.830641;
+(false, true, true, false, false, false) 1.07621;
+(false, true, false, true, true, true) 0.917444;
+(false, true, false, true, true, false) 0.983242;
+(false, true, false, true, false, true) 0.901059;
+(false, true, false, true, false, false) 1.06609;
+(false, true, false, false, true, true) 0.821985;
+(false, true, false, false, true, false) 1.05568;
+(false, true, false, false, false, true) 0.723415;
+(false, true, false, false, false, false) 1.27097;
+(false, false, true, true, true, true) 0.956653;
+(false, false, true, true, true, false) 1.13159;
+(false, false, true, true, false, true) 0.891817;
+(false, false, true, true, false, false) 1.26932;
+(false, false, true, false, true, true) 0.878623;
+(false, false, true, false, true, false) 1.08857;
+(false, false, true, false, false, true) 0.827002;
+(false, false, true, false, false, false) 1.32305;
+(false, false, false, true, true, true) 0.922762;
+(false, false, false, true, true, false) 0.979875;
+(false, false, false, true, false, true) 0.828318;
+(false, false, false, true, false, false) 1.04691;
+(false, false, false, false, true, true) 0.758765;
+(false, false, false, false, true, false) 1.2708;
+(false, false, false, false, false, true) 0.698247;
+(false, false, false, false, false, false) 1.76011;
+}
+probability ( SUM75 ) {
+(true) 0.974891;
+(false) 1.02576;
+}
+probability ( SUM75, SNode_112, GOAL_109, SNode_125 ) {
+(true, true, true, true) 2.49621;
+(true, true, true, false) 0.550601;
+(true, true, false, true) 0.804184;
+(true, true, false, false) 1.2814;
+(true, false, true, true) 0.721689;
+(true, false, true, false) 1.02573;
+(true, false, false, true) 0.644703;
+(true, false, false, false) 1.4423;
+(false, true, true, true) 0.865443;
+(false, true, true, false) 1.88737;
+(false, true, false, true) 0.806398;
+(false, true, false, false) 1.03491;
+(false, false, true, true) 0.757132;
+(false, false, true, false) 1.03901;
+(false, false, false, true) 0.620936;
+(false, false, false, false) 1.54049;
+}
+probability ( GOAL65, GOAL_108, GOAL_126 ) {
+(true, true, true) 1.97902;
+(true, true, false) 0.446841;
+(true, false, true) 0.742018;
+(true, false, false) 1.59932;
+(false, true, true) 0.733471;
+(false, true, false) 1.38878;
+(false, false, true) 0.660349;
+(false, false, false) 1.41664;
+}
+probability ( GOAL66, GOAL_108, GOAL_127 ) {
+(true, true, true) 1.89612;
+(true, true, false) 0.504459;
+(true, false, true) 0.6042;
+(true, false, false) 1.48475;
+(false, true, true) 0.671165;
+(false, true, false) 1.40313;
+(false, false, true) 0.794849;
+(false, false, false) 1.55691;
+}
+probability ( GOAL_108, NEED67, RApp9 ) {
+(true, true, true) 2.20417;
+(true, true, false) 0.422655;
+(true, false, true) 0.522153;
+(true, false, false) 1.85178;
+(false, true, true) 0.453349;
+(false, true, false) 2.46937;
+(false, false, true) 0.453213;
+(false, false, false) 2.18806;
+}
+probability ( GOAL_127, NEED36, RApp10 ) {
+(true, true, true) 2.1566;
+(true, true, false) 0.318615;
+(true, false, true) 0.521475;
+(true, false, false) 1.70565;
+(false, true, true) 0.456808;
+(false, true, false) 2.68313;
+(false, false, true) 0.523984;
+(false, false, false) 2.54769;
+}
+probability ( RApp10, RApp9, SNode_128 ) {
+(true, true, true) 0.711107;
+(true, true, false) 0.501329;
+(true, false, true) 1.50467;
+(true, false, false) 0.50183;
+(false, true, true) 1.38361;
+(false, true, false) 0.479413;
+(false, false, true) 1.16643;
+(false, false, false) 4.80136;
+}
+probability ( GOAL68, GOAL_126, GOAL_129 ) {
+(true, true, true) 2.19904;
+(true, true, false) 0.367418;
+(true, false, true) 0.732255;
+(true, false, false) 1.72737;
+(false, true, true) 0.593974;
+(false, true, false) 1.48204;
+(false, false, true) 0.704306;
+(false, false, false) 1.57822;
+}
+probability ( GOAL68, GOAL_126, GOAL_130 ) {
+(true, true, true) 1.9748;
+(true, true, false) 0.40914;
+(true, false, true) 0.679994;
+(true, false, false) 1.86012;
+(false, true, true) 0.698573;
+(false, true, false) 1.26013;
+(false, false, true) 0.63525;
+(false, false, false) 1.74979;
+}
+probability ( NEED36, GOAL_130, SNode_131 ) {
+(true, true, true) 1.66622;
+(true, true, false) 0.387767;
+(true, false, true) 0.680538;
+(true, false, false) 1.91539;
+(false, true, true) 0.563998;
+(false, true, false) 1.63532;
+(false, false, true) 0.639819;
+(false, false, false) 2.01211;
+}
+probability ( VECTOR69, SNode_131, GOAL_130, SNode_97, SNode_95, SNode_132 ) {
+(true, true, true, true, true, true) 1.05016;
+(true, true, true, true, true, false) 0.875466;
+(true, true, true, true, false, true) 0.955238;
+(true, true, true, true, false, false) 0.98307;
+(true, true, true, false, true, true) 0.979596;
+(true, true, true, false, true, false) 0.948167;
+(true, true, true, false, false, true) 0.952815;
+(true, true, true, false, false, false) 1.24226;
+(true, true, false, true, true, true) 0.931887;
+(true, true, false, true, true, false) 0.981047;
+(true, true, false, true, false, true) 0.983483;
+(true, true, false, true, false, false) 0.915789;
+(true, true, false, false, true, true) 0.916343;
+(true, true, false, false, true, false) 1.00059;
+(true, true, false, false, false, true) 0.971082;
+(true, true, false, false, false, false) 1.00423;
+(true, false, true, true, true, true) 0.941021;
+(true, false, true, true, true, false) 0.989149;
+(true, false, true, true, false, true) 0.951782;
+(true, false, true, true, false, false) 0.948172;
+(true, false, true, false, true, true) 0.969214;
+(true, false, true, false, true, false) 0.911212;
+(true, false, true, false, false, true) 1.01234;
+(true, false, true, false, false, false) 0.933621;
+(true, false, false, true, true, true) 1.01082;
+(true, false, false, true, true, false) 1.06559;
+(true, false, false, true, false, true) 0.921641;
+(true, false, false, true, false, false) 1.04806;
+(true, false, false, false, true, true) 0.990545;
+(true, false, false, false, true, false) 1.30891;
+(true, false, false, false, false, true) 0.908733;
+(true, false, false, false, false, false) 1.49599;
+(false, true, true, true, true, true) 0.9317;
+(false, true, true, true, true, false) 1.00779;
+(false, true, true, true, false, true) 0.925252;
+(false, true, true, true, false, false) 0.968632;
+(false, true, true, false, true, true) 0.947779;
+(false, true, true, false, true, false) 1.06052;
+(false, true, true, false, false, true) 0.970829;
+(false, true, true, false, false, false) 1.20569;
+(false, true, false, true, true, true) 0.93757;
+(false, true, false, true, true, false) 0.890307;
+(false, true, false, true, false, true) 0.951472;
+(false, true, false, true, false, false) 0.961674;
+(false, true, false, false, true, true) 0.927072;
+(false, true, false, false, true, false) 0.956835;
+(false, true, false, false, false, true) 0.930257;
+(false, true, false, false, false, false) 0.938361;
+(false, false, true, true, true, true) 0.955577;
+(false, false, true, true, true, false) 1.05765;
+(false, false, true, true, false, true) 0.863658;
+(false, false, true, true, false, false) 0.979352;
+(false, false, true, false, true, true) 0.964081;
+(false, false, true, false, true, false) 1.06728;
+(false, false, true, false, false, true) 0.959302;
+(false, false, true, false, false, false) 1.07181;
+(false, false, false, true, true, true) 0.961126;
+(false, false, false, true, true, false) 1.13899;
+(false, false, false, true, false, true) 0.898136;
+(false, false, false, true, false, false) 1.10141;
+(false, false, false, false, true, true) 0.96753;
+(false, false, false, false, true, false) 1.4205;
+(false, false, false, false, false, true) 0.953692;
+(false, false, false, false, false, false) 1.48061;
+}
+probability ( NEED36, GOAL_129, SNode_133 ) {
+(true, true, true) 1.51647;
+(true, true, false) 0.471841;
+(true, false, true) 0.771151;
+(true, false, false) 1.52631;
+(false, true, true) 0.576221;
+(false, true, false) 1.63383;
+(false, false, true) 0.717557;
+(false, false, false) 1.75766;
+}
+probability ( VECTOR73, SNode_133, GOAL_129, SNode_93, SNode_91, SNode_134 ) {
+(true, true, true, true, true, true) 0.955482;
+(true, true, true, true, true, false) 0.933715;
+(true, true, true, true, false, true) 0.882308;
+(true, true, true, true, false, false) 0.991179;
+(true, true, true, false, true, true) 0.864254;
+(true, true, true, false, true, false) 1.14078;
+(true, true, true, false, false, true) 0.850633;
+(true, true, true, false, false, false) 1.3352;
+(true, true, false, true, true, true) 0.931682;
+(true, true, false, true, true, false) 0.93477;
+(true, true, false, true, false, true) 0.91411;
+(true, true, false, true, false, false) 1.04478;
+(true, true, false, false, true, true) 0.885703;
+(true, true, false, false, true, false) 0.993079;
+(true, true, false, false, false, true) 0.808901;
+(true, true, false, false, false, false) 1.21667;
+(true, false, true, true, true, true) 0.974535;
+(true, false, true, true, true, false) 0.969786;
+(true, false, true, true, false, true) 0.912224;
+(true, false, true, true, false, false) 1.01871;
+(true, false, true, false, true, true) 0.913959;
+(true, false, true, false, true, false) 1.07258;
+(true, false, true, false, false, true) 0.803922;
+(true, false, true, false, false, false) 1.29555;
+(true, false, false, true, true, true) 0.885601;
+(true, false, false, true, true, false) 1.1184;
+(true, false, false, true, false, true) 0.755324;
+(true, false, false, true, false, false) 1.48144;
+(true, false, false, false, true, true) 0.808109;
+(true, false, false, false, true, false) 1.16833;
+(true, false, false, false, false, true) 0.717015;
+(true, false, false, false, false, false) 2.24267;
+(false, true, true, true, true, true) 0.951725;
+(false, true, true, true, true, false) 1.05533;
+(false, true, true, true, false, true) 0.842604;
+(false, true, true, true, false, false) 0.988724;
+(false, true, true, false, true, true) 0.910807;
+(false, true, true, false, true, false) 1.10104;
+(false, true, true, false, false, true) 0.856313;
+(false, true, true, false, false, false) 1.39195;
+(false, true, false, true, true, true) 0.925803;
+(false, true, false, true, true, false) 1.00508;
+(false, true, false, true, false, true) 0.853885;
+(false, true, false, true, false, false) 1.04235;
+(false, true, false, false, true, true) 0.821028;
+(false, true, false, false, true, false) 1.00338;
+(false, true, false, false, false, true) 0.845422;
+(false, true, false, false, false, false) 1.33238;
+(false, false, true, true, true, true) 0.952834;
+(false, false, true, true, true, false) 0.998387;
+(false, false, true, true, false, true) 0.84013;
+(false, false, true, true, false, false) 1.06022;
+(false, false, true, false, true, true) 0.920656;
+(false, false, true, false, true, false) 1.05589;
+(false, false, true, false, false, true) 0.800997;
+(false, false, true, false, false, false) 1.303;
+(false, false, false, true, true, true) 0.851162;
+(false, false, false, true, true, false) 1.09962;
+(false, false, false, true, false, true) 0.874311;
+(false, false, false, true, false, false) 1.45986;
+(false, false, false, false, true, true) 0.788239;
+(false, false, false, false, true, false) 1.21887;
+(false, false, false, false, false, true) 0.686711;
+(false, false, false, false, false, false) 2.02292;
+}
+probability ( VECTOR69, SNode_133, GOAL_129, SNode_93, SNode_92, SNode_135 ) {
+(true, true, true, true, true, true) 0.966973;
+(true, true, true, true, true, false) 0.914663;
+(true, true, true, true, false, true) 0.90767;
+(true, true, true, true, false, false) 1.00444;
+(true, true, true, false, true, true) 0.91804;
+(true, true, true, false, true, false) 1.07621;
+(true, true, true, false, false, true) 0.893821;
+(true, true, true, false, false, false) 1.18315;
+(true, true, false, true, true, true) 0.949353;
+(true, true, false, true, true, false) 1.01397;
+(true, true, false, true, false, true) 0.964462;
+(true, true, false, true, false, false) 1.01676;
+(true, true, false, false, true, true) 0.861312;
+(true, true, false, false, true, false) 1.0344;
+(true, true, false, false, false, true) 0.899345;
+(true, true, false, false, false, false) 1.09487;
+(true, false, true, true, true, true) 0.96534;
+(true, false, true, true, true, false) 0.971815;
+(true, false, true, true, false, true) 0.935911;
+(true, false, true, true, false, false) 0.971844;
+(true, false, true, false, true, true) 0.890164;
+(true, false, true, false, true, false) 1.05498;
+(true, false, true, false, false, true) 0.938503;
+(true, false, true, false, false, false) 1.11348;
+(true, false, false, true, true, true) 0.929718;
+(true, false, false, true, true, false) 1.06949;
+(true, false, false, true, false, true) 0.910894;
+(true, false, false, true, false, false) 1.20083;
+(true, false, false, false, true, true) 0.843569;
+(true, false, false, false, true, false) 1.29934;
+(true, false, false, false, false, true) 0.845004;
+(true, false, false, false, false, false) 1.52676;
+(false, true, true, true, true, true) 0.845029;
+(false, true, true, true, true, false) 1.02129;
+(false, true, true, true, false, true) 0.841686;
+(false, true, true, true, false, false) 1.11458;
+(false, true, true, false, true, true) 0.74326;
+(false, true, true, false, true, false) 1.30604;
+(false, true, true, false, false, true) 0.846602;
+(false, true, true, false, false, false) 1.5588;
+(false, true, false, true, true, true) 0.850489;
+(false, true, false, true, true, false) 0.94922;
+(false, true, false, true, false, true) 0.892223;
+(false, true, false, true, false, false) 1.01313;
+(false, true, false, false, true, true) 0.697399;
+(false, true, false, false, true, false) 1.15644;
+(false, true, false, false, false, true) 0.857968;
+(false, true, false, false, false, false) 1.32329;
+(false, false, true, true, true, true) 0.871688;
+(false, false, true, true, true, false) 1.04668;
+(false, false, true, true, false, true) 0.902416;
+(false, false, true, true, false, false) 1.05927;
+(false, false, true, false, true, true) 0.890507;
+(false, false, true, false, true, false) 1.12339;
+(false, false, true, false, false, true) 0.903071;
+(false, false, true, false, false, false) 1.1684;
+(false, false, false, true, true, true) 0.85583;
+(false, false, false, true, true, false) 1.29546;
+(false, false, false, true, false, true) 0.735244;
+(false, false, false, true, false, false) 1.49336;
+(false, false, false, false, true, true) 0.671056;
+(false, false, false, false, true, false) 1.77708;
+(false, false, false, false, false, true) 0.58646;
+(false, false, false, false, false, false) 2.04891;
+}
+probability ( NEED36, GOAL_121, SNode_154 ) {
+(true, true, true) 2.41086;
+(true, true, false) 0.392564;
+(true, false, true) 0.623697;
+(true, false, false) 1.42678;
+(false, true, true) 0.691221;
+(false, true, false) 1.34979;
+(false, false, true) 0.681406;
+(false, false, false) 1.86767;
+}
+probability ( NEWTONS74, SNode_154, SNode_128, GOAL_108, SNode_37, SNode_136 ) {
+(true, true, true, true, true, true) 1.11626;
+(true, true, true, true, true, false) 0.984127;
+(true, true, true, true, false, true) 0.852516;
+(true, true, true, true, false, false) 1.25282;
+(true, true, true, false, true, true) 0.936609;
+(true, true, true, false, true, false) 1.03713;
+(true, true, true, false, false, true) 0.897251;
+(true, true, true, false, false, false) 1.06767;
+(true, true, false, true, true, true) 0.976784;
+(true, true, false, true, true, false) 1.02865;
+(true, true, false, true, false, true) 0.878022;
+(true, true, false, true, false, false) 1.02493;
+(true, true, false, false, true, true) 0.922646;
+(true, true, false, false, true, false) 1.0642;
+(true, true, false, false, false, true) 0.7999;
+(true, true, false, false, false, false) 1.24586;
+(true, false, true, true, true, true) 0.945015;
+(true, false, true, true, true, false) 1.07605;
+(true, false, true, true, false, true) 0.877082;
+(true, false, true, true, false, false) 1.37237;
+(true, false, true, false, true, true) 0.867163;
+(true, false, true, false, true, false) 1.12832;
+(true, false, true, false, false, true) 0.805161;
+(true, false, true, false, false, false) 1.33013;
+(true, false, false, true, true, true) 0.848803;
+(true, false, false, true, true, false) 0.967297;
+(true, false, false, true, false, true) 0.925104;
+(true, false, false, true, false, false) 1.05413;
+(true, false, false, false, true, true) 0.751606;
+(true, false, false, false, true, false) 1.2848;
+(true, false, false, false, false, true) 0.761803;
+(true, false, false, false, false, false) 1.64613;
+(false, true, true, true, true, true) 0.950621;
+(false, true, true, true, true, false) 1.14577;
+(false, true, true, true, false, true) 0.908174;
+(false, true, true, true, false, false) 1.12796;
+(false, true, true, false, true, true) 0.894815;
+(false, true, true, false, true, false) 1.00249;
+(false, true, true, false, false, true) 0.905458;
+(false, true, true, false, false, false) 1.10481;
+(false, true, false, true, true, true) 0.913352;
+(false, true, false, true, true, false) 0.99688;
+(false, true, false, true, false, true) 0.810237;
+(false, true, false, true, false, false) 1.03236;
+(false, true, false, false, true, true) 0.848327;
+(false, true, false, false, true, false) 1.09509;
+(false, true, false, false, false, true) 0.809403;
+(false, true, false, false, false, false) 1.27864;
+(false, false, true, true, true, true) 0.904028;
+(false, false, true, true, true, false) 1.17257;
+(false, false, true, true, false, true) 0.835209;
+(false, false, true, true, false, false) 1.43421;
+(false, false, true, false, true, true) 0.85333;
+(false, false, true, false, true, false) 1.07014;
+(false, false, true, false, false, true) 0.819396;
+(false, false, true, false, false, false) 1.29624;
+(false, false, false, true, true, true) 0.903513;
+(false, false, false, true, true, false) 0.949429;
+(false, false, false, true, false, true) 0.774113;
+(false, false, false, true, false, false) 1.20916;
+(false, false, false, false, true, true) 0.829474;
+(false, false, false, false, true, false) 1.2211;
+(false, false, false, false, false, true) 0.700684;
+(false, false, false, false, false, false) 1.61779;
+}
+probability ( SUM75, SNode_128, GOAL_108, SNode_137 ) {
+(true, true, true, true) 2.56203;
+(true, true, true, false) 0.606493;
+(true, true, false, true) 0.66586;
+(true, true, false, false) 1.40544;
+(true, false, true, true) 0.703546;
+(true, false, true, false) 0.859814;
+(true, false, false, true) 0.605509;
+(true, false, false, false) 1.83035;
+(false, true, true, true) 0.826101;
+(false, true, true, false) 1.58506;
+(false, true, false, true) 0.696779;
+(false, true, false, false) 1.30158;
+(false, false, true, true) 0.754702;
+(false, false, true, false) 0.969747;
+(false, false, false, true) 0.676409;
+(false, false, false, false) 1.74484;
+}
+probability ( EQUATION28, SNode_125, SNode_116, GOAL_142 ) {
+(true, true, true, true) 0.765346;
+(true, true, true, false) 0.738107;
+(true, true, false, true) 0.845689;
+(true, true, false, false) 1.06604;
+(true, false, true, true) 0.786339;
+(true, false, true, false) 0.835447;
+(true, false, false, true) 1.30043;
+(true, false, false, false) 2.12019;
+(false, true, true, true) 0.788283;
+(false, true, true, false) 0.792781;
+(false, true, false, true) 0.786802;
+(false, true, false, false) 1.22374;
+(false, false, true, true) 0.767872;
+(false, false, true, false) 0.763443;
+(false, false, false, true) 1.26552;
+(false, false, false, false) 2.42841;
+}
+probability ( EQUATION28, SNode_132, SNode_116, GOAL_143 ) {
+(true, true, true, true) 0.849657;
+(true, true, true, false) 0.72377;
+(true, true, false, true) 0.901492;
+(true, true, false, false) 0.870512;
+(true, false, true, true) 0.749974;
+(true, false, true, false) 0.804666;
+(true, false, false, true) 1.16245;
+(true, false, false, false) 2.7248;
+(false, true, true, true) 0.832907;
+(false, true, true, false) 0.643338;
+(false, true, false, true) 0.763359;
+(false, true, false, false) 1.0576;
+(false, false, true, true) 0.78863;
+(false, false, true, false) 0.866946;
+(false, false, false, true) 1.4656;
+(false, false, false, false) 2.5008;
+}
+probability ( EQUATION28, SNode_137, SNode_132, GOAL_146 ) {
+(true, true, true, true) 0.879776;
+(true, true, true, false) 0.664659;
+(true, true, false, true) 0.913174;
+(true, true, false, false) 0.955338;
+(true, false, true, true) 0.883002;
+(true, false, true, false) 0.93465;
+(true, false, false, true) 1.09452;
+(true, false, false, false) 2.00187;
+(false, true, true, true) 0.795183;
+(false, true, true, false) 0.707858;
+(false, true, false, true) 0.694671;
+(false, true, false, false) 1.07058;
+(false, false, true, true) 0.882423;
+(false, false, true, false) 0.870958;
+(false, false, false, true) 1.25254;
+(false, false, false, false) 2.69011;
+}
+probability ( GOAL_142, VECTOR27, RApp11 ) {
+(true, true, true) 1.70096;
+(true, true, false) 0.408343;
+(true, false, true) 0.54151;
+(true, false, false) 1.06059;
+(false, true, true) 0.419878;
+(false, true, false) 3.42625;
+(false, false, true) 0.524718;
+(false, false, false) 3.32094;
+}
+probability ( GOAL_143, COMPO16, RApp12 ) {
+(true, true, true) 1.77043;
+(true, true, false) 0.400614;
+(true, false, true) 0.529462;
+(true, false, false) 1.30678;
+(false, true, true) 0.497533;
+(false, true, false) 3.0231;
+(false, false, true) 0.461583;
+(false, false, false) 2.93518;
+}
+probability ( GOAL_146, VECTOR27, RApp13 ) {
+(true, true, true) 1.77668;
+(true, true, false) 0.490928;
+(true, false, true) 0.603026;
+(true, false, false) 0.901288;
+(false, true, true) 0.428359;
+(false, true, false) 2.67439;
+(false, false, true) 0.495002;
+(false, false, false) 3.71991;
+}
+probability ( RApp13, RApp12, RApp11, GOAL_147 ) {
+(true, true, true, true) 0.79535;
+(true, true, true, false) 0.749464;
+(true, true, false, true) 0.884911;
+(true, true, false, false) 0.817015;
+(true, false, true, true) 0.867753;
+(true, false, true, false) 0.773525;
+(true, false, false, true) 1.22733;
+(true, false, false, false) 0.639866;
+(false, true, true, true) 0.918973;
+(false, true, true, false) 0.71277;
+(false, true, false, true) 1.29585;
+(false, true, false, false) 0.58849;
+(false, false, true, true) 1.29397;
+(false, false, true, false) 0.598401;
+(false, false, false, true) 1.27071;
+(false, false, false, false) 8.95631;
+}
+probability ( TRY76 ) {
+(true) 0.923492;
+(false) 1.08285;
+}
+probability ( TRY76, GOAL_147, GOAL_149 ) {
+(true, true, true) 2.57808;
+(true, true, false) 0.447174;
+(true, false, true) 0.629043;
+(true, false, false) 1.27344;
+(false, true, true) 0.808287;
+(false, true, false) 1.57509;
+(false, false, true) 0.698845;
+(false, false, false) 1.21707;
+}
+probability ( APPLY77 ) {
+(true) 0.954378;
+(false) 1.0478;
+}
+probability ( APPLY77, GOAL_149, SNode_37, SNode_20, GOAL_150 ) {
+(true, true, true, true, true) 1.4029;
+(true, true, true, true, false) 0.786295;
+(true, true, true, false, true) 0.857552;
+(true, true, true, false, false) 1.02993;
+(true, true, false, true, true) 0.965021;
+(true, true, false, true, false) 0.965846;
+(true, true, false, false, true) 0.895172;
+(true, true, false, false, false) 1.1563;
+(true, false, true, true, true) 0.875602;
+(true, false, true, true, false) 1.13187;
+(true, false, true, false, true) 0.853949;
+(true, false, true, false, false) 1.17413;
+(true, false, false, true, true) 0.859445;
+(true, false, false, true, false) 1.28607;
+(true, false, false, false, true) 0.864812;
+(true, false, false, false, false) 1.06897;
+(false, true, true, true, true) 0.88569;
+(false, true, true, true, false) 1.04896;
+(false, true, true, false, true) 0.936712;
+(false, true, true, false, false) 0.96722;
+(false, true, false, true, true) 0.938879;
+(false, true, false, true, false) 1.24314;
+(false, true, false, false, true) 0.880597;
+(false, true, false, false, false) 1.12653;
+(false, false, true, true, true) 0.975764;
+(false, false, true, true, false) 0.975363;
+(false, false, true, false, true) 0.816691;
+(false, false, true, false, false) 0.91139;
+(false, false, false, true, true) 0.879995;
+(false, false, false, true, false) 1.37987;
+(false, false, false, false, true) 0.922453;
+(false, false, false, false, false) 1.35494;
+}
+probability ( GRAV78 ) {
+(true) 0.994644;
+(false) 1.00538;
+}
+probability ( GRAV78, GOAL_150, SNode_151 ) {
+(true, true, true) 1.23526;
+(true, true, false) 0.435253;
+(true, false, true) 0.514799;
+(true, false, false) 3.59362;
+(false, true, true) 0.47521;
+(false, true, false) 1.00306;
+(false, false, true) 0.626467;
+(false, false, false) 3.36683;
+}
+probability ( GOAL72, GOAL_108, GOAL_153 ) {
+(true, true, true) 1.97144;
+(true, true, false) 0.455198;
+(true, false, true) 0.639026;
+(true, false, false) 1.89173;
+(false, true, true) 0.688569;
+(false, true, false) 1.45777;
+(false, false, true) 0.582253;
+(false, false, false) 1.57721;
+}
+probability ( VECTOR44, SNode_154, GOAL_153, SNode_100, SNode_4, SNode_155 ) {
+(true, true, true, true, true, true) 1.14472;
+(true, true, true, true, true, false) 0.882979;
+(true, true, true, true, false, true) 0.963315;
+(true, true, true, true, false, false) 0.998666;
+(true, true, true, false, true, true) 0.78805;
+(true, true, true, false, true, false) 1.2882;
+(true, true, true, false, false, true) 0.977497;
+(true, true, true, false, false, false) 0.977913;
+(true, true, false, true, true, true) 0.784846;
+(true, true, false, true, true, false) 1.112;
+(true, true, false, true, false, true) 0.988324;
+(true, true, false, true, false, false) 0.998212;
+(true, true, false, false, true, true) 0.755872;
+(true, true, false, false, true, false) 1.5365;
+(true, true, false, false, false, true) 0.969849;
+(true, true, false, false, false, false) 0.991016;
+(true, false, true, true, true, true) 0.862217;
+(true, false, true, true, true, false) 1.16995;
+(true, false, true, true, false, true) 0.961511;
+(true, false, true, true, false, false) 0.965562;
+(true, false, true, false, true, true) 0.69688;
+(true, false, true, false, true, false) 1.42856;
+(true, false, true, false, false, true) 0.945573;
+(true, false, true, false, false, false) 0.991179;
+(true, false, false, true, true, true) 0.697943;
+(true, false, false, true, true, false) 1.40329;
+(true, false, false, true, false, true) 0.951705;
+(true, false, false, true, false, false) 0.990793;
+(true, false, false, false, true, true) 0.567516;
+(true, false, false, false, true, false) 2.47157;
+(true, false, false, false, false, true) 0.946438;
+(true, false, false, false, false, false) 1.00899;
+(false, true, true, true, true, true) 0.839248;
+(false, true, true, true, true, false) 1.10871;
+(false, true, true, true, false, true) 0.959278;
+(false, true, true, true, false, false) 0.974063;
+(false, true, true, false, true, true) 0.831887;
+(false, true, true, false, true, false) 1.36967;
+(false, true, true, false, false, true) 0.936932;
+(false, true, true, false, false, false) 0.921457;
+(false, true, false, true, true, true) 0.813806;
+(false, true, false, true, true, false) 1.11988;
+(false, true, false, true, false, true) 0.977116;
+(false, true, false, true, false, false) 0.976926;
+(false, true, false, false, true, true) 0.725237;
+(false, true, false, false, true, false) 1.5208;
+(false, true, false, false, false, true) 0.98369;
+(false, true, false, false, false, false) 0.967355;
+(false, false, true, true, true, true) 0.826072;
+(false, false, true, true, true, false) 1.08212;
+(false, false, true, true, false, true) 0.95113;
+(false, false, true, true, false, false) 0.965823;
+(false, false, true, false, true, true) 0.717055;
+(false, false, true, false, true, false) 1.41155;
+(false, false, true, false, false, true) 0.925196;
+(false, false, true, false, false, false) 0.931388;
+(false, false, false, true, true, true) 0.780915;
+(false, false, false, true, true, false) 1.68125;
+(false, false, false, true, false, true) 0.954956;
+(false, false, false, true, false, false) 0.965476;
+(false, false, false, false, true, true) 0.712342;
+(false, false, false, false, true, false) 2.42331;
+(false, false, false, false, false, true) 0.901984;
+(false, false, false, false, false, false) 0.96767;
+}

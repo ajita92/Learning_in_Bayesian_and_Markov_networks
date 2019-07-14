@@ -1,0 +1,1038 @@
+network unknown {
+}
+variable alcoholism {
+  type discrete [ 2 ] { present, absent };
+}
+variable vh_amn {
+  type discrete [ 2 ] { present, absent };
+}
+variable hepatotoxic {
+  type discrete [ 2 ] { present, absent };
+}
+variable THepatitis {
+  type discrete [ 2 ] { present, absent };
+}
+variable hospital {
+  type discrete [ 2 ] { present, absent };
+}
+variable surgery {
+  type discrete [ 2 ] { present, absent };
+}
+variable gallstones {
+  type discrete [ 2 ] { present, absent };
+}
+variable choledocholithotomy {
+  type discrete [ 2 ] { present, absent };
+}
+variable injections {
+  type discrete [ 2 ] { present, absent };
+}
+variable transfusion {
+  type discrete [ 2 ] { present, absent };
+}
+variable ChHepatitis {
+  type discrete [ 3 ] { active, persistent, absent };
+}
+variable sex {
+  type discrete [ 2 ] { female, male };
+}
+variable age {
+  type discrete [ 4 ] { age65_100, age51_65, age31_50, age0_30 };
+}
+variable PBC {
+  type discrete [ 2 ] { present, absent };
+}
+variable fibrosis {
+  type discrete [ 2 ] { present, absent };
+}
+variable diabetes {
+  type discrete [ 2 ] { present, absent };
+}
+variable obesity {
+  type discrete [ 2 ] { present, absent };
+}
+variable Steatosis {
+  type discrete [ 2 ] { present, absent };
+}
+variable Cirrhosis {
+  type discrete [ 3 ] { decompensate, compensate, absent };
+}
+variable Hyperbilirubinemia {
+  type discrete [ 2 ] { present, absent };
+}
+variable triglycerides {
+  type discrete [ 3 ] { a17_4, a3_2, a1_0 };
+}
+variable RHepatitis {
+  type discrete [ 2 ] { present, absent };
+}
+variable fatigue {
+  type discrete [ 2 ] { present, absent };
+}
+variable bilirubin {
+  type discrete [ 4 ] { a88_20, a19_7, a6_2, a1_0 };
+}
+variable itching {
+  type discrete [ 2 ] { present, absent };
+}
+variable upper_pain {
+  type discrete [ 2 ] { present, absent };
+}
+variable fat {
+  type discrete [ 2 ] { present, absent };
+}
+variable pain_ruq {
+  type discrete [ 2 ] { present, absent };
+}
+variable pressure_ruq {
+  type discrete [ 2 ] { present, absent };
+}
+variable phosphatase {
+  type discrete [ 3 ] { a4000_700, a699_240, a239_0 };
+}
+variable skin {
+  type discrete [ 2 ] { present, absent };
+}
+variable ama {
+  type discrete [ 2 ] { present, absent };
+}
+variable le_cells {
+  type discrete [ 2 ] { present, absent };
+}
+variable joints {
+  type discrete [ 2 ] { present, absent };
+}
+variable pain {
+  type discrete [ 2 ] { present, absent };
+}
+variable proteins {
+  type discrete [ 2 ] { a10_6, a5_2 };
+}
+variable edema {
+  type discrete [ 2 ] { present, absent };
+}
+variable platelet {
+  type discrete [ 4 ] { a597_300, a299_150, a149_100, a99_0 };
+}
+variable inr {
+  type discrete [ 3 ] { a200_110, a109_70, a69_0 };
+}
+variable bleeding {
+  type discrete [ 2 ] { present, absent };
+}
+variable flatulence {
+  type discrete [ 2 ] { present, absent };
+}
+variable alcohol {
+  type discrete [ 2 ] { present, absent };
+}
+variable encephalopathy {
+  type discrete [ 2 ] { present, absent };
+}
+variable urea {
+  type discrete [ 3 ] { a165_50, a49_40, a39_0 };
+}
+variable ascites {
+  type discrete [ 2 ] { present, absent };
+}
+variable hepatomegaly {
+  type discrete [ 2 ] { present, absent };
+}
+variable hepatalgia {
+  type discrete [ 2 ] { present, absent };
+}
+variable density {
+  type discrete [ 2 ] { present, absent };
+}
+variable ESR {
+  type discrete [ 3 ] { a200_50, a49_15, a14_0 };
+}
+variable alt {
+  type discrete [ 4 ] { a850_200, a199_100, a99_35, a34_0 };
+}
+variable ast {
+  type discrete [ 4 ] { a700_400, a399_150, a149_40, a39_0 };
+}
+variable amylase {
+  type discrete [ 3 ] { a1400_500, a499_300, a299_0 };
+}
+variable ggtp {
+  type discrete [ 4 ] { a640_70, a69_30, a29_10, a9_0 };
+}
+variable cholesterol {
+  type discrete [ 3 ] { a999_350, a349_240, a239_0 };
+}
+variable hbsag {
+  type discrete [ 2 ] { present, absent };
+}
+variable hbsag_anti {
+  type discrete [ 2 ] { present, absent };
+}
+variable anorexia {
+  type discrete [ 2 ] { present, absent };
+}
+variable nausea {
+  type discrete [ 2 ] { present, absent };
+}
+variable spleen {
+  type discrete [ 2 ] { present, absent };
+}
+variable consciousness {
+  type discrete [ 2 ] { present, absent };
+}
+variable spiders {
+  type discrete [ 2 ] { present, absent };
+}
+variable jaundice {
+  type discrete [ 2 ] { present, absent };
+}
+variable albumin {
+  type discrete [ 3 ] { a70_50, a49_30, a29_0 };
+}
+variable edge {
+  type discrete [ 2 ] { present, absent };
+}
+variable irregular_liver {
+  type discrete [ 2 ] { present, absent };
+}
+variable hbc_anti {
+  type discrete [ 2 ] { present, absent };
+}
+variable hcv_anti {
+  type discrete [ 2 ] { present, absent };
+}
+variable palms {
+  type discrete [ 2 ] { present, absent };
+}
+variable hbeag {
+  type discrete [ 2 ] { present, absent };
+}
+variable carcinoma {
+  type discrete [ 2 ] { present, absent };
+}
+probability ( alcoholism ) {
+  table ?, ?;
+}
+probability ( vh_amn ) {
+  table ?, ?;
+}
+probability ( hepatotoxic ) {
+  table ?, ?;
+}
+probability ( THepatitis | hepatotoxic, alcoholism ) {
+  (present, present) ?, ?;
+  (absent, present) ?, ?;
+  (present, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( hospital ) {
+  table ?, ?;
+}
+probability ( surgery ) {
+  table ?, ?;
+}
+probability ( gallstones ) {
+  table ?, ?;
+}
+probability ( choledocholithotomy | gallstones ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( injections | hospital, surgery, choledocholithotomy ) {
+  (present, present, present) ?, ?;
+  (absent, present, present) ?, ?;
+  (present, absent, present) ?, ?;
+  (absent, absent, present) ?, ?;
+  (present, present, absent) ?, ?;
+  (absent, present, absent) ?, ?;
+  (present, absent, absent) ?, ?;
+  (absent, absent, absent) ?, ?;
+}
+probability ( transfusion | hospital, surgery, choledocholithotomy ) {
+  (present, present, present) ?, ?;
+  (absent, present, present) ?, ?;
+  (present, absent, present) ?, ?;
+  (absent, absent, present) ?, ?;
+  (present, present, absent) ?, ?;
+  (absent, present, absent) ?, ?;
+  (present, absent, absent) ?, ?;
+  (absent, absent, absent) ?, ?;
+}
+probability ( ChHepatitis | transfusion, vh_amn, injections ) {
+  (present, present, present) ?, ?, ?;
+  (absent, present, present) ?, ?, ?;
+  (present, absent, present) ?, ?, ?;
+  (absent, absent, present) ?, ?, ?;
+  (present, present, absent) ?, ?, ?;
+  (absent, present, absent) ?, ?, ?;
+  (present, absent, absent) ?, ?, ?;
+  (absent, absent, absent) ?, ?, ?;
+}
+probability ( sex ) {
+  table ?, ?;
+}
+probability ( age ) {
+  table ?, ?, ?, ?;
+}
+probability ( PBC | sex, age ) {
+  (female, age65_100) ?, ?;
+  (male, age65_100) ?, ?;
+  (female, age51_65) ?, ?;
+  (male, age51_65) ?, ?;
+  (female, age31_50) ?, ?;
+  (male, age31_50) ?, ?;
+  (female, age0_30) ?, ?;
+  (male, age0_30) ?, ?;
+}
+probability ( fibrosis | ChHepatitis ) {
+  (active) ?, ?;
+  (persistent) ?, ?;
+  (absent) ?, ?;
+}
+probability ( diabetes ) {
+  table ?, ?;
+}
+probability ( obesity | diabetes ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( Steatosis | obesity, alcoholism ) {
+  (present, present) ?, ?;
+  (absent, present) ?, ?;
+  (present, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( Cirrhosis | fibrosis, Steatosis ) {
+  (present, present) ?, ?, ?;
+  (absent, present) ?, ?, ?;
+  (present, absent) ?, ?, ?;
+  (absent, absent) ?, ?, ?;
+}
+probability ( Hyperbilirubinemia | age, sex ) {
+  (age65_100, female) ?, ?;
+  (age51_65, female) ?, ?;
+  (age31_50, female) ?, ?;
+  (age0_30, female) ?, ?;
+  (age65_100, male) ?, ?;
+  (age51_65, male) ?, ?;
+  (age31_50, male) ?, ?;
+  (age0_30, male) ?, ?;
+}
+probability ( triglycerides | Steatosis ) {
+  (present) ?, ?, ?;
+  (absent) ?, ?, ?;
+}
+probability ( RHepatitis | hepatotoxic ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( fatigue | ChHepatitis, THepatitis, RHepatitis ) {
+  (active, present, present) ?, ?;
+  (persistent, present, present) ?, ?;
+  (absent, present, present) ?, ?;
+  (active, absent, present) ?, ?;
+  (persistent, absent, present) ?, ?;
+  (absent, absent, present) ?, ?;
+  (active, present, absent) ?, ?;
+  (persistent, present, absent) ?, ?;
+  (absent, present, absent) ?, ?;
+  (active, absent, absent) ?, ?;
+  (persistent, absent, absent) ?, ?;
+  (absent, absent, absent) ?, ?;
+}
+probability ( bilirubin | Hyperbilirubinemia, PBC, Cirrhosis, gallstones, ChHepatitis ) {
+  (present, present, decompensate, present, active) ?, ?, ?, ?;
+  (absent, present, decompensate, present, active) ?, ?, ?, ?;
+  (present, absent, decompensate, present, active) ?, ?, ?, ?;
+  (absent, absent, decompensate, present, active) ?, ?, ?, ?;
+  (present, present, compensate, present, active) ?, ?, ?, ?;
+  (absent, present, compensate, present, active) ?, ?, ?, ?;
+  (present, absent, compensate, present, active) ?, ?, ?, ?;
+  (absent, absent, compensate, present, active) ?, ?, ?, ?;
+  (present, present, absent, present, active) ?, ?, ?, ?;
+  (absent, present, absent, present, active) ?, ?, ?, ?;
+  (present, absent, absent, present, active) ?, ?, ?, ?;
+  (absent, absent, absent, present, active) ?, ?, ?, ?;
+  (present, present, decompensate, absent, active) ?, ?, ?, ?;
+  (absent, present, decompensate, absent, active) ?, ?, ?, ?;
+  (present, absent, decompensate, absent, active) ?, ?, ?, ?;
+  (absent, absent, decompensate, absent, active) ?, ?, ?, ?;
+  (present, present, compensate, absent, active) ?, ?, ?, ?;
+  (absent, present, compensate, absent, active) ?, ?, ?, ?;
+  (present, absent, compensate, absent, active) ?, ?, ?, ?;
+  (absent, absent, compensate, absent, active) ?, ?, ?, ?;
+  (present, present, absent, absent, active) ?, ?, ?, ?;
+  (absent, present, absent, absent, active) ?, ?, ?, ?;
+  (present, absent, absent, absent, active) ?, ?, ?, ?;
+  (absent, absent, absent, absent, active) ?, ?, ?, ?;
+  (present, present, decompensate, present, persistent) ?, ?, ?, ?;
+  (absent, present, decompensate, present, persistent) ?, ?, ?, ?;
+  (present, absent, decompensate, present, persistent) ?, ?, ?, ?;
+  (absent, absent, decompensate, present, persistent) ?, ?, ?, ?;
+  (present, present, compensate, present, persistent) ?, ?, ?, ?;
+  (absent, present, compensate, present, persistent) ?, ?, ?, ?;
+  (present, absent, compensate, present, persistent) ?, ?, ?, ?;
+  (absent, absent, compensate, present, persistent) ?, ?, ?, ?;
+  (present, present, absent, present, persistent) ?, ?, ?, ?;
+  (absent, present, absent, present, persistent) ?, ?, ?, ?;
+  (present, absent, absent, present, persistent) ?, ?, ?, ?;
+  (absent, absent, absent, present, persistent) ?, ?, ?, ?;
+  (present, present, decompensate, absent, persistent) ?, ?, ?, ?;
+  (absent, present, decompensate, absent, persistent) ?, ?, ?, ?;
+  (present, absent, decompensate, absent, persistent) ?, ?, ?, ?;
+  (absent, absent, decompensate, absent, persistent) ?, ?, ?, ?;
+  (present, present, compensate, absent, persistent) ?, ?, ?, ?;
+  (absent, present, compensate, absent, persistent) ?, ?, ?, ?;
+  (present, absent, compensate, absent, persistent) ?, ?, ?, ?;
+  (absent, absent, compensate, absent, persistent) ?, ?, ?, ?;
+  (present, present, absent, absent, persistent) ?, ?, ?, ?;
+  (absent, present, absent, absent, persistent) ?, ?, ?, ?;
+  (present, absent, absent, absent, persistent) ?, ?, ?, ?;
+  (absent, absent, absent, absent, persistent) ?, ?, ?, ?;
+  (present, present, decompensate, present, absent) ?, ?, ?, ?;
+  (absent, present, decompensate, present, absent) ?, ?, ?, ?;
+  (present, absent, decompensate, present, absent) ?, ?, ?, ?;
+  (absent, absent, decompensate, present, absent) ?, ?, ?, ?;
+  (present, present, compensate, present, absent) ?, ?, ?, ?;
+  (absent, present, compensate, present, absent) ?, ?, ?, ?;
+  (present, absent, compensate, present, absent) ?, ?, ?, ?;
+  (absent, absent, compensate, present, absent) ?, ?, ?, ?;
+  (present, present, absent, present, absent) ?, ?, ?, ?;
+  (absent, present, absent, present, absent) ?, ?, ?, ?;
+  (present, absent, absent, present, absent) ?, ?, ?, ?;
+  (absent, absent, absent, present, absent) ?, ?, ?, ?;
+  (present, present, decompensate, absent, absent) ?, ?, ?, ?;
+  (absent, present, decompensate, absent, absent) ?, ?, ?, ?;
+  (present, absent, decompensate, absent, absent) ?, ?, ?, ?;
+  (absent, absent, decompensate, absent, absent) ?, ?, ?, ?;
+  (present, present, compensate, absent, absent) ?, ?, ?, ?;
+  (absent, present, compensate, absent, absent) ?, ?, ?, ?;
+  (present, absent, compensate, absent, absent) ?, ?, ?, ?;
+  (absent, absent, compensate, absent, absent) ?, ?, ?, ?;
+  (present, present, absent, absent, absent) ?, ?, ?, ?;
+  (absent, present, absent, absent, absent) ?, ?, ?, ?;
+  (present, absent, absent, absent, absent) ?, ?, ?, ?;
+  (absent, absent, absent, absent, absent) ?, ?, ?, ?;
+}
+probability ( itching | bilirubin ) {
+  (a88_20) ?, ?;
+  (a19_7) ?, ?;
+  (a6_2) ?, ?;
+  (a1_0) ?, ?;
+}
+probability ( upper_pain | gallstones ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( fat | gallstones ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( pain_ruq | Steatosis, Hyperbilirubinemia ) {
+  (present, present) ?, ?;
+  (absent, present) ?, ?;
+  (present, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( pressure_ruq | gallstones, PBC, ChHepatitis ) {
+  (present, present, active) ?, ?;
+  (absent, present, active) ?, ?;
+  (present, absent, active) ?, ?;
+  (absent, absent, active) ?, ?;
+  (present, present, persistent) ?, ?;
+  (absent, present, persistent) ?, ?;
+  (present, absent, persistent) ?, ?;
+  (absent, absent, persistent) ?, ?;
+  (present, present, absent) ?, ?;
+  (absent, present, absent) ?, ?;
+  (present, absent, absent) ?, ?;
+  (absent, absent, absent) ?, ?;
+}
+probability ( phosphatase | RHepatitis, THepatitis, Cirrhosis, ChHepatitis ) {
+  (present, present, decompensate, active) ?, ?, ?;
+  (absent, present, decompensate, active) ?, ?, ?;
+  (present, absent, decompensate, active) ?, ?, ?;
+  (absent, absent, decompensate, active) ?, ?, ?;
+  (present, present, compensate, active) ?, ?, ?;
+  (absent, present, compensate, active) ?, ?, ?;
+  (present, absent, compensate, active) ?, ?, ?;
+  (absent, absent, compensate, active) ?, ?, ?;
+  (present, present, absent, active) ?, ?, ?;
+  (absent, present, absent, active) ?, ?, ?;
+  (present, absent, absent, active) ?, ?, ?;
+  (absent, absent, absent, active) ?, ?, ?;
+  (present, present, decompensate, persistent) ?, ?, ?;
+  (absent, present, decompensate, persistent) ?, ?, ?;
+  (present, absent, decompensate, persistent) ?, ?, ?;
+  (absent, absent, decompensate, persistent) ?, ?, ?;
+  (present, present, compensate, persistent) ?, ?, ?;
+  (absent, present, compensate, persistent) ?, ?, ?;
+  (present, absent, compensate, persistent) ?, ?, ?;
+  (absent, absent, compensate, persistent) ?, ?, ?;
+  (present, present, absent, persistent) ?, ?, ?;
+  (absent, present, absent, persistent) ?, ?, ?;
+  (present, absent, absent, persistent) ?, ?, ?;
+  (absent, absent, absent, persistent) ?, ?, ?;
+  (present, present, decompensate, absent) ?, ?, ?;
+  (absent, present, decompensate, absent) ?, ?, ?;
+  (present, absent, decompensate, absent) ?, ?, ?;
+  (absent, absent, decompensate, absent) ?, ?, ?;
+  (present, present, compensate, absent) ?, ?, ?;
+  (absent, present, compensate, absent) ?, ?, ?;
+  (present, absent, compensate, absent) ?, ?, ?;
+  (absent, absent, compensate, absent) ?, ?, ?;
+  (present, present, absent, absent) ?, ?, ?;
+  (absent, present, absent, absent) ?, ?, ?;
+  (present, absent, absent, absent) ?, ?, ?;
+  (absent, absent, absent, absent) ?, ?, ?;
+}
+probability ( skin | bilirubin ) {
+  (a88_20) ?, ?;
+  (a19_7) ?, ?;
+  (a6_2) ?, ?;
+  (a1_0) ?, ?;
+}
+probability ( ama | PBC ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( le_cells | PBC ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( joints | PBC ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( pain | PBC, joints ) {
+  (present, present) ?, ?;
+  (absent, present) ?, ?;
+  (present, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( proteins | Cirrhosis ) {
+  (decompensate) ?, ?;
+  (compensate) ?, ?;
+  (absent) ?, ?;
+}
+probability ( edema | Cirrhosis ) {
+  (decompensate) ?, ?;
+  (compensate) ?, ?;
+  (absent) ?, ?;
+}
+probability ( platelet | Cirrhosis, PBC ) {
+  (decompensate, present) ?, ?, ?, ?;
+  (compensate, present) ?, ?, ?, ?;
+  (absent, present) ?, ?, ?, ?;
+  (decompensate, absent) ?, ?, ?, ?;
+  (compensate, absent) ?, ?, ?, ?;
+  (absent, absent) ?, ?, ?, ?;
+}
+probability ( inr | ChHepatitis, Cirrhosis, THepatitis, Hyperbilirubinemia ) {
+  (active, decompensate, present, present) ?, ?, ?;
+  (persistent, decompensate, present, present) ?, ?, ?;
+  (absent, decompensate, present, present) ?, ?, ?;
+  (active, compensate, present, present) ?, ?, ?;
+  (persistent, compensate, present, present) ?, ?, ?;
+  (absent, compensate, present, present) ?, ?, ?;
+  (active, absent, present, present) ?, ?, ?;
+  (persistent, absent, present, present) ?, ?, ?;
+  (absent, absent, present, present) ?, ?, ?;
+  (active, decompensate, absent, present) ?, ?, ?;
+  (persistent, decompensate, absent, present) ?, ?, ?;
+  (absent, decompensate, absent, present) ?, ?, ?;
+  (active, compensate, absent, present) ?, ?, ?;
+  (persistent, compensate, absent, present) ?, ?, ?;
+  (absent, compensate, absent, present) ?, ?, ?;
+  (active, absent, absent, present) ?, ?, ?;
+  (persistent, absent, absent, present) ?, ?, ?;
+  (absent, absent, absent, present) ?, ?, ?;
+  (active, decompensate, present, absent) ?, ?, ?;
+  (persistent, decompensate, present, absent) ?, ?, ?;
+  (absent, decompensate, present, absent) ?, ?, ?;
+  (active, compensate, present, absent) ?, ?, ?;
+  (persistent, compensate, present, absent) ?, ?, ?;
+  (absent, compensate, present, absent) ?, ?, ?;
+  (active, absent, present, absent) ?, ?, ?;
+  (persistent, absent, present, absent) ?, ?, ?;
+  (absent, absent, present, absent) ?, ?, ?;
+  (active, decompensate, absent, absent) ?, ?, ?;
+  (persistent, decompensate, absent, absent) ?, ?, ?;
+  (absent, decompensate, absent, absent) ?, ?, ?;
+  (active, compensate, absent, absent) ?, ?, ?;
+  (persistent, compensate, absent, absent) ?, ?, ?;
+  (absent, compensate, absent, absent) ?, ?, ?;
+  (active, absent, absent, absent) ?, ?, ?;
+  (persistent, absent, absent, absent) ?, ?, ?;
+  (absent, absent, absent, absent) ?, ?, ?;
+}
+probability ( bleeding | platelet, inr ) {
+  (a597_300, a200_110) ?, ?;
+  (a299_150, a200_110) ?, ?;
+  (a149_100, a200_110) ?, ?;
+  (a99_0, a200_110) ?, ?;
+  (a597_300, a109_70) ?, ?;
+  (a299_150, a109_70) ?, ?;
+  (a149_100, a109_70) ?, ?;
+  (a99_0, a109_70) ?, ?;
+  (a597_300, a69_0) ?, ?;
+  (a299_150, a69_0) ?, ?;
+  (a149_100, a69_0) ?, ?;
+  (a99_0, a69_0) ?, ?;
+}
+probability ( flatulence | gallstones ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( alcohol | Cirrhosis ) {
+  (decompensate) ?, ?;
+  (compensate) ?, ?;
+  (absent) ?, ?;
+}
+probability ( encephalopathy | Cirrhosis, PBC ) {
+  (decompensate, present) ?, ?;
+  (compensate, present) ?, ?;
+  (absent, present) ?, ?;
+  (decompensate, absent) ?, ?;
+  (compensate, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( urea | encephalopathy ) {
+  (present) ?, ?, ?;
+  (absent) ?, ?, ?;
+}
+probability ( ascites | proteins ) {
+  (a10_6) ?, ?;
+  (a5_2) ?, ?;
+}
+probability ( hepatomegaly | RHepatitis, THepatitis, Steatosis, Hyperbilirubinemia ) {
+  (present, present, present, present) ?, ?;
+  (absent, present, present, present) ?, ?;
+  (present, absent, present, present) ?, ?;
+  (absent, absent, present, present) ?, ?;
+  (present, present, absent, present) ?, ?;
+  (absent, present, absent, present) ?, ?;
+  (present, absent, absent, present) ?, ?;
+  (absent, absent, absent, present) ?, ?;
+  (present, present, present, absent) ?, ?;
+  (absent, present, present, absent) ?, ?;
+  (present, absent, present, absent) ?, ?;
+  (absent, absent, present, absent) ?, ?;
+  (present, present, absent, absent) ?, ?;
+  (absent, present, absent, absent) ?, ?;
+  (present, absent, absent, absent) ?, ?;
+  (absent, absent, absent, absent) ?, ?;
+}
+probability ( hepatalgia | hepatomegaly ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( density | encephalopathy ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( ESR | PBC, ChHepatitis, Steatosis, Hyperbilirubinemia ) {
+  (present, active, present, present) ?, ?, ?;
+  (absent, active, present, present) ?, ?, ?;
+  (present, persistent, present, present) ?, ?, ?;
+  (absent, persistent, present, present) ?, ?, ?;
+  (present, absent, present, present) ?, ?, ?;
+  (absent, absent, present, present) ?, ?, ?;
+  (present, active, absent, present) ?, ?, ?;
+  (absent, active, absent, present) ?, ?, ?;
+  (present, persistent, absent, present) ?, ?, ?;
+  (absent, persistent, absent, present) ?, ?, ?;
+  (present, absent, absent, present) ?, ?, ?;
+  (absent, absent, absent, present) ?, ?, ?;
+  (present, active, present, absent) ?, ?, ?;
+  (absent, active, present, absent) ?, ?, ?;
+  (present, persistent, present, absent) ?, ?, ?;
+  (absent, persistent, present, absent) ?, ?, ?;
+  (present, absent, present, absent) ?, ?, ?;
+  (absent, absent, present, absent) ?, ?, ?;
+  (present, active, absent, absent) ?, ?, ?;
+  (absent, active, absent, absent) ?, ?, ?;
+  (present, persistent, absent, absent) ?, ?, ?;
+  (absent, persistent, absent, absent) ?, ?, ?;
+  (present, absent, absent, absent) ?, ?, ?;
+  (absent, absent, absent, absent) ?, ?, ?;
+}
+probability ( alt | ChHepatitis, RHepatitis, THepatitis, Steatosis, Cirrhosis ) {
+  (active, present, present, present, decompensate) ?, ?, ?, ?;
+  (persistent, present, present, present, decompensate) ?, ?, ?, ?;
+  (absent, present, present, present, decompensate) ?, ?, ?, ?;
+  (active, absent, present, present, decompensate) ?, ?, ?, ?;
+  (persistent, absent, present, present, decompensate) ?, ?, ?, ?;
+  (absent, absent, present, present, decompensate) ?, ?, ?, ?;
+  (active, present, absent, present, decompensate) ?, ?, ?, ?;
+  (persistent, present, absent, present, decompensate) ?, ?, ?, ?;
+  (absent, present, absent, present, decompensate) ?, ?, ?, ?;
+  (active, absent, absent, present, decompensate) ?, ?, ?, ?;
+  (persistent, absent, absent, present, decompensate) ?, ?, ?, ?;
+  (absent, absent, absent, present, decompensate) ?, ?, ?, ?;
+  (active, present, present, absent, decompensate) ?, ?, ?, ?;
+  (persistent, present, present, absent, decompensate) ?, ?, ?, ?;
+  (absent, present, present, absent, decompensate) ?, ?, ?, ?;
+  (active, absent, present, absent, decompensate) ?, ?, ?, ?;
+  (persistent, absent, present, absent, decompensate) ?, ?, ?, ?;
+  (absent, absent, present, absent, decompensate) ?, ?, ?, ?;
+  (active, present, absent, absent, decompensate) ?, ?, ?, ?;
+  (persistent, present, absent, absent, decompensate) ?, ?, ?, ?;
+  (absent, present, absent, absent, decompensate) ?, ?, ?, ?;
+  (active, absent, absent, absent, decompensate) ?, ?, ?, ?;
+  (persistent, absent, absent, absent, decompensate) ?, ?, ?, ?;
+  (absent, absent, absent, absent, decompensate) ?, ?, ?, ?;
+  (active, present, present, present, compensate) ?, ?, ?, ?;
+  (persistent, present, present, present, compensate) ?, ?, ?, ?;
+  (absent, present, present, present, compensate) ?, ?, ?, ?;
+  (active, absent, present, present, compensate) ?, ?, ?, ?;
+  (persistent, absent, present, present, compensate) ?, ?, ?, ?;
+  (absent, absent, present, present, compensate) ?, ?, ?, ?;
+  (active, present, absent, present, compensate) ?, ?, ?, ?;
+  (persistent, present, absent, present, compensate) ?, ?, ?, ?;
+  (absent, present, absent, present, compensate) ?, ?, ?, ?;
+  (active, absent, absent, present, compensate) ?, ?, ?, ?;
+  (persistent, absent, absent, present, compensate) ?, ?, ?, ?;
+  (absent, absent, absent, present, compensate) ?, ?, ?, ?;
+  (active, present, present, absent, compensate) ?, ?, ?, ?;
+  (persistent, present, present, absent, compensate) ?, ?, ?, ?;
+  (absent, present, present, absent, compensate) ?, ?, ?, ?;
+  (active, absent, present, absent, compensate) ?, ?, ?, ?;
+  (persistent, absent, present, absent, compensate) ?, ?, ?, ?;
+  (absent, absent, present, absent, compensate) ?, ?, ?, ?;
+  (active, present, absent, absent, compensate) ?, ?, ?, ?;
+  (persistent, present, absent, absent, compensate) ?, ?, ?, ?;
+  (absent, present, absent, absent, compensate) ?, ?, ?, ?;
+  (active, absent, absent, absent, compensate) ?, ?, ?, ?;
+  (persistent, absent, absent, absent, compensate) ?, ?, ?, ?;
+  (absent, absent, absent, absent, compensate) ?, ?, ?, ?;
+  (active, present, present, present, absent) ?, ?, ?, ?;
+  (persistent, present, present, present, absent) ?, ?, ?, ?;
+  (absent, present, present, present, absent) ?, ?, ?, ?;
+  (active, absent, present, present, absent) ?, ?, ?, ?;
+  (persistent, absent, present, present, absent) ?, ?, ?, ?;
+  (absent, absent, present, present, absent) ?, ?, ?, ?;
+  (active, present, absent, present, absent) ?, ?, ?, ?;
+  (persistent, present, absent, present, absent) ?, ?, ?, ?;
+  (absent, present, absent, present, absent) ?, ?, ?, ?;
+  (active, absent, absent, present, absent) ?, ?, ?, ?;
+  (persistent, absent, absent, present, absent) ?, ?, ?, ?;
+  (absent, absent, absent, present, absent) ?, ?, ?, ?;
+  (active, present, present, absent, absent) ?, ?, ?, ?;
+  (persistent, present, present, absent, absent) ?, ?, ?, ?;
+  (absent, present, present, absent, absent) ?, ?, ?, ?;
+  (active, absent, present, absent, absent) ?, ?, ?, ?;
+  (persistent, absent, present, absent, absent) ?, ?, ?, ?;
+  (absent, absent, present, absent, absent) ?, ?, ?, ?;
+  (active, present, absent, absent, absent) ?, ?, ?, ?;
+  (persistent, present, absent, absent, absent) ?, ?, ?, ?;
+  (absent, present, absent, absent, absent) ?, ?, ?, ?;
+  (active, absent, absent, absent, absent) ?, ?, ?, ?;
+  (persistent, absent, absent, absent, absent) ?, ?, ?, ?;
+  (absent, absent, absent, absent, absent) ?, ?, ?, ?;
+}
+probability ( ast | ChHepatitis, RHepatitis, THepatitis, Steatosis, Cirrhosis ) {
+  (active, present, present, present, decompensate) ?, ?, ?, ?;
+  (persistent, present, present, present, decompensate) ?, ?, ?, ?;
+  (absent, present, present, present, decompensate) ?, ?, ?, ?;
+  (active, absent, present, present, decompensate) ?, ?, ?, ?;
+  (persistent, absent, present, present, decompensate) ?, ?, ?, ?;
+  (absent, absent, present, present, decompensate) ?, ?, ?, ?;
+  (active, present, absent, present, decompensate) ?, ?, ?, ?;
+  (persistent, present, absent, present, decompensate) ?, ?, ?, ?;
+  (absent, present, absent, present, decompensate) ?, ?, ?, ?;
+  (active, absent, absent, present, decompensate) ?, ?, ?, ?;
+  (persistent, absent, absent, present, decompensate) ?, ?, ?, ?;
+  (absent, absent, absent, present, decompensate) ?, ?, ?, ?;
+  (active, present, present, absent, decompensate) ?, ?, ?, ?;
+  (persistent, present, present, absent, decompensate) ?, ?, ?, ?;
+  (absent, present, present, absent, decompensate) ?, ?, ?, ?;
+  (active, absent, present, absent, decompensate) ?, ?, ?, ?;
+  (persistent, absent, present, absent, decompensate) ?, ?, ?, ?;
+  (absent, absent, present, absent, decompensate) ?, ?, ?, ?;
+  (active, present, absent, absent, decompensate) ?, ?, ?, ?;
+  (persistent, present, absent, absent, decompensate) ?, ?, ?, ?;
+  (absent, present, absent, absent, decompensate) ?, ?, ?, ?;
+  (active, absent, absent, absent, decompensate) ?, ?, ?, ?;
+  (persistent, absent, absent, absent, decompensate) ?, ?, ?, ?;
+  (absent, absent, absent, absent, decompensate) ?, ?, ?, ?;
+  (active, present, present, present, compensate) ?, ?, ?, ?;
+  (persistent, present, present, present, compensate) ?, ?, ?, ?;
+  (absent, present, present, present, compensate) ?, ?, ?, ?;
+  (active, absent, present, present, compensate) ?, ?, ?, ?;
+  (persistent, absent, present, present, compensate) ?, ?, ?, ?;
+  (absent, absent, present, present, compensate) ?, ?, ?, ?;
+  (active, present, absent, present, compensate) ?, ?, ?, ?;
+  (persistent, present, absent, present, compensate) ?, ?, ?, ?;
+  (absent, present, absent, present, compensate) ?, ?, ?, ?;
+  (active, absent, absent, present, compensate) ?, ?, ?, ?;
+  (persistent, absent, absent, present, compensate) ?, ?, ?, ?;
+  (absent, absent, absent, present, compensate) ?, ?, ?, ?;
+  (active, present, present, absent, compensate) ?, ?, ?, ?;
+  (persistent, present, present, absent, compensate) ?, ?, ?, ?;
+  (absent, present, present, absent, compensate) ?, ?, ?, ?;
+  (active, absent, present, absent, compensate) ?, ?, ?, ?;
+  (persistent, absent, present, absent, compensate) ?, ?, ?, ?;
+  (absent, absent, present, absent, compensate) ?, ?, ?, ?;
+  (active, present, absent, absent, compensate) ?, ?, ?, ?;
+  (persistent, present, absent, absent, compensate) ?, ?, ?, ?;
+  (absent, present, absent, absent, compensate) ?, ?, ?, ?;
+  (active, absent, absent, absent, compensate) ?, ?, ?, ?;
+  (persistent, absent, absent, absent, compensate) ?, ?, ?, ?;
+  (absent, absent, absent, absent, compensate) ?, ?, ?, ?;
+  (active, present, present, present, absent) ?, ?, ?, ?;
+  (persistent, present, present, present, absent) ?, ?, ?, ?;
+  (absent, present, present, present, absent) ?, ?, ?, ?;
+  (active, absent, present, present, absent) ?, ?, ?, ?;
+  (persistent, absent, present, present, absent) ?, ?, ?, ?;
+  (absent, absent, present, present, absent) ?, ?, ?, ?;
+  (active, present, absent, present, absent) ?, ?, ?, ?;
+  (persistent, present, absent, present, absent) ?, ?, ?, ?;
+  (absent, present, absent, present, absent) ?, ?, ?, ?;
+  (active, absent, absent, present, absent) ?, ?, ?, ?;
+  (persistent, absent, absent, present, absent) ?, ?, ?, ?;
+  (absent, absent, absent, present, absent) ?, ?, ?, ?;
+  (active, present, present, absent, absent) ?, ?, ?, ?;
+  (persistent, present, present, absent, absent) ?, ?, ?, ?;
+  (absent, present, present, absent, absent) ?, ?, ?, ?;
+  (active, absent, present, absent, absent) ?, ?, ?, ?;
+  (persistent, absent, present, absent, absent) ?, ?, ?, ?;
+  (absent, absent, present, absent, absent) ?, ?, ?, ?;
+  (active, present, absent, absent, absent) ?, ?, ?, ?;
+  (persistent, present, absent, absent, absent) ?, ?, ?, ?;
+  (absent, present, absent, absent, absent) ?, ?, ?, ?;
+  (active, absent, absent, absent, absent) ?, ?, ?, ?;
+  (persistent, absent, absent, absent, absent) ?, ?, ?, ?;
+  (absent, absent, absent, absent, absent) ?, ?, ?, ?;
+}
+probability ( amylase | gallstones ) {
+  (present) ?, ?, ?;
+  (absent) ?, ?, ?;
+}
+probability ( ggtp | PBC, THepatitis, RHepatitis, Steatosis, ChHepatitis, Hyperbilirubinemia ) {
+  (present, present, present, present, active, present) ?, ?, ?, ?;
+  (absent, present, present, present, active, present) ?, ?, ?, ?;
+  (present, absent, present, present, active, present) ?, ?, ?, ?;
+  (absent, absent, present, present, active, present) ?, ?, ?, ?;
+  (present, present, absent, present, active, present) ?, ?, ?, ?;
+  (absent, present, absent, present, active, present) ?, ?, ?, ?;
+  (present, absent, absent, present, active, present) ?, ?, ?, ?;
+  (absent, absent, absent, present, active, present) ?, ?, ?, ?;
+  (present, present, present, absent, active, present) ?, ?, ?, ?;
+  (absent, present, present, absent, active, present) ?, ?, ?, ?;
+  (present, absent, present, absent, active, present) ?, ?, ?, ?;
+  (absent, absent, present, absent, active, present) ?, ?, ?, ?;
+  (present, present, absent, absent, active, present) ?, ?, ?, ?;
+  (absent, present, absent, absent, active, present) ?, ?, ?, ?;
+  (present, absent, absent, absent, active, present) ?, ?, ?, ?;
+  (absent, absent, absent, absent, active, present) ?, ?, ?, ?;
+  (present, present, present, present, persistent, present) ?, ?, ?, ?;
+  (absent, present, present, present, persistent, present) ?, ?, ?, ?;
+  (present, absent, present, present, persistent, present) ?, ?, ?, ?;
+  (absent, absent, present, present, persistent, present) ?, ?, ?, ?;
+  (present, present, absent, present, persistent, present) ?, ?, ?, ?;
+  (absent, present, absent, present, persistent, present) ?, ?, ?, ?;
+  (present, absent, absent, present, persistent, present) ?, ?, ?, ?;
+  (absent, absent, absent, present, persistent, present) ?, ?, ?, ?;
+  (present, present, present, absent, persistent, present) ?, ?, ?, ?;
+  (absent, present, present, absent, persistent, present) ?, ?, ?, ?;
+  (present, absent, present, absent, persistent, present) ?, ?, ?, ?;
+  (absent, absent, present, absent, persistent, present) ?, ?, ?, ?;
+  (present, present, absent, absent, persistent, present) ?, ?, ?, ?;
+  (absent, present, absent, absent, persistent, present) ?, ?, ?, ?;
+  (present, absent, absent, absent, persistent, present) ?, ?, ?, ?;
+  (absent, absent, absent, absent, persistent, present) ?, ?, ?, ?;
+  (present, present, present, present, absent, present) ?, ?, ?, ?;
+  (absent, present, present, present, absent, present) ?, ?, ?, ?;
+  (present, absent, present, present, absent, present) ?, ?, ?, ?;
+  (absent, absent, present, present, absent, present) ?, ?, ?, ?;
+  (present, present, absent, present, absent, present) ?, ?, ?, ?;
+  (absent, present, absent, present, absent, present) ?, ?, ?, ?;
+  (present, absent, absent, present, absent, present) ?, ?, ?, ?;
+  (absent, absent, absent, present, absent, present) ?, ?, ?, ?;
+  (present, present, present, absent, absent, present) ?, ?, ?, ?;
+  (absent, present, present, absent, absent, present) ?, ?, ?, ?;
+  (present, absent, present, absent, absent, present) ?, ?, ?, ?;
+  (absent, absent, present, absent, absent, present) ?, ?, ?, ?;
+  (present, present, absent, absent, absent, present) ?, ?, ?, ?;
+  (absent, present, absent, absent, absent, present) ?, ?, ?, ?;
+  (present, absent, absent, absent, absent, present) ?, ?, ?, ?;
+  (absent, absent, absent, absent, absent, present) ?, ?, ?, ?;
+  (present, present, present, present, active, absent) ?, ?, ?, ?;
+  (absent, present, present, present, active, absent) ?, ?, ?, ?;
+  (present, absent, present, present, active, absent) ?, ?, ?, ?;
+  (absent, absent, present, present, active, absent) ?, ?, ?, ?;
+  (present, present, absent, present, active, absent) ?, ?, ?, ?;
+  (absent, present, absent, present, active, absent) ?, ?, ?, ?;
+  (present, absent, absent, present, active, absent) ?, ?, ?, ?;
+  (absent, absent, absent, present, active, absent) ?, ?, ?, ?;
+  (present, present, present, absent, active, absent) ?, ?, ?, ?;
+  (absent, present, present, absent, active, absent) ?, ?, ?, ?;
+  (present, absent, present, absent, active, absent) ?, ?, ?, ?;
+  (absent, absent, present, absent, active, absent) ?, ?, ?, ?;
+  (present, present, absent, absent, active, absent) ?, ?, ?, ?;
+  (absent, present, absent, absent, active, absent) ?, ?, ?, ?;
+  (present, absent, absent, absent, active, absent) ?, ?, ?, ?;
+  (absent, absent, absent, absent, active, absent) ?, ?, ?, ?;
+  (present, present, present, present, persistent, absent) ?, ?, ?, ?;
+  (absent, present, present, present, persistent, absent) ?, ?, ?, ?;
+  (present, absent, present, present, persistent, absent) ?, ?, ?, ?;
+  (absent, absent, present, present, persistent, absent) ?, ?, ?, ?;
+  (present, present, absent, present, persistent, absent) ?, ?, ?, ?;
+  (absent, present, absent, present, persistent, absent) ?, ?, ?, ?;
+  (present, absent, absent, present, persistent, absent) ?, ?, ?, ?;
+  (absent, absent, absent, present, persistent, absent) ?, ?, ?, ?;
+  (present, present, present, absent, persistent, absent) ?, ?, ?, ?;
+  (absent, present, present, absent, persistent, absent) ?, ?, ?, ?;
+  (present, absent, present, absent, persistent, absent) ?, ?, ?, ?;
+  (absent, absent, present, absent, persistent, absent) ?, ?, ?, ?;
+  (present, present, absent, absent, persistent, absent) ?, ?, ?, ?;
+  (absent, present, absent, absent, persistent, absent) ?, ?, ?, ?;
+  (present, absent, absent, absent, persistent, absent) ?, ?, ?, ?;
+  (absent, absent, absent, absent, persistent, absent) ?, ?, ?, ?;
+  (present, present, present, present, absent, absent) ?, ?, ?, ?;
+  (absent, present, present, present, absent, absent) ?, ?, ?, ?;
+  (present, absent, present, present, absent, absent) ?, ?, ?, ?;
+  (absent, absent, present, present, absent, absent) ?, ?, ?, ?;
+  (present, present, absent, present, absent, absent) ?, ?, ?, ?;
+  (absent, present, absent, present, absent, absent) ?, ?, ?, ?;
+  (present, absent, absent, present, absent, absent) ?, ?, ?, ?;
+  (absent, absent, absent, present, absent, absent) ?, ?, ?, ?;
+  (present, present, present, absent, absent, absent) ?, ?, ?, ?;
+  (absent, present, present, absent, absent, absent) ?, ?, ?, ?;
+  (present, absent, present, absent, absent, absent) ?, ?, ?, ?;
+  (absent, absent, present, absent, absent, absent) ?, ?, ?, ?;
+  (present, present, absent, absent, absent, absent) ?, ?, ?, ?;
+  (absent, present, absent, absent, absent, absent) ?, ?, ?, ?;
+  (present, absent, absent, absent, absent, absent) ?, ?, ?, ?;
+  (absent, absent, absent, absent, absent, absent) ?, ?, ?, ?;
+}
+probability ( cholesterol | PBC, Steatosis, ChHepatitis ) {
+  (present, present, active) ?, ?, ?;
+  (absent, present, active) ?, ?, ?;
+  (present, absent, active) ?, ?, ?;
+  (absent, absent, active) ?, ?, ?;
+  (present, present, persistent) ?, ?, ?;
+  (absent, present, persistent) ?, ?, ?;
+  (present, absent, persistent) ?, ?, ?;
+  (absent, absent, persistent) ?, ?, ?;
+  (present, present, absent) ?, ?, ?;
+  (absent, present, absent) ?, ?, ?;
+  (present, absent, absent) ?, ?, ?;
+  (absent, absent, absent) ?, ?, ?;
+}
+probability ( hbsag | vh_amn, ChHepatitis ) {
+  (present, active) ?, ?;
+  (absent, active) ?, ?;
+  (present, persistent) ?, ?;
+  (absent, persistent) ?, ?;
+  (present, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( hbsag_anti | vh_amn, ChHepatitis, hbsag ) {
+  (present, active, present) ?, ?;
+  (absent, active, present) ?, ?;
+  (present, persistent, present) ?, ?;
+  (absent, persistent, present) ?, ?;
+  (present, absent, present) ?, ?;
+  (absent, absent, present) ?, ?;
+  (present, active, absent) ?, ?;
+  (absent, active, absent) ?, ?;
+  (present, persistent, absent) ?, ?;
+  (absent, persistent, absent) ?, ?;
+  (present, absent, absent) ?, ?;
+  (absent, absent, absent) ?, ?;
+}
+probability ( anorexia | RHepatitis, THepatitis ) {
+  (present, present) ?, ?;
+  (absent, present) ?, ?;
+  (present, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( nausea | RHepatitis, THepatitis ) {
+  (present, present) ?, ?;
+  (absent, present) ?, ?;
+  (present, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( spleen | Cirrhosis, RHepatitis, THepatitis ) {
+  (decompensate, present, present) ?, ?;
+  (compensate, present, present) ?, ?;
+  (absent, present, present) ?, ?;
+  (decompensate, absent, present) ?, ?;
+  (compensate, absent, present) ?, ?;
+  (absent, absent, present) ?, ?;
+  (decompensate, present, absent) ?, ?;
+  (compensate, present, absent) ?, ?;
+  (absent, present, absent) ?, ?;
+  (decompensate, absent, absent) ?, ?;
+  (compensate, absent, absent) ?, ?;
+  (absent, absent, absent) ?, ?;
+}
+probability ( consciousness | encephalopathy ) {
+  (present) ?, ?;
+  (absent) ?, ?;
+}
+probability ( spiders | Cirrhosis ) {
+  (decompensate) ?, ?;
+  (compensate) ?, ?;
+  (absent) ?, ?;
+}
+probability ( jaundice | bilirubin ) {
+  (a88_20) ?, ?;
+  (a19_7) ?, ?;
+  (a6_2) ?, ?;
+  (a1_0) ?, ?;
+}
+probability ( albumin | Cirrhosis ) {
+  (decompensate) ?, ?, ?;
+  (compensate) ?, ?, ?;
+  (absent) ?, ?, ?;
+}
+probability ( edge | Cirrhosis ) {
+  (decompensate) ?, ?;
+  (compensate) ?, ?;
+  (absent) ?, ?;
+}
+probability ( irregular_liver | Cirrhosis ) {
+  (decompensate) ?, ?;
+  (compensate) ?, ?;
+  (absent) ?, ?;
+}
+probability ( hbc_anti | vh_amn, ChHepatitis ) {
+  (present, active) ?, ?;
+  (absent, active) ?, ?;
+  (present, persistent) ?, ?;
+  (absent, persistent) ?, ?;
+  (present, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( hcv_anti | vh_amn, ChHepatitis ) {
+  (present, active) ?, ?;
+  (absent, active) ?, ?;
+  (present, persistent) ?, ?;
+  (absent, persistent) ?, ?;
+  (present, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( palms | Cirrhosis ) {
+  (decompensate) ?, ?;
+  (compensate) ?, ?;
+  (absent) ?, ?;
+}
+probability ( hbeag | vh_amn, ChHepatitis ) {
+  (present, active) ?, ?;
+  (absent, active) ?, ?;
+  (present, persistent) ?, ?;
+  (absent, persistent) ?, ?;
+  (present, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
+probability ( carcinoma | Cirrhosis, PBC ) {
+  (decompensate, present) ?, ?;
+  (compensate, present) ?, ?;
+  (absent, present) ?, ?;
+  (decompensate, absent) ?, ?;
+  (compensate, absent) ?, ?;
+  (absent, absent) ?, ?;
+}
